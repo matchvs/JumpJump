@@ -21,12 +21,28 @@ cc.Class({
         var group = cc.game.groupList[other.node.groupIndex];
         if (group === 'rival') {
             this.sendRecycleBulletMsg();
-        } else if (group === 'item') {
+            var rival = other.node.getComponent("rival");
+            this.sendHurtMsg(rival);
+        } else if (group === 'player') {
+            this.sendRecycleBulletMsg();
+            var player = other.node.getComponent("player");
+            this.sendHurtMsg(player);
+        }
+        else if (group === 'item') {
             this.sendRecycleBulletMsg();
         } else if (group === 'ground') {
             this.sendRecycleBulletMsg();
         } else if (group === 'obstacle') {
             this.sendRecycleBulletMsg();
+        }
+    },
+
+    sendHurtMsg(targetPlayer) {
+        if (Game.GameManager.gameState === GameState.Play && GLB.isRoomOwner) {
+            mvs.engine.sendFrameEvent(JSON.stringify({
+                action: GLB.HURT,
+                playerId: targetPlayer.playerId
+            }));
         }
     },
 

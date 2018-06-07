@@ -35,6 +35,8 @@ window.GLB = {
     SHOOT_GUN_ITEM: "item",
     FIRE: "fire",
     RECYCLE_BULLET: "recycleBullet",
+    DIRECTION: "direction",
+    HURT: "hurt",
 
     channel: 'MatchVS',
     platform: 'alpha',

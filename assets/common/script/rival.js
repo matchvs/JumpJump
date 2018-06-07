@@ -3,7 +3,8 @@ cc.Class({
 
     properties: {
         speed: 0,
-        firePoint: cc.Node
+        firePoint: cc.Node,
+        hearts: [cc.Node]
     },
 
     start() {
@@ -11,6 +12,7 @@ cc.Class({
         this.direction = DirectState.None;
         this.targetPosX = this.node.x;
         this.limitX = 415;
+        this.heart = 3;
     },
 
     fire() {
@@ -22,6 +24,34 @@ cc.Class({
         bullet.init(this.playerId);
     },
 
+    hurt() {
+        this.heart--;
+        if (this.heart <= 0) {
+            this.dead();
+        }
+        // 受伤动画
+        this.refreshHeartUI();
+    },
+
+    dead() {
+        // 游戏结束--
+        if (GLB.isRoomOwner) {
+            var msg = {
+                action: GLB.GAME_OVER_EVENT
+            };
+            Game.GameManager.sendEventEx(msg);
+        }
+    },
+
+    refreshHeartUI() {
+        for (var i = 0; i < this.hearts.length; i++) {
+            if (i > this.heart - 1) {
+                this.hearts[i].active = false;
+            } else {
+                this.hearts[i].active = true;
+            }
+        }
+    },
 
     move() {
         var dir = this.direction === DirectState.None ? 0 :

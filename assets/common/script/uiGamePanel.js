@@ -6,8 +6,6 @@ cc.Class({
 
     onLoad() {
         this._super();
-        this.selfHearts = this.nodeDict["selfHeart"].children;
-        this.rivalHearts = this.nodeDict["rivalHeart"].children;
         this.nodeDict["right"].on(cc.Node.EventType.TOUCH_START, this.rightStart, this);
         this.nodeDict["right"].on(cc.Node.EventType.TOUCH_END, this.rightCancel, this);
         this.nodeDict["left"].on(cc.Node.EventType.TOUCH_START, this.leftStart, this);

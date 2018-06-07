@@ -308,6 +308,14 @@ cc.Class({
             if (info.cpProto.indexOf(GLB.RECYCLE_BULLET) >= 0) {
                 Game.BulletManager.recycleBullet(cpProto.bulletId);
             }
+            if (info.cpProto.indexOf(GLB.HURT) >= 0) {
+                if (GLB.userInfo.id === cpProto.playerId) {
+                    Game.PlayerManager.selfScript.hurt();
+                } else {
+                    Game.PlayerManager.rivalScript.hurt();
+                }
+            }
+
         }
         Game.PlayerManager.selfScript.move();
         Game.PlayerManager.rivalScript.move();
