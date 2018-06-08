@@ -1,14 +1,14 @@
 {
   "ver": "1.0.0",
-  "uuid": "f7abfaf3-7645-4060-bb66-9f1e254376cd",
+  "uuid": "418caab3-baef-4e9f-948b-4977e617ef19",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "rivaltanksBody": {
+    "sealDebris11": {
       "ver": "1.0.3",
-      "uuid": "efcd467a-3c34-495d-8c39-50cfaddf8a0d",
-      "rawTextureUuid": "f7abfaf3-7645-4060-bb66-9f1e254376cd",
+      "uuid": "c0d901f4-a12a-4df3-b519-afee728b2c5a",
+      "rawTextureUuid": "418caab3-baef-4e9f-948b-4977e617ef19",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -16,10 +16,10 @@
       "offsetY": 0,
       "trimX": 0,
       "trimY": 0,
-      "width": 125,
-      "height": 85,
-      "rawWidth": 125,
-      "rawHeight": 85,
+      "width": 30,
+      "height": 35,
+      "rawWidth": 30,
+      "rawHeight": 35,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,
