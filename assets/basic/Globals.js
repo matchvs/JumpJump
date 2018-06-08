@@ -36,7 +36,9 @@ window.GLB = {
     FIRE: "fire",
     RECYCLE_BULLET: "recycleBullet",
     DIRECTION: "direction",
+    DEFENSE: "defense",
     HURT: "hurt",
+    ITEM_GET:"itemGet",
 
     channel: 'MatchVS',
     platform: 'alpha',

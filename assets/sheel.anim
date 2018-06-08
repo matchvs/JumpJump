@@ -6,7 +6,7 @@
   "_duration": 0.5833333333333334,
   "sample": 60,
   "speed": 1,
-  "wrapMode": 2,
+  "wrapMode": 0,
   "curveData": {
     "paths": {
       "bullet": {

@@ -12,28 +12,41 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
+        speedX: 0,
+        bullets: [cc.Node],
+        bulletParent: cc.Node,
+        itemSp: cc.Node
     },
 
-    // LIFE-CYCLE CALLBACKS:
-
-    // onLoad () {},
-
-    start () {
-
+    onLoad() {
+        this.isDestroy = false;
     },
+
+    init(itemId) {
+        this.itemId = itemId;
+    },
+
+    explosion(hostPlayerId) {
+        this.isDestroy = true;
+        this.bulletParent.active = true;
+        this.itemSp.active = false;
+        for (var i = 0; i < this.bullets.length; i++) {
+            var bullet = this.bullets[i].getComponent("bullet");
+            if (bullet) {
+                bullet.init(hostPlayerId)
+            }
+        }
+        if (GLB.userInfo.id === hostPlayerId) {
+            this.bulletParent.rotation = 0;
+        } else {
+            this.bulletParent.rotation = 180;
+        }
+    },
+
+    update(dt) {
+        if (!this.isDestroy) {
+            this.node.x += this.speedX * dt;
+        }
+    }
+
 });

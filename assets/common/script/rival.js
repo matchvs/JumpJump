@@ -21,6 +21,7 @@ cc.Class({
         var worldPos = this.firePoint.convertToWorldSpaceAR(cc.v2(0, 0));
         var bulletPoint = Game.BulletManager.node.convertToNodeSpaceAR(worldPos);
         bullet.node.position = bulletPoint;
+        bullet.node.rotation = 180;
         bullet.init(this.playerId);
     },
 

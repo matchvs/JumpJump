@@ -2,7 +2,6 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        cartridge: cc.Node,
         bulletPrefab: cc.Prefab,
         shotGunPrefab: cc.Prefab,
     },
@@ -30,6 +29,11 @@ cc.Class({
             return x.bulletId === bulletId;
         });
         if (bulletIndex >= 0) {
+            var anim = this.bullets[bulletIndex].node.getComponent("bullet");
+            if(anim){
+                anim.play()
+            }
+
             this.bulletPool.put(this.bullets[bulletIndex].node);
             this.bullets.splice(bulletIndex, 1);
         } else {

@@ -315,6 +315,22 @@ cc.Class({
                     Game.PlayerManager.rivalScript.hurt();
                 }
             }
+            if (info.cpProto.indexOf(GLB.SHOOT_GUN_ITEM) >= 0) {
+                Game.ItemManager.itemSpawn(cpProto.itemId);
+            }
+            if (info.cpProto.indexOf(GLB.ITEM_GET) >= 0) {
+                var item = Game.ItemManager.getItem(cpProto.itemId);
+                if (item) {
+                    item.explosion(cpProto.playerId);
+                }
+            }
+            if (info.cpProto.indexOf(GLB.DEFENSE) >= 0) {
+                if (GLB.userInfo.id === cpProto.playerId) {
+                    Game.PlayerManager.selfScript.hurt();
+                } else {
+                    Game.PlayerManager.rivalScript.hurt();
+                }
+            }
 
         }
         Game.PlayerManager.selfScript.move();
