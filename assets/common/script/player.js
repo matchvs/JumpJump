@@ -25,6 +25,7 @@ cc.Class({
         this.playerId = playerId;
         this.direction = DirectState.None;
         this.targetPosX = this.node.x;
+        this.maxHeart = this.heart;
     },
 
     fire() {
@@ -53,6 +54,7 @@ cc.Class({
         } else {
             // 受伤动画
             // todo
+            this.node.getComponent(cc.Animation).play("hit" + (this.maxHeart - this.heart));
             cc.audioEngine.play(this.hurtClip, false, 1);
         }
         this.refreshHeartUI();
