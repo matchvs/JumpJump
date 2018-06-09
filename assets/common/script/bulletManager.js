@@ -3,41 +3,43 @@ cc.Class({
 
     properties: {
         bulletPrefab: cc.Prefab,
+        boomPrefab: cc.Prefab,
         shotGunPrefab: cc.Prefab,
     },
 
     onLoad() {
         Game.BulletManager = this;
         this.bulletId = 0;
-        this.bullets = [];
         this.bulletPool = new cc.NodePool();
+        this.boomPool = new cc.NodePool();
     },
 
     getBullet() {
-        var obj = this.bulletPool.get();
-        if (!obj) {
-            obj = cc.instantiate(this.bulletPrefab);
+        var target = this.bulletPool.get();
+        if (!target) {
+            target = cc.instantiate(this.bulletPrefab);
         }
-        var bullet = obj.getComponent('bullet');
-        bullet.bulletId = this.bulletId++;
-        this.bullets.push(bullet);
-        return bullet;
+        target.parent = Game.BulletManager.node;
+        return target;
     },
 
-    recycleBullet(bulletId) {
-        var bulletIndex = this.bullets.findIndex(function(x) {
-            return x.bulletId === bulletId;
-        });
-        if (bulletIndex >= 0) {
-            var anim = this.bullets[bulletIndex].node.getComponent("bullet");
-            if(anim){
-                anim.play()
-            }
+    recycleBullet(target) {
+        this.bulletPool.put(target);
+    },
 
-            this.bulletPool.put(this.bullets[bulletIndex].node);
-            this.bullets.splice(bulletIndex, 1);
-        } else {
-            console.log("bulletId:" + bulletId + " is miss");
+    boomEffect(host) {
+        var obj = this.boomPool.get();
+        if (!obj) {
+            obj = cc.instantiate(this.boomPrefab);
         }
+        obj.parent = host.parent;
+        obj.position = host.position;
+        obj.rotation = host.rotation;
+        obj.getComponent(cc.Animation).play();
+        setTimeout(function() {
+            if (this && this.boomPool && obj) {
+                this.boomPool.put(obj);
+            }
+        }.bind(this), 2000);
     }
 });

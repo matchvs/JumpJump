@@ -4,25 +4,24 @@ cc.Class({
     properties: {
         speed: 0,
         firePoint: cc.Node,
-        hearts: [cc.Node]
+        hearts: [cc.Node],
+        heart: 3,
+        limitX:415
     },
 
     start() {
         this.playerId = GLB.playerUserIds[1];
         this.direction = DirectState.None;
         this.targetPosX = this.node.x;
-        this.limitX = 415;
-        this.heart = 3;
     },
 
     fire() {
         var bullet = Game.BulletManager.getBullet();
-        bullet.node.parent = Game.BulletManager.node;
         var worldPos = this.firePoint.convertToWorldSpaceAR(cc.v2(0, 0));
         var bulletPoint = Game.BulletManager.node.convertToNodeSpaceAR(worldPos);
-        bullet.node.position = bulletPoint;
-        bullet.node.rotation = 180;
-        bullet.init(this.playerId);
+        bullet.position = bulletPoint;
+        bullet.rotation = 180;
+        bullet.getComponent("bullet").init(this.playerId);
     },
 
     hurt() {

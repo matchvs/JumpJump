@@ -2,56 +2,56 @@ var mvs = require("Matchvs");
 cc.Class({
     extends: cc.Component,
 
-    properties: {
-        speed: 0,
-        fireClip: {
-            default: null,
-            url: cc.AudioClip
-        },
-        hitClip: {
-            default: null,
-            url: cc.AudioClip
-        },
-    },
-
-    init(playerId) {
+    init(playerId, speed) {
         this.hostPlayerId = playerId;
-        if (this.hostPlayerId !== GLB.userInfo.id) {
-            this.curSpeed = -this.speed;
-        } else {
-            this.curSpeed = this.speed;
-        }
-        cc.audioEngine.play(this.fireClip, false, 1);
+        this.speed = speed;
     },
 
     onCollisionEnter: function(other) {
         var group = cc.game.groupList[other.node.groupIndex];
-        if (group === 'rival') {
-            this.sendRecycleBulletMsg();
-            var rival = other.node.getComponent('rival');
-            this.sendHurtMsg(rival);
-        } else if (group === 'player') {
-            this.sendRecycleBulletMsg();
+        if (group === 'player') {
             var player = other.node.getComponent('player');
             this.sendHurtMsg(player);
+            this.destroyBullet(true);
         }
         else if (group === 'item') {
-            this.sendRecycleBulletMsg();
             var item = other.node.getComponent('shootgunItem');
-            this.sendItemGetMsg(item);
+            this.sendItemGetMsg(item.itemId);
+            other.node.getComponent(cc.BoxCollider).enabled = false;
+            this.destroyBullet(false);
         } else if (group === 'ground') {
-            this.sendRecycleBulletMsg();
-        } else if (group === 'obstacle') {
-            this.sendRecycleBulletMsg();
+            this.destroyBullet(true);
+        } else if (group === 'slate') {
+            var slate = other.node.getComponent("slate");
+            if (slate.hostPlayerId !== this.hostPlayerId) {
+                this.sendSlateHurtMsg(slate.slateId);
+                this.destroyBullet(true);
+            }
         }
     },
 
-    sendItemGetMsg(item) {
+    destroyBullet(isEffect) {
+        if (isEffect) {
+            Game.BulletManager.boomEffect(this.node);
+        }
+        Game.BulletManager.recycleBullet(this.node);
+    },
+
+    sendSlateHurtMsg(slateId) {
+        if (Game.GameManager.gameState === GameState.Play && GLB.isRoomOwner) {
+            mvs.engine.sendFrameEvent(JSON.stringify({
+                action: GLB.SLATE_HITTING,
+                slateId: slateId,
+            }));
+        }
+    },
+
+    sendItemGetMsg(itemId) {
         if (Game.GameManager.gameState === GameState.Play && GLB.isRoomOwner) {
             mvs.engine.sendFrameEvent(JSON.stringify({
                 action: GLB.ITEM_GET,
                 playerId: this.hostPlayerId,
-                itemId: item.itemId
+                itemId: itemId
             }));
         }
     },
@@ -65,16 +65,7 @@ cc.Class({
         }
     },
 
-    sendRecycleBulletMsg() {
-        if (Game.GameManager.gameState === GameState.Play && GLB.isRoomOwner) {
-            mvs.engine.sendFrameEvent(JSON.stringify({
-                action: GLB.RECYCLE_BULLET,
-                bulletId: this.bulletId
-            }));
-        }
-    },
-
     update(dt) {
-        this.node.setPositionY(this.node.position.y + (this.curSpeed * dt));
+        this.node.setPositionY(this.node.position.y + (this.speed * dt));
     }
 });

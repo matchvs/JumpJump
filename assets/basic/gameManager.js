@@ -27,14 +27,16 @@ cc.Class({
         console.log("游戏结束");
         if (Game.GameManager.gameState !== GameState.Over) {
             Game.GameManager.gameState = GameState.Over;
-            clientEvent.dispatch(clientEvent.eventType.gameOver);
+            setTimeout(function() {
+                clientEvent.dispatch(clientEvent.eventType.gameOver);
+            }.bind(this), 1500)
             setTimeout(function() {
                 if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
                     uiFunc.openUI("uiVsResultVer");
                 } else {
                     uiFunc.openUI("uiVsResult");
                 }
-            }.bind(this), 1500);
+            }.bind(this), 3000);
         }
     },
 
@@ -293,48 +295,43 @@ cc.Class({
             var cpProto = JSON.parse(info.cpProto);
             if (info.cpProto.indexOf(GLB.DIRECTION) >= 0) {
                 if (GLB.userInfo.id === info.srcUserID) {
-                    Game.PlayerManager.selfScript.setDirect(cpProto.direction)
+                    Game.PlayerManager.self.setDirect(cpProto.direction)
                 } else {
-                    Game.PlayerManager.rivalScript.setDirect(cpProto.direction)
+                    Game.PlayerManager.rival.setDirect(cpProto.direction)
                 }
             }
             if (info.cpProto.indexOf(GLB.FIRE) >= 0) {
                 if (GLB.userInfo.id === info.srcUserID) {
-                    Game.PlayerManager.selfScript.fire();
+                    Game.PlayerManager.self.fire();
                 } else {
-                    Game.PlayerManager.rivalScript.fire();
+                    Game.PlayerManager.rival.fire();
                 }
             }
-            if (info.cpProto.indexOf(GLB.RECYCLE_BULLET) >= 0) {
-                Game.BulletManager.recycleBullet(cpProto.bulletId);
-            }
+
             if (info.cpProto.indexOf(GLB.HURT) >= 0) {
                 if (GLB.userInfo.id === cpProto.playerId) {
-                    Game.PlayerManager.selfScript.hurt();
+                    Game.PlayerManager.self.hurt();
                 } else {
-                    Game.PlayerManager.rivalScript.hurt();
+                    Game.PlayerManager.rival.hurt();
                 }
             }
             if (info.cpProto.indexOf(GLB.SHOOT_GUN_ITEM) >= 0) {
                 Game.ItemManager.itemSpawn(cpProto.itemId);
             }
             if (info.cpProto.indexOf(GLB.ITEM_GET) >= 0) {
-                var item = Game.ItemManager.getItem(cpProto.itemId);
-                if (item) {
-                    item.explosion(cpProto.playerId);
-                }
+                Game.ItemManager.itemGet(cpProto.itemId, cpProto.playerId);
             }
-            if (info.cpProto.indexOf(GLB.DEFENSE) >= 0) {
-                if (GLB.userInfo.id === cpProto.playerId) {
-                    Game.PlayerManager.selfScript.hurt();
-                } else {
-                    Game.PlayerManager.rivalScript.hurt();
-                }
+            if (info.cpProto.indexOf(GLB.SPAWN_SLATE) >= 0) {
+                Game.SlateManager.spawnSlate(info.srcUserID);
+            }
+
+            if (info.cpProto.indexOf(GLB.SLATE_HITTING) >= 0) {
+                Game.SlateManager.hitSlate(cpProto.slateId);
             }
 
         }
-        Game.PlayerManager.selfScript.move();
-        Game.PlayerManager.rivalScript.move();
+        Game.PlayerManager.self.move();
+        Game.PlayerManager.rival.move();
     },
 
     sendReadyMsg: function() {

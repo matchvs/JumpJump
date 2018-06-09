@@ -12,45 +12,6 @@
       "cc.Sprite": {}
     },
     "paths": {
-      "sealDebris1": {
-        "props": {}
-      },
-      "sealDebris2": {
-        "props": {}
-      },
-      "sealDebris3": {
-        "props": {}
-      },
-      "sealDebris4": {
-        "props": {}
-      },
-      "sealDebris5": {
-        "props": {}
-      },
-      "sealDebris6": {
-        "props": {}
-      },
-      "sealDebris7": {
-        "props": {}
-      },
-      "sealDebris8": {
-        "props": {}
-      },
-      "sealDebris9": {
-        "props": {}
-      },
-      "sealDebris10": {
-        "props": {}
-      },
-      "sealDebris11": {
-        "props": {}
-      },
-      "sealDebris12": {
-        "props": {}
-      },
-      "sealDebris13": {
-        "props": {}
-      },
       "slate1": {
         "comps": {
           "cc.Sprite": {

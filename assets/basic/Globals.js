@@ -32,13 +32,13 @@ window.GLB = {
     READY: "ready",
     ROUND_START: "roundStar",
     SCORE_EVENT: "score",
-    SHOOT_GUN_ITEM: "item",
+    SHOOT_GUN_ITEM: "shootGunItem",
     FIRE: "fire",
-    RECYCLE_BULLET: "recycleBullet",
     DIRECTION: "direction",
-    DEFENSE: "defense",
+    SPAWN_SLATE: "slateSpawn",
     HURT: "hurt",
-    ITEM_GET:"itemGet",
+    ITEM_GET: "itemGet",
+    SLATE_HITTING: "SlateHitting",
 
     channel: 'MatchVS',
     platform: 'alpha',
@@ -55,4 +55,7 @@ window.GLB = {
 
     syncFrame: true,
     FRAME_RATE: 10,
+
+    NormalBulletSpeed: 1000,
+    limitX: 415
 }

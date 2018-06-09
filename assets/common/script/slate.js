@@ -1,42 +1,27 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
 cc.Class({
     extends: cc.Component,
 
     properties: {
-        heart: 0
+        heart: 0,
+        boomPrefab: cc.Prefab
     },
 
-    onLoad() {
-        this.anim = this.node.getComponent(cc.Animation);
+    init(hostPlayerId, slateId) {
+        this.hostPlayerId = hostPlayerId;
+        this.slateId = slateId;
+        this.maxHeart = this.heart;
     },
 
-    start() {
-
-    },
-
-    beHitted() {
+    beHit() {
         this.heart--;
         if (this.heart <= 0) {
-            this.brokenAnim();
+            var boom = cc.instantiate(this.boomPrefab);
+            boom.parent = this.node.parent;
+            boom.position = this.node.position;
+            boom.rotation = this.node.rotation;
+            Game.SlateManager.destroySlate(this.slateId);
         } else {
-            this.hitAnim();
+            this.node.getComponent(cc.Animation).play("hit" + (this.maxHeart - this.heart));
         }
-    },
-
-    brokenAnim() {
-
-    },
-
-    hitAnim() {
-        this.anim.play("hit" + this.heart);
     }
 });

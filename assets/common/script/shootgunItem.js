@@ -1,13 +1,3 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
 cc.Class({
     extends: cc.Component,
 
@@ -15,11 +5,22 @@ cc.Class({
         speedX: 0,
         bullets: [cc.Node],
         bulletParent: cc.Node,
-        itemSp: cc.Node
+        itemSp: cc.Node,
+        explosionClip: {
+            default: null,
+            url: cc.AudioClip
+        },
+        explosionPrefab: {
+            default: null,
+            type: cc.Prefab
+        }
     },
 
     onLoad() {
         this.isDestroy = false;
+        if (GLB.isRoomOwner) {
+            this.speedX *= -1;
+        }
     },
 
     init(itemId) {
@@ -28,18 +29,24 @@ cc.Class({
 
     explosion(hostPlayerId) {
         this.isDestroy = true;
+        cc.audioEngine.play(this.explosionClip, false, 1);
+        var boom = cc.instantiate(this.explosionPrefab);
+        boom.parent = this.node;
+        boom.position = cc.v2(0.0);
+
+        this.node.getComponent(cc.BoxCollider).enabled = false;
         this.bulletParent.active = true;
         this.itemSp.active = false;
+        if (GLB.userInfo.id === hostPlayerId) {
+            this.node.rotation = 0;
+        } else {
+            this.node.rotation = 180;
+        }
         for (var i = 0; i < this.bullets.length; i++) {
             var bullet = this.bullets[i].getComponent("bullet");
             if (bullet) {
-                bullet.init(hostPlayerId)
+                bullet.init(hostPlayerId, GLB.NormalBulletSpeed)
             }
-        }
-        if (GLB.userInfo.id === hostPlayerId) {
-            this.bulletParent.rotation = 0;
-        } else {
-            this.bulletParent.rotation = 180;
         }
     },
 

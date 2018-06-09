@@ -3,9 +3,9 @@
   "_name": "boom",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 0.18333333333333332,
+  "_duration": 0.2,
   "sample": 60,
-  "speed": 0.1,
+  "speed": 0.2,
   "wrapMode": 1,
   "curveData": {
     "paths": {
@@ -78,9 +78,31 @@
                 "value": {
                   "__uuid__": "429458a2-4b6d-492f-8a26-5557f7b2fcfe"
                 }
+              },
+              {
+                "frame": 0.18333333333333332,
+                "value": {
+                  "__uuid__": "429458a2-4b6d-492f-8a26-5557f7b2fcfe"
+                }
               }
             ]
           }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 255
+            },
+            {
+              "frame": 0.18333333333333332,
+              "value": 0
+            }
+          ]
         }
       }
     }
