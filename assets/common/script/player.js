@@ -22,7 +22,7 @@ cc.Class({
         tankBoom: {
             default: null,
             type: cc.Prefab
-        }
+        },
     },
 
     init(playerId) {
@@ -30,6 +30,9 @@ cc.Class({
         this.direction = DirectState.None;
         this.targetPosX = this.node.x;
         this.maxHeart = this.heart;
+
+        // this.hurtGuardTime = 0.2;
+        // this.curHurtGuardTime = 0;
     },
 
     fire() {
@@ -52,6 +55,11 @@ cc.Class({
     },
 
     hurt() {
+        // if (this.curHurtGuardTime > 0) {
+        //     return;
+        // }
+        // this.curHurtGuardTime = this.hurtGuardTime;
+
         this.heart--;
         if (this.heart <= 0) {
             this.dead();
@@ -104,6 +112,12 @@ cc.Class({
     setDirect(dir) {
         this.direction = dir;
     },
+
+    // frameUpdate() {
+    //     if (this.curHurtGuardTime > 0) {
+    //         this.curHurtGuardTime -= 1 / GLB.FRAME_RATE;
+    //     }
+    // },
 
     update(dt) {
         this.node.x = cc.lerp(this.node.x, this.targetPosX, 4 * dt);

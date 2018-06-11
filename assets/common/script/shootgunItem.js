@@ -25,6 +25,20 @@ cc.Class({
 
     init(itemId) {
         this.itemId = itemId;
+        this.targetPosX = this.node.x;
+    },
+
+    move(){
+        var deltaX = (1 / GLB.FRAME_RATE) * this.speedX;
+        this.targetPosX += deltaX;
+        if (this.targetPosX < -GLB.limitX) {
+            this.targetPosX = GLB.limitX + deltaX;
+            this.node.x = GLB.limitX;
+        }
+        if (this.targetPosX > GLB.limitX) {
+            this.targetPosX = -GLB.limitX + deltaX;
+            this.node.x = -GLB.limitX;
+        }
     },
 
     explosion(hostPlayerId) {
@@ -52,7 +66,7 @@ cc.Class({
 
     update(dt) {
         if (!this.isDestroy) {
-            this.node.x += this.speedX * dt;
+            this.node.x = cc.lerp(this.node.x, this.targetPosX, 4 * dt);
         }
     }
 

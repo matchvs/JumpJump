@@ -25,11 +25,13 @@ cc.Class({
             if (Game.GameManager.gameState === GameState.Over || !GLB.isRoomOwner) {
                 return;
             }
-            mvs.engine.sendFrameEvent(JSON.stringify({
-                action: GLB.SHOOT_GUN_ITEM,
-                itemId: this.itemId++
-            }));
-        }.bind(this), 8000);
+            if (this.items.length === 0) {
+                mvs.engine.sendFrameEvent(JSON.stringify({
+                    action: GLB.SHOOT_GUN_ITEM,
+                    itemId: this.itemId++
+                }));
+            }
+        }.bind(this), 6000);
     },
 
     itemSpawn(itemId) {
@@ -42,17 +44,24 @@ cc.Class({
     },
 
     itemGet(itemId, playerId) {
-        for (var i = 0; i < this.items.length; i++) {
-            if (this.items[i]) {
-                var item = this.items[i].getComponent("shootgunItem");
-                if (item && item.itemId === itemId) {
-                    item.explosion(playerId);
-                    break;
-                }
-            }
+
+        var index = this.items.findIndex(function(temp) {
+            return temp.itemId === itemId;
+        });
+        if (index >= 0) {
+            var item = this.items[index].getComponent("shootgunItem");
+            item.explosion(playerId);
+            this.items.splice(index, 1);
         }
     },
 
+    move() {
+        for (var i = 0; i < this.items.length; i++) {
+            if (this.items[i]) {
+                this.items[i].move();
+            }
+        }
+    },
 
     roundOver() {
         clearInterval(this.scheduleItemId);

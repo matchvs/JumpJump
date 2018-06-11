@@ -14,6 +14,10 @@ cc.Class({
     leaveRoom: function(data) {
         // 离开房间--
         if (this.gameState === GameState.Play) {
+            if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
+                this.isRivalLeave = true;
+            }
+            clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
             this.gameOver();
         }
     },
@@ -22,6 +26,7 @@ cc.Class({
         console.log("游戏结束");
         if (Game.GameManager.gameState !== GameState.Over) {
             Game.GameManager.gameState = GameState.Over;
+            this.readyCnt = 0;
             setTimeout(function() {
                 clientEvent.dispatch(clientEvent.eventType.gameOver);
             }.bind(this), 1500);
@@ -325,6 +330,7 @@ cc.Class({
         }
         Game.PlayerManager.self.move();
         Game.PlayerManager.rival.move();
+        Game.ItemManager.move();
     },
 
     sendReadyMsg: function() {
@@ -353,6 +359,7 @@ cc.Class({
 
     startGame: function() {
         this.readyCnt = 0;
+        this.isRivalLeave = false;
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {
                 this.sendReadyMsg();

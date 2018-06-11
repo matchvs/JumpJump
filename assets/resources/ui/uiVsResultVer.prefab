@@ -2107,14 +2107,12 @@
       "__id__": 1
     },
     "_enabled": true,
-    "showAnimation": 0,
-    "hideAnimation": 0,
-    "isUseMask": false,
+    "isTop": false,
     "loseClip": {
-      "__uuid__": "be7c7434-0a3f-404a-9630-ee584de4ba92"
+      "__uuid__": "7fb4fcce-a813-4480-8684-eed3d9af0db0"
     },
     "victoryClip": {
-      "__uuid__": "1ceb701f-3aa5-45a6-9daf-c261fabbecbf"
+      "__uuid__": "c3d810fd-8e89-4e2f-a55b-573730849dd1"
     }
   },
   {

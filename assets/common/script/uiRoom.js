@@ -42,7 +42,8 @@ cc.Class({
         }
         if (GLB.userInfo.id === data.kickPlayerRsp.userID) {
             GLB.isRoomOwner = false;
-            uiFunc.closeUI(this.node);
+            uiFunc.closeUI(this.node.name);
+            this.node.destroy();
         }
     },
 
@@ -56,7 +57,8 @@ cc.Class({
 
         if (GLB.userInfo.id === data.kickPlayerNotify.userId) {
             GLB.isRoomOwner = false;
-            uiFunc.closeUI(this.node);
+            uiFunc.closeUI(this.node.name);
+            this.node.destroy();
         }
     },
 
@@ -76,7 +78,8 @@ cc.Class({
             console.log("离开房间失败");
         }
         GLB.isRoomOwner = false;
-        uiFunc.closeUI(this.node);
+        uiFunc.closeUI(this.node.name);
+        this.node.destroy();
     },
 
     leaveRoomNotify: function(data) {
@@ -86,17 +89,27 @@ cc.Class({
                 break;
             }
         }
-        if (this.ownerId !== data.leaveRoomInfo.owner) {
-            this.ownerId = data.leaveRoomInfo.owner;
-            // 刷新--
-            for (var i = 0; i < this.players.length; i++) {
-                if (this.players[i].userId !== 0) {
-                    this.players[i].setData(this.players[i].userId, this.ownerId);
-                }
+        this.ownerId = data.leaveRoomInfo.owner;
+        for (var i = 0; i < this.players.length; i++) {
+            if (this.players[i].userId !== 0) {
+                this.players[i].setData(this.players[i].userId, this.ownerId);
             }
-            if (this.ownerId === GLB.userInfo.id) {
-                GLB.isRoomOwner = true;
-            }
+        }
+        if (this.ownerId === GLB.userInfo.id) {
+            GLB.isRoomOwner = true;
+        }
+        this.refreshStartBtn();
+    },
+
+    refreshStartBtn() {
+        var spNode = this.nodeDict["startGame"];
+        var btn = this.nodeDict["startGame"].getComponent(cc.Button);
+        if (GLB.isRoomOwner) {
+            spNode.color = cc.Color.WHITE;
+            btn.enabled = true;
+        } else {
+            spNode.color = cc.Color.BLACK;
+            btn.enabled = false;
         }
     },
 
@@ -106,6 +119,12 @@ cc.Class({
 
     startGame: function() {
         if (!GLB.isRoomOwner) {
+            uiFunc.openUI("uiTip", function(obj) {
+                var uiTip = obj.getComponent("uiTip");
+                if (uiTip) {
+                    uiTip.setData("等待房主开始游戏");
+                }
+            }.bind(this));
             return;
         }
         var userIds = [];
@@ -117,7 +136,6 @@ cc.Class({
             }
         }
 
-
         if (playerCnt === GLB.MAX_PLAYER_COUNT) {
             var result = mvs.engine.joinOver("");
             console.log("发出关闭房间的通知");
@@ -127,11 +145,18 @@ cc.Class({
 
             GLB.playerUserIds = userIds;
 
-            var event = {
+            var msg = {
                 action: GLB.GAME_START_EVENT,
                 userIds: userIds
             };
-            mvs.engine.sendEvent(JSON.stringify(event));
+            Game.GameManager.sendEventEx(msg);
+        } else {
+            uiFunc.openUI("uiTip", function(obj) {
+                var uiTip = obj.getComponent("uiTip");
+                if (uiTip) {
+                    uiTip.setData("房间人数不足");
+                }
+            }.bind(this));
         }
     },
 
@@ -140,6 +165,7 @@ cc.Class({
         this.ownerId = rsp.owner;
         this.players[0].setData(this.ownerId, this.ownerId);
         GLB.isRoomOwner = true;
+        this.refreshStartBtn();
     },
 
     joinRoomInit(roomUserInfoList, roomInfo) {
@@ -153,6 +179,7 @@ cc.Class({
         for (var j = 0; j < roomUserInfoList.length; j++) {
             this.players[j].setData(roomUserInfoList[j].userId, this.ownerId);
         }
+        this.refreshStartBtn();
     },
 
     onDestroy() {

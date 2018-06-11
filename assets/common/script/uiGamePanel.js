@@ -25,9 +25,24 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.refreshSlateBtn, this.refreshSlateBtn, this);
+        clientEvent.on(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
+
         this.nodeDict["exit"].on("click", this.exit, this);
 
         this.bgmId = cc.audioEngine.play(this.bgmAudio, true, 1);
+    },
+
+    leaveRoom(data) {
+        if (Game.GameManager.gameState !== GameState.Over) {
+            uiFunc.openUI("uiTip", function(obj) {
+                var uiTip = obj.getComponent("uiTip");
+                if (uiTip) {
+                    if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
+                        uiTip.setData("对手离开了游戏");
+                    }
+                }
+            }.bind(this));
+        }
     },
 
     rightStart() {
@@ -136,5 +151,7 @@ cc.Class({
         clientEvent.off(clientEvent.eventType.roundStart, this.roundStart, this);
         clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.off(clientEvent.eventType.refreshSlateBtn, this.refreshSlateBtn, this);
+        clientEvent.off(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
+
     }
 });

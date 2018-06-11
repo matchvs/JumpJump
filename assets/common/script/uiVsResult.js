@@ -15,10 +15,10 @@ cc.Class({
     },
 
     start() {
-        var isLose = Game.PlayerManager.self.heart < Game.PlayerManager.rival.heart;
+        var isLose = Game.GameManager.isRivalLeave ? false : Game.PlayerManager.self.heart < Game.PlayerManager.rival.heart;
 
         this.player = this.nodeDict["player"].getComponent("resultPlayerIcon");
-        this.player.setData(Game.PlayerManager.player.playerId);
+        this.player.setData(Game.PlayerManager.self.playerId);
         this.rival = this.nodeDict["rival"].getComponent("resultPlayerIcon");
         this.rival.setData(Game.PlayerManager.rival.playerId);
         this.nodeDict["vs"].active = false;
@@ -33,8 +33,8 @@ cc.Class({
         } else {
             cc.audioEngine.play(this.loseClip, false, 1);
         }
-        this.nodeDict["playerScore"].getComponent(cc.Label).string = Game.PlayerManager.self.heart;
-        this.nodeDict["rivalScore"].getComponent(cc.Label).string = Game.PlayerManager.rival.heart;
+        this.nodeDict["playerScore"].getComponent(cc.Label).string = 3 - Game.PlayerManager.rival.heart;
+        this.nodeDict["rivalScore"].getComponent(cc.Label).string = 3 - Game.PlayerManager.self.heart;
     },
 
     quit: function() {

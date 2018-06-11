@@ -9,7 +9,6 @@ cc.Class({
 
     onLoad() {
         Game.BulletManager = this;
-        this.bulletId = 0;
         this.bulletPool = new cc.NodePool();
         this.boomPool = new cc.NodePool();
     },

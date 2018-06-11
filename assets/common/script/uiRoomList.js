@@ -1,5 +1,6 @@
 var uiPanel = require("uiPanel");
 var mvs = require("Matchvs");
+
 cc.Class({
     extends: uiPanel,
 
@@ -42,8 +43,10 @@ cc.Class({
     },
 
     getRoomListResponse: function(data) {
-        for (var j = 0; j < this.rooms.length; j++) {
-            this.rooms[j].destroy();
+        if (this.rooms) {
+            for (var j = 0; j < this.rooms.length; j++) {
+                this.rooms[j].destroy();
+            }
         }
         this.rooms = [];
         data.roomInfos.sort(function(a, b) {
@@ -79,7 +82,8 @@ cc.Class({
 
     quit: function() {
         clearInterval(this.roomRqId);
-        uiFunc.closeUI(this.node);
+        uiFunc.closeUI(this.node.name);
+        this.node.destroy();
     },
 
     search: function() {
@@ -124,13 +128,15 @@ cc.Class({
                 uiFunc.openUI("uiRoomVer", function(obj) {
                     var room = obj.getComponent('uiRoom');
                     room.joinRoomInit(data.roomUserInfoList, data.roomInfo);
-                    uiFunc.closeUI(this.node);
+                    uiFunc.closeUI(this.node.name);
+                    this.node.destroy();
                 }.bind(this));
             } else {
                 uiFunc.openUI("uiRoom", function(obj) {
                     var room = obj.getComponent('uiRoom');
                     room.joinRoomInit(data.roomUserInfoList, data.roomInfo);
-                    uiFunc.closeUI(this.node);
+                    uiFunc.closeUI(this.node.name);
+                    this.node.destroy();
                 }.bind(this));
             }
         }
@@ -139,6 +145,5 @@ cc.Class({
     onDestroy() {
         clientEvent.off(clientEvent.eventType.getRoomListResponse, this.getRoomListResponse, this);
         clientEvent.off(clientEvent.eventType.joinRoomResponse, this.joinRoomResponse, this);
-        clientEvent.off(clientEvent.eventType.getRoomListExResponse, this.getRoomListExResponse, this);
     }
 });
