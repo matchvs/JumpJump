@@ -13,11 +13,18 @@ cc.Class({
         this.slateId = 0;
     },
 
-    spawnSlate(hostPlayerId) {
+    canSpawnSlate(hostPlayerId) {
         var targetSlates = this.slates.filter(function(temp) {
             return temp.hostPlayerId === hostPlayerId;
         });
         if (targetSlates.length >= this.slateMaxCnt) {
+            return false;
+        }
+        return true;
+    },
+
+    spawnSlate(hostPlayerId) {
+        if (!this.canSpawnSlate(hostPlayerId)) {
             return;
         }
         var hostPlayer = hostPlayerId === GLB.userInfo.id ? Game.PlayerManager.self : Game.PlayerManager.rival;
@@ -34,6 +41,7 @@ cc.Class({
             this.slates.push(slate);
             this.slateId++;
         }
+        clientEvent.dispatch(clientEvent.eventType.refreshSlateBtn);
     },
 
     hitSlate(slateId) {
@@ -53,5 +61,6 @@ cc.Class({
             this.slates[index].node.destroy();
             this.slates.splice(index, 1);
         }
+        clientEvent.dispatch(clientEvent.eventType.refreshSlateBtn);
     }
 });

@@ -2,6 +2,7 @@ window.clientEvent = {
     eventType: {
         openUI: "openUI",
         closeUI: "closeUI",
+        refreshSlateBtn: "refreshSlateBtn",
         roundStart: "roundStart",
         roundOver: "roundOver",
         gameStart: "gameStart",

@@ -18,6 +18,10 @@ cc.Class({
         deadClip: {
             default: null,
             url: cc.AudioClip
+        },
+        tankBoom: {
+            default: null,
+            type: cc.Prefab
         }
     },
 
@@ -52,12 +56,13 @@ cc.Class({
         if (this.heart <= 0) {
             this.dead();
         } else {
-            // 受伤动画
-            // todo
             this.node.getComponent(cc.Animation).play("hit" + (this.maxHeart - this.heart));
             cc.audioEngine.play(this.hurtClip, false, 1);
         }
         this.refreshHeartUI();
+        var boom = cc.instantiate(this.tankBoom);
+        boom.parent = this.node;
+        boom.position = cc.v2(0, 0);
     },
 
     dead() {

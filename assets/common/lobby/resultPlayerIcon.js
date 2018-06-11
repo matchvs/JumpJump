@@ -23,8 +23,8 @@ cc.Class({
         }
     },
 
-    setData: function() {
-
+    setData: function(playerId) {
+        this.nameLb.string = playerId;
     }
 
 });

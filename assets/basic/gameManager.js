@@ -14,12 +14,7 @@ cc.Class({
     leaveRoom: function(data) {
         // 离开房间--
         if (this.gameState === GameState.Play) {
-            if (GLB.userInfo.id !== data.leaveRoomInfo.userId) {
-                GLB.isRoomOwner = true;
-            }
-            else {
-                Game.GameManager.gameState = GameState.Over;
-            }
+            this.gameOver();
         }
     },
 
@@ -29,13 +24,9 @@ cc.Class({
             Game.GameManager.gameState = GameState.Over;
             setTimeout(function() {
                 clientEvent.dispatch(clientEvent.eventType.gameOver);
-            }.bind(this), 1500)
+            }.bind(this), 1500);
             setTimeout(function() {
-                if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
-                    uiFunc.openUI("uiVsResultVer");
-                } else {
-                    uiFunc.openUI("uiVsResult");
-                }
+                uiFunc.openUI("uiVsResultVer");
             }.bind(this), 3000);
         }
     },
@@ -70,7 +61,7 @@ cc.Class({
     kickPlayerNotify: function(kickPlayerNotify) {
         var data = {
             kickPlayerNotify: kickPlayerNotify
-        }
+        };
         clientEvent.dispatch(clientEvent.eventType.kickPlayerNotify, data);
     },
 
@@ -81,7 +72,7 @@ cc.Class({
         }
         var data = {
             kickPlayerRsp: kickPlayerRsp
-        }
+        };
         clientEvent.dispatch(clientEvent.eventType.kickPlayerResponse, data);
     },
 
@@ -92,7 +83,7 @@ cc.Class({
         }
         var data = {
             rsp: rsp
-        }
+        };
         clientEvent.dispatch(clientEvent.eventType.getRoomListExResponse, data);
     },
 
@@ -103,7 +94,7 @@ cc.Class({
         }
         var data = {
             rsp: rsp
-        }
+        };
         clientEvent.dispatch(clientEvent.eventType.getRoomDetailResponse, data);
     },
 
@@ -115,7 +106,7 @@ cc.Class({
         var data = {
             status: status,
             roomInfos: roomInfos
-        }
+        };
         clientEvent.dispatch(clientEvent.eventType.getRoomListResponse, data);
     },
 
@@ -126,7 +117,7 @@ cc.Class({
         }
         var data = {
             rsp: rsp
-        }
+        };
         clientEvent.dispatch(clientEvent.eventType.createRoomResponse, data);
     },
 
@@ -137,7 +128,7 @@ cc.Class({
         }
         var data = {
             joinOverRsp: joinOverRsp
-        }
+        };
         clientEvent.dispatch(clientEvent.eventType.joinOverResponse, data);
     },
 
@@ -150,14 +141,14 @@ cc.Class({
             status: status,
             roomUserInfoList: roomUserInfoList,
             roomInfo: roomInfo
-        }
+        };
         clientEvent.dispatch(clientEvent.eventType.joinRoomResponse, data);
     },
 
     joinRoomNotify: function(roomUserInfo) {
         var data = {
             roomUserInfo: roomUserInfo
-        }
+        };
         clientEvent.dispatch(clientEvent.eventType.joinRoomNotify, data);
     },
 
@@ -168,14 +159,14 @@ cc.Class({
         }
         var data = {
             leaveRoomRsp: leaveRoomRsp
-        }
+        };
         clientEvent.dispatch(clientEvent.eventType.leaveRoomResponse, data);
     },
 
     leaveRoomNotify: function(leaveRoomInfo) {
         var data = {
             leaveRoomInfo: leaveRoomInfo
-        }
+        };
         clientEvent.dispatch(clientEvent.eventType.leaveRoomNotify, data);
     },
 
@@ -217,7 +208,7 @@ cc.Class({
         var gatewayId = 0;
         GLB.userInfo = userInfo;
 
-        console.log('开始登录,用户Id:' + userInfo.id)
+        console.log('开始登录,用户Id:' + userInfo.id);
 
         var result = mvs.engine.login(
             userInfo.id, userInfo.token,
@@ -250,10 +241,10 @@ cc.Class({
 
     // 收到的消息
     sendEventNotify: function(info) {
-        console.log(info)
+        console.log(info);
         var cpProto = JSON.parse(info.cpProto);
         if (info.cpProto.indexOf(GLB.GAME_START_EVENT) >= 0) {
-            GLB.playerUserIds = [GLB.userInfo.id]
+            GLB.playerUserIds = [GLB.userInfo.id];
             var remoteUserIds = JSON.parse(info.cpProto).userIds;
             remoteUserIds.forEach(function(id) {
                 if (GLB.userInfo.id !== id) {
@@ -291,13 +282,16 @@ cc.Class({
 
     frameUpdate: function(rsp) {
         for (var i = 0; i < rsp.frameItems.length; i++) {
+            if (Game.GameManager.gameState === GameState.Over) {
+                return;
+            }
             var info = rsp.frameItems[i];
             var cpProto = JSON.parse(info.cpProto);
             if (info.cpProto.indexOf(GLB.DIRECTION) >= 0) {
                 if (GLB.userInfo.id === info.srcUserID) {
-                    Game.PlayerManager.self.setDirect(cpProto.direction)
+                    Game.PlayerManager.self.setDirect(cpProto.direction);
                 } else {
-                    Game.PlayerManager.rival.setDirect(cpProto.direction)
+                    Game.PlayerManager.rival.setDirect(cpProto.direction);
                 }
             }
             if (info.cpProto.indexOf(GLB.FIRE) >= 0) {
@@ -328,7 +322,6 @@ cc.Class({
             if (info.cpProto.indexOf(GLB.SLATE_HITTING) >= 0) {
                 Game.SlateManager.hitSlate(cpProto.slateId);
             }
-
         }
         Game.PlayerManager.self.move();
         Game.PlayerManager.rival.move();

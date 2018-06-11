@@ -11,19 +11,20 @@ cc.Class({
     },
     onLoad() {
         this._super();
-        this.defenseMaxCnt = 3;
-        this.curDefenseCnt = 0;
         this.nodeDict["right"].on(cc.Node.EventType.TOUCH_START, this.rightStart, this);
         this.nodeDict["right"].on(cc.Node.EventType.TOUCH_END, this.rightCancel, this);
         this.nodeDict["left"].on(cc.Node.EventType.TOUCH_START, this.leftStart, this);
         this.nodeDict["left"].on(cc.Node.EventType.TOUCH_END, this.leftCancel, this);
         this.nodeDict["shootButton"].on(cc.Node.EventType.TOUCH_START, this.sendFireMsg, this);
-        this.nodeDict["defenseButton"].on(cc.Node.EventType.TOUCH_START, this.sendSlateMsg, this);
+        this.defenseBtn = this.nodeDict["defenseButton"].getComponent(cc.Button);
+        this.defenseBtn.enableAutoGrayEffect = true;
+        this.defenseBtn.node.on(cc.Node.EventType.TOUCH_START, this.sendSlateMsg, this);
         this.lackBulletAnim = this.nodeDict["lackAmmunition"].getComponent(cc.Animation);
         this.cartridgeBullets = [].concat(this.nodeDict["cartridge"].children);
         this.bulletCnt = this.cartridgeBullets.length;
         clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
+        clientEvent.on(clientEvent.eventType.refreshSlateBtn, this.refreshSlateBtn, this);
         this.nodeDict["exit"].on("click", this.exit, this);
 
         this.bgmId = cc.audioEngine.play(this.bgmAudio, true, 1);
@@ -96,6 +97,14 @@ cc.Class({
         }.bind(this), 5000);
     },
 
+    refreshSlateBtn() {
+        if (Game.SlateManager.canSpawnSlate(GLB.userInfo.id)) {
+            this.defenseBtn.interactable = true;
+        } else {
+            this.defenseBtn.interactable = false;
+        }
+    },
+
     exit() {
         uiFunc.openUI("uiExit");
     },
@@ -122,4 +131,10 @@ cc.Class({
             }.bind(this));
         }
     },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.roundStart, this.roundStart, this);
+        clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
+        clientEvent.off(clientEvent.eventType.refreshSlateBtn, this.refreshSlateBtn, this);
+    }
 });
