@@ -5,7 +5,7 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -1,
+      "x": -2,
       "y": 23,
       "width": 1920,
       "height": 977,
@@ -47,7 +47,7 @@
                     ],
                     "height": 534,
                     "type": "panel",
-                    "width": 385.984375
+                    "width": 397.984375
                   },
                   {
                     "active": 0,
@@ -56,27 +56,27 @@
                     ],
                     "height": 534,
                     "type": "panel",
-                    "width": 204
+                    "width": 211
                   }
                 ],
                 "height": 534,
                 "type": "dock-h",
-                "width": 593
+                "width": 612
               },
               {
-                "active": 1,
+                "active": 0,
                 "children": [
                   "console",
                   "timeline"
                 ],
                 "height": 349,
                 "type": "panel",
-                "width": 593
+                "width": 612
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 593
+            "width": 612
           },
           {
             "active": 0,
@@ -85,7 +85,7 @@
             ],
             "height": 886,
             "type": "panel",
-            "width": 708
+            "width": 689
           }
         ],
         "type": "dock-h"
@@ -98,6 +98,32 @@
         "assets",
         "scene",
         "timeline"
+      ]
+    },
+    "window-1528718680484": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 501,
+      "y": 162,
+      "width": 800,
+      "height": 622,
+      "layout": {
+        "children": [
+          {
+            "active": 0,
+            "children": [
+              "ui-kit-preview"
+            ],
+            "height": 600,
+            "type": "panel",
+            "width": 800
+          }
+        ],
+        "type": "dock-v"
+      },
+      "panels": [
+        "ui-kit-preview"
       ]
     }
   },
@@ -137,6 +163,12 @@
       "y": 72,
       "width": 500,
       "height": 722
+    },
+    "ui-kit-preview": {
+      "x": 501,
+      "y": 162,
+      "width": 800,
+      "height": 622
     }
   }
 }
