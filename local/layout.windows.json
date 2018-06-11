@@ -100,7 +100,8 @@
         "timeline"
       ]
     },
-    "window-1528683384503": {}
+    "window-1528683384503": {},
+    "worker": {}
   },
   "panels": {
     "sprite-editor": {
@@ -134,8 +135,8 @@
       "height": 558
     },
     "builder": {
-      "x": 566,
-      "y": 112,
+      "x": 848,
+      "y": 72,
       "width": 500,
       "height": 722
     }
