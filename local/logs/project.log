@@ -139,3 +139,643 @@ initialization finished
     at readableAddChunk (_stream_readable.js:178:18)
     at Socket.Readable.push (_stream_readable.js:136:10)
     at Pipe.onread (net.js:560:20)
+2018-06-12T02:53:33.774Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/resources/data.meta
+2018-06-12T02:56:35.950Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/doubleShoot/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/doubleShoot/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "doubleShoot",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/doubleShoot",
+  "projectName": "doubleShoot",
+  "debugBuildWorker": false
+}
+2018-06-12T02:56:35.954Z - normal: Building /Users/mac/MatchVsGames/doubleShoot
+2018-06-12T02:56:35.954Z - normal: Destination /Users/mac/MatchVsGames/doubleShoot/build/wechatgame
+2018-06-12T02:56:36.256Z - normal: Delete /Users/mac/MatchVsGames/doubleShoot/build/wechatgame/**/*
+2018-06-12T02:57:21.486Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:41361
+2018-06-12T02:57:21.491Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:41363
+2018-06-12T02:57:21.496Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:41364
+2018-06-12T02:57:21.496Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:41365
+2018-06-12T02:57:21.497Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:41366
+2018-06-12T02:57:29.769Z - normal: Compiled project javascript file successfully
+2018-06-12T02:57:29.770Z - normal: Start building assets
+2018-06-12T02:57:29.770Z - normal: Start spawn build-worker
+2018-06-12T02:57:30.338Z - normal: Finish spawn build-worker
+2018-06-12T02:57:30.338Z - normal: Start init build-worker
+2018-06-12T02:57:32.303Z - normal: 1.9.2
+2018-06-12T02:57:32.568Z - normal: Finish init build-worker
+2018-06-12T02:57:32.568Z - normal: Start build-assets in worker
+2018-06-12T02:57:33.431Z - warn: The referenced asset used in "db://assets/resources/prefab/bullet.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "bullet"
+Used in Component: "cc.AudioSource"
+uuid: "42bafc70-ad55-4ee7-9e56-bafd0ffa4ea3"
+2018-06-12T02:57:33.504Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/buttons/key_defenseButton"
+Used in Component: "cc.Button"
+uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
+2018-06-12T02:57:38.817Z - warn: /Users/mac/MatchVsGames/doubleShoot/assets/game/texture/background.png was not been packed to AutoAtlas, please check it.
+2018-06-12T02:57:39.209Z - normal: Finish build-assets in worker
+2018-06-12T02:57:39.213Z - normal: Finish building assets
+2018-06-12T02:57:39.248Z - normal: Start building raw assets
+2018-06-12T02:57:39.249Z - normal: Start building plugin scripts
+2018-06-12T02:57:39.354Z - normal: Finish building raw assets
+2018-06-12T02:57:39.360Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-12T02:57:40.474Z - normal: Built to "/Users/mac/MatchVsGames/doubleShoot/build/wechatgame" successfully
+2018-06-12T02:59:11.225Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-12T02:59:11.227Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-12T02:59:11.746Z - normal: Initializing...
+
+2018-06-12T02:59:11.752Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-12T02:59:11.772Z - normal: IDE server has started, listening on http://127.0.0.1:52934
+initialization finished
+
+2018-06-12T02:59:12.244Z - normal: open IDE success
+
+2018-06-12T03:07:05.267Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-12T03:07:23.101Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
+Node path: "uiGamePanel/buttons/key_defenseButton"
+Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
+Missing uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
+
+2018-06-12T03:07:23.211Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-12T03:07:33.255Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
+Node path: "uiGamePanel/buttons/key_defenseButton"
+Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
+Missing uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
+
+2018-06-12T03:07:33.334Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-12T03:12:46.097Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/doubleShoot/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/doubleShoot/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "doubleShoot",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/doubleShoot",
+  "projectName": "doubleShoot",
+  "debugBuildWorker": false
+}
+2018-06-12T03:12:46.102Z - normal: Building /Users/mac/MatchVsGames/doubleShoot
+2018-06-12T03:12:46.103Z - normal: Destination /Users/mac/MatchVsGames/doubleShoot/build/wechatgame
+2018-06-12T03:12:46.104Z - normal: Delete /Users/mac/MatchVsGames/doubleShoot/build/wechatgame/**/*
+2018-06-12T03:12:54.633Z - normal: Compiled project javascript file successfully
+2018-06-12T03:12:54.634Z - normal: Start building assets
+2018-06-12T03:12:54.634Z - normal: Start spawn build-worker
+2018-06-12T03:12:55.287Z - normal: Finish spawn build-worker
+2018-06-12T03:12:55.288Z - normal: Start init build-worker
+2018-06-12T03:12:57.135Z - normal: 1.9.2
+2018-06-12T03:12:57.392Z - normal: Finish init build-worker
+2018-06-12T03:12:57.392Z - normal: Start build-assets in worker
+2018-06-12T03:12:58.287Z - warn: The referenced asset used in "db://assets/resources/prefab/bullet.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "bullet"
+Used in Component: "cc.AudioSource"
+uuid: "42bafc70-ad55-4ee7-9e56-bafd0ffa4ea3"
+2018-06-12T03:12:58.393Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/buttons/key_defenseButton"
+Used in Component: "cc.Button"
+uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
+2018-06-12T03:12:58.439Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-06-12T03:13:03.748Z - warn: /Users/mac/MatchVsGames/doubleShoot/assets/game/texture/background.png was not been packed to AutoAtlas, please check it.
+2018-06-12T03:13:04.178Z - normal: Finish build-assets in worker
+2018-06-12T03:13:04.182Z - normal: Finish building assets
+2018-06-12T03:13:04.222Z - normal: Start building raw assets
+2018-06-12T03:13:04.223Z - normal: Start building plugin scripts
+2018-06-12T03:13:04.353Z - normal: Finish building raw assets
+2018-06-12T03:13:04.358Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-12T03:13:05.477Z - normal: Built to "/Users/mac/MatchVsGames/doubleShoot/build/wechatgame" successfully
+2018-06-12T03:13:12.436Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-12T03:13:12.437Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-12T03:13:12.821Z - normal: Initializing...
+
+2018-06-12T03:13:12.827Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-12T03:13:12.848Z - normal: IDE server has started, listening on http://127.0.0.1:52934
+
+2018-06-12T03:13:12.849Z - normal: initialization finished
+
+2018-06-12T03:13:13.086Z - normal: open IDE success
+
+2018-06-12T03:18:09.328Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/doubleShoot/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/doubleShoot/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "doubleShoot",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/doubleShoot",
+  "projectName": "doubleShoot",
+  "debugBuildWorker": false
+}
+2018-06-12T03:18:09.339Z - normal: Building /Users/mac/MatchVsGames/doubleShoot
+2018-06-12T03:18:09.339Z - normal: Destination /Users/mac/MatchVsGames/doubleShoot/build/wechatgame
+2018-06-12T03:18:09.340Z - normal: Delete /Users/mac/MatchVsGames/doubleShoot/build/wechatgame/**/*
+2018-06-12T03:18:17.577Z - normal: Compiled project javascript file successfully
+2018-06-12T03:18:17.578Z - normal: Start building assets
+2018-06-12T03:18:17.578Z - normal: Start spawn build-worker
+2018-06-12T03:18:18.229Z - normal: Finish spawn build-worker
+2018-06-12T03:18:18.229Z - normal: Start init build-worker
+2018-06-12T03:18:20.101Z - normal: 1.9.2
+2018-06-12T03:18:20.325Z - normal: Finish init build-worker
+2018-06-12T03:18:20.326Z - normal: Start build-assets in worker
+2018-06-12T03:18:21.379Z - warn: The referenced asset used in "db://assets/resources/prefab/bullet.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "bullet"
+Used in Component: "cc.AudioSource"
+uuid: "42bafc70-ad55-4ee7-9e56-bafd0ffa4ea3"
+2018-06-12T03:18:21.467Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/buttons/key_defenseButton"
+Used in Component: "cc.Button"
+uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
+2018-06-12T03:18:21.513Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-06-12T03:18:26.753Z - warn: /Users/mac/MatchVsGames/doubleShoot/assets/game/texture/background.png was not been packed to AutoAtlas, please check it.
+2018-06-12T03:18:27.385Z - normal: Finish build-assets in worker
+2018-06-12T03:18:27.388Z - normal: Finish building assets
+2018-06-12T03:18:27.420Z - normal: Start building raw assets
+2018-06-12T03:18:27.421Z - normal: Start building plugin scripts
+2018-06-12T03:18:27.552Z - normal: Finish building raw assets
+2018-06-12T03:18:27.563Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-12T03:18:28.926Z - normal: Built to "/Users/mac/MatchVsGames/doubleShoot/build/wechatgame" successfully
+2018-06-12T03:19:17.409Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-12T03:19:17.409Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-12T03:19:17.829Z - normal: Initializing...
+
+2018-06-12T03:19:17.838Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-12T03:19:17.857Z - normal: IDE server has started, listening on http://127.0.0.1:52934
+initialization finished
+
+2018-06-12T03:19:18.075Z - normal: open IDE success
+
+2018-06-12T03:20:39.723Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/doubleShoot/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/doubleShoot/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "doubleShoot",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/doubleShoot",
+  "projectName": "doubleShoot",
+  "debugBuildWorker": false
+}
+2018-06-12T03:20:39.736Z - normal: Building /Users/mac/MatchVsGames/doubleShoot
+2018-06-12T03:20:39.736Z - normal: Destination /Users/mac/MatchVsGames/doubleShoot/build/wechatgame
+2018-06-12T03:20:39.738Z - normal: Delete /Users/mac/MatchVsGames/doubleShoot/build/wechatgame/**/*
+2018-06-12T03:20:48.730Z - normal: Compiled project javascript file successfully
+2018-06-12T03:20:48.730Z - normal: Start building assets
+2018-06-12T03:20:48.730Z - normal: Start spawn build-worker
+2018-06-12T03:20:49.465Z - normal: Finish spawn build-worker
+2018-06-12T03:20:49.466Z - normal: Start init build-worker
+2018-06-12T03:20:51.462Z - normal: 1.9.2
+2018-06-12T03:20:51.706Z - normal: Finish init build-worker
+2018-06-12T03:20:51.706Z - normal: Start build-assets in worker
+2018-06-12T03:20:52.697Z - warn: The referenced asset used in "db://assets/resources/prefab/bullet.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "bullet"
+Used in Component: "cc.AudioSource"
+uuid: "42bafc70-ad55-4ee7-9e56-bafd0ffa4ea3"
+2018-06-12T03:20:52.775Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/buttons/key_defenseButton"
+Used in Component: "cc.Button"
+uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
+2018-06-12T03:20:52.826Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-06-12T03:20:57.953Z - warn: /Users/mac/MatchVsGames/doubleShoot/assets/game/texture/background.png was not been packed to AutoAtlas, please check it.
+2018-06-12T03:20:58.623Z - normal: Finish build-assets in worker
+2018-06-12T03:20:58.626Z - normal: Finish building assets
+2018-06-12T03:20:58.667Z - normal: Start building raw assets
+2018-06-12T03:20:58.668Z - normal: Start building plugin scripts
+2018-06-12T03:20:58.825Z - normal: Finish building raw assets
+2018-06-12T03:20:58.831Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-12T03:21:00.121Z - normal: Built to "/Users/mac/MatchVsGames/doubleShoot/build/wechatgame" successfully
+2018-06-12T03:21:06.242Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-12T03:21:06.242Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-12T03:21:06.642Z - normal: Initializing...
+
+2018-06-12T03:21:06.647Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-12T03:21:06.665Z - normal: IDE server has started, listening on http://127.0.0.1:52934
+initialization finished
+
+2018-06-12T03:21:06.818Z - normal: open IDE success
+
+2018-06-12T03:28:03.463Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/doubleShoot/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/doubleShoot/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "doubleShoot",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "sftp://ubuntu@123.207.6.72/data/matchvsGamesRes/doubleshoot/res",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/doubleShoot",
+  "projectName": "doubleShoot",
+  "debugBuildWorker": false
+}
+2018-06-12T03:28:03.475Z - normal: Building /Users/mac/MatchVsGames/doubleShoot
+2018-06-12T03:28:03.475Z - normal: Destination /Users/mac/MatchVsGames/doubleShoot/build/wechatgame
+2018-06-12T03:28:03.479Z - normal: Delete /Users/mac/MatchVsGames/doubleShoot/build/wechatgame/**/*
+2018-06-12T03:28:12.112Z - normal: Compiled project javascript file successfully
+2018-06-12T03:28:12.112Z - normal: Start building assets
+2018-06-12T03:28:12.112Z - normal: Start spawn build-worker
+2018-06-12T03:28:12.786Z - normal: Finish spawn build-worker
+2018-06-12T03:28:12.786Z - normal: Start init build-worker
+2018-06-12T03:28:14.832Z - normal: 1.9.2
+2018-06-12T03:28:15.079Z - normal: Finish init build-worker
+2018-06-12T03:28:15.079Z - normal: Start build-assets in worker
+2018-06-12T03:28:16.097Z - warn: The referenced asset used in "db://assets/resources/prefab/bullet.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "bullet"
+Used in Component: "cc.AudioSource"
+uuid: "42bafc70-ad55-4ee7-9e56-bafd0ffa4ea3"
+2018-06-12T03:28:16.173Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/buttons/key_defenseButton"
+Used in Component: "cc.Button"
+uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
+2018-06-12T03:28:16.209Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-06-12T03:28:21.456Z - warn: /Users/mac/MatchVsGames/doubleShoot/assets/game/texture/background.png was not been packed to AutoAtlas, please check it.
+2018-06-12T03:28:22.050Z - normal: Finish build-assets in worker
+2018-06-12T03:28:22.054Z - normal: Finish building assets
+2018-06-12T03:28:22.088Z - normal: Start building raw assets
+2018-06-12T03:28:22.089Z - normal: Start building plugin scripts
+2018-06-12T03:28:22.219Z - normal: Finish building raw assets
+2018-06-12T03:28:22.224Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-12T03:28:23.812Z - normal: Built to "/Users/mac/MatchVsGames/doubleShoot/build/wechatgame" successfully
+2018-06-12T03:28:27.653Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-12T03:28:27.654Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-12T03:28:28.059Z - normal: Initializing...
+
+2018-06-12T03:28:28.067Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-12T03:28:28.085Z - normal: IDE server has started, listening on http://127.0.0.1:52934
+initialization finished
+
+2018-06-12T03:28:28.300Z - normal: open IDE success
+
+2018-06-12T03:28:44.106Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-12T03:28:44.106Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-12T03:28:44.435Z - normal: Initializing...
+
+2018-06-12T03:28:44.440Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-12T03:28:44.460Z - normal: IDE server has started, listening on http://127.0.0.1:52934
+initialization finished
+
+2018-06-12T03:28:44.629Z - normal: open IDE success
+
+2018-06-12T03:29:56.723Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/doubleShoot/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/doubleShoot/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "doubleShoot",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "sftp://ubuntu@123.207.6.72/data/matchvsGamesRes/doubleshoot/res",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/doubleShoot",
+  "projectName": "doubleShoot",
+  "debugBuildWorker": false
+}
+2018-06-12T03:29:56.731Z - normal: Building /Users/mac/MatchVsGames/doubleShoot
+2018-06-12T03:29:56.732Z - normal: Destination /Users/mac/MatchVsGames/doubleShoot/build/wechatgame
+2018-06-12T03:29:56.733Z - normal: Delete /Users/mac/MatchVsGames/doubleShoot/build/wechatgame/**/*
+2018-06-12T03:30:04.413Z - normal: Compiled project javascript file successfully
+2018-06-12T03:30:04.414Z - normal: Start building assets
+2018-06-12T03:30:04.414Z - normal: Start spawn build-worker
+2018-06-12T03:30:05.053Z - normal: Finish spawn build-worker
+2018-06-12T03:30:05.054Z - normal: Start init build-worker
+2018-06-12T03:30:07.008Z - normal: 1.9.2
+2018-06-12T03:30:07.245Z - normal: Finish init build-worker
+2018-06-12T03:30:07.245Z - normal: Start build-assets in worker
+2018-06-12T03:30:08.219Z - warn: The referenced asset used in "db://assets/resources/prefab/bullet.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "bullet"
+Used in Component: "cc.AudioSource"
+uuid: "42bafc70-ad55-4ee7-9e56-bafd0ffa4ea3"
+2018-06-12T03:30:08.253Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/buttons/key_defenseButton"
+Used in Component: "cc.Button"
+uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
+2018-06-12T03:30:08.311Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-06-12T03:30:13.412Z - warn: /Users/mac/MatchVsGames/doubleShoot/assets/resources/texture/background.png was not been packed to AutoAtlas, please check it.
+2018-06-12T03:30:13.948Z - normal: Finish build-assets in worker
+2018-06-12T03:30:13.951Z - normal: Finish building assets
+2018-06-12T03:30:13.981Z - normal: Start building raw assets
+2018-06-12T03:30:13.982Z - normal: Start building plugin scripts
+2018-06-12T03:30:14.101Z - normal: Finish building raw assets
+2018-06-12T03:30:14.105Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-12T03:30:15.641Z - normal: Built to "/Users/mac/MatchVsGames/doubleShoot/build/wechatgame" successfully
+2018-06-12T03:32:32.101Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-12T03:32:32.104Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-12T03:32:32.500Z - normal: Initializing...
+
+2018-06-12T03:32:32.505Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-12T03:32:32.522Z - normal: IDE server has started, listening on http://127.0.0.1:52934
+
+2018-06-12T03:32:32.523Z - normal: initialization finished
+
+2018-06-12T03:32:32.714Z - normal: open IDE success
+

@@ -430,7 +430,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "xiaojilogo",
+    "_name": "logo",
     "_objFlags": 0,
     "_parent": {
       "__id__": 3
@@ -450,9 +450,9 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 0,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_cascadeOpacityEnabled": true,
@@ -463,8 +463,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 456,
-      "height": 290
+      "width": 433,
+      "height": 251
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -491,10 +491,10 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+      "__uuid__": "f670f70c-4c3c-4b95-8ce7-70f914130200"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -503,7 +503,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_atlas": null
