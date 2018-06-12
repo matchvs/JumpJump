@@ -1,81 +1,141 @@
-2018-06-10T08:22:51.357Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-10T08:22:51.363Z - normal: checking language setting...
-2018-06-10T08:22:51.363Z - normal: Language: zh
-2018-06-10T08:22:53.250Z - success: protocol editor-framework registered
-2018-06-10T08:22:53.251Z - success: protocol app registered
-2018-06-10T08:22:53.251Z - success: protocol theme registered
-2018-06-10T08:22:53.251Z - success: protocol packages registered
-2018-06-10T08:22:53.252Z - success: protocol unpack registerred
-2018-06-10T08:22:53.252Z - success: protocol disable-commonjs registerred
-2018-06-10T08:22:53.812Z - normal: connected!
-2018-06-10T08:22:53.816Z - normal: Check project /Users/chenhao/matchvs/doubleShoot
-2018-06-10T08:22:53.821Z - normal: Initializing Cocos2d
-2018-06-10T08:22:54.303Z - normal: Initializing Asset Database
-2018-06-10T08:22:54.369Z - success: protocol uuid registerred
-2018-06-10T08:22:54.369Z - success: protocol db registerred
-2018-06-10T08:22:54.369Z - success: protocol thumbnail registerred
-2018-06-10T08:22:54.369Z - normal: Loading editor/builtin packages
-2018-06-10T08:22:54.397Z - success: anysdk loaded
-2018-06-10T08:22:54.622Z - success: assets loaded
-2018-06-10T08:22:54.628Z - success: builder loaded
-2018-06-10T08:22:54.632Z - success: cocos-analytics loaded
-2018-06-10T08:22:54.639Z - success: console loaded
-2018-06-10T08:22:54.680Z - success: fb-instant-games loaded
-2018-06-10T08:22:54.689Z - success: hierarchy loaded
-2018-06-10T08:22:54.697Z - success: inspector loaded
-2018-06-10T08:22:54.701Z - success: keystore loaded
-2018-06-10T08:22:54.715Z - success: node-library loaded
-2018-06-10T08:22:54.719Z - success: package-asset loaded
-2018-06-10T08:22:54.723Z - success: preferences loaded
-2018-06-10T08:22:54.728Z - success: project-exporter loaded
-2018-06-10T08:22:54.754Z - success: project-importer loaded
-2018-06-10T08:22:54.758Z - success: project-settings loaded
-2018-06-10T08:22:54.772Z - success: ui-kit loaded
-2018-06-10T08:22:54.783Z - success: ui-grid loaded
-2018-06-10T08:22:54.792Z - success: scene loaded
-2018-06-10T08:22:54.795Z - success: sprite-editor loaded
-2018-06-10T08:22:54.803Z - success: store loaded
-2018-06-10T08:22:54.811Z - success: timeline loaded
-2018-06-10T08:22:54.811Z - normal: Loading builtin packages
-2018-06-10T08:22:54.818Z - success: asset-db-debugger loaded
-2018-06-10T08:22:54.820Z - success: color-picker loaded
-2018-06-10T08:22:54.829Z - success: package-manager loaded
-2018-06-10T08:22:54.836Z - success: sdkbox loaded
-2018-06-10T08:22:54.844Z - success: tester loaded
-2018-06-10T08:22:54.850Z - success: ui-kit-preview-extra loaded
-2018-06-10T08:22:54.856Z - success: ui-kit-preview loaded
-2018-06-10T08:22:54.862Z - success: ui-tree loaded
-2018-06-10T08:22:56.737Z - normal: Initializing project /Users/chenhao/matchvs/doubleShoot
-2018-06-10T08:22:56.741Z - normal: Loading packages
-2018-06-10T08:22:56.756Z - success: plugin-matchvs loaded
-2018-06-10T08:22:56.757Z - normal: Watching packages
-2018-06-10T08:22:56.817Z - normal: Run Application
-2018-06-10T08:23:19.548Z - success: preview server running at http://localhost:7456
-2018-06-10T08:23:30.503Z - normal: 1.9.1
-2018-06-10T08:29:26.886Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-10T08:33:57.091Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-10T08:38:10.229Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-10T08:58:17.896Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-10T09:03:14.512Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-10T09:47:54.436Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
-    at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
-    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
-    at Function.Module._load (module.js:418:25)
-    at Module.require (module.js:498:17)
-    at require (internal/module.js:20:19)
-    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
-    at /Users/chenhao/matchvs/doubleShoot/temp/quick-scripts/assets/common/script/uiVsResult.js:1:359
-    at __define (/Users/chenhao/matchvs/doubleShoot/temp/quick-scripts/assets/common/script/uiVsResult.js:9:11)
-    at /Users/chenhao/matchvs/doubleShoot/temp/quick-scripts/assets/common/script/uiVsResult.js:70:13
-2018-06-10T09:51:16.416Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
-    at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
-    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
-    at Function.Module._load (module.js:418:25)
-    at Module.require (module.js:498:17)
-    at require (internal/module.js:20:19)
-    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
-    at /Users/chenhao/matchvs/doubleShoot/temp/quick-scripts/assets/common/script/uiVsResult.js:1:359
-    at __define (/Users/chenhao/matchvs/doubleShoot/temp/quick-scripts/assets/common/script/uiVsResult.js:9:11)
-    at /Users/chenhao/matchvs/doubleShoot/temp/quick-scripts/assets/common/script/uiVsResult.js:70:13
+2018-06-12T01:31:23.843Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-12T01:31:23.847Z - normal: checking language setting...
+2018-06-12T01:31:23.847Z - normal: Language: zh
+2018-06-12T01:31:24.465Z - success: protocol editor-framework registered
+2018-06-12T01:31:24.465Z - success: protocol app registered
+2018-06-12T01:31:24.466Z - success: protocol theme registered
+2018-06-12T01:31:24.466Z - success: protocol packages registered
+2018-06-12T01:31:24.466Z - success: protocol unpack registerred
+2018-06-12T01:31:24.466Z - success: protocol disable-commonjs registerred
+2018-06-12T01:31:24.767Z - normal: connected!
+2018-06-12T01:31:24.769Z - normal: Check project /Users/mac/MatchVsGames/doubleShoot
+2018-06-12T01:31:24.771Z - normal: Initializing Cocos2d
+2018-06-12T01:31:24.960Z - normal: Initializing Asset Database
+2018-06-12T01:31:24.985Z - success: protocol uuid registerred
+2018-06-12T01:31:24.985Z - success: protocol db registerred
+2018-06-12T01:31:24.986Z - success: protocol thumbnail registerred
+2018-06-12T01:31:24.986Z - normal: Loading editor/builtin packages
+2018-06-12T01:31:25.001Z - success: anysdk loaded
+2018-06-12T01:31:25.096Z - success: assets loaded
+2018-06-12T01:31:25.099Z - success: builder loaded
+2018-06-12T01:31:25.100Z - success: cocos-analytics loaded
+2018-06-12T01:31:25.105Z - success: console loaded
+2018-06-12T01:31:25.134Z - success: fb-instant-games loaded
+2018-06-12T01:31:25.139Z - success: hierarchy loaded
+2018-06-12T01:31:25.143Z - success: inspector loaded
+2018-06-12T01:31:25.144Z - success: keystore loaded
+2018-06-12T01:31:25.147Z - success: node-library loaded
+2018-06-12T01:31:25.148Z - success: package-asset loaded
+2018-06-12T01:31:25.150Z - success: preferences loaded
+2018-06-12T01:31:25.152Z - success: project-exporter loaded
+2018-06-12T01:31:25.165Z - success: project-importer loaded
+2018-06-12T01:31:25.168Z - success: project-settings loaded
+2018-06-12T01:31:25.172Z - success: ui-kit loaded
+2018-06-12T01:31:25.177Z - success: ui-grid loaded
+2018-06-12T01:31:25.180Z - success: scene loaded
+2018-06-12T01:31:25.181Z - success: sprite-editor loaded
+2018-06-12T01:31:25.185Z - success: store loaded
+2018-06-12T01:31:25.190Z - success: timeline loaded
+2018-06-12T01:31:25.190Z - normal: Loading builtin packages
+2018-06-12T01:31:25.194Z - success: asset-db-debugger loaded
+2018-06-12T01:31:25.194Z - success: color-picker loaded
+2018-06-12T01:31:25.198Z - success: package-manager loaded
+2018-06-12T01:31:25.199Z - success: qqplay-adapter loaded
+2018-06-12T01:31:25.206Z - success: sdkbox loaded
+2018-06-12T01:31:25.210Z - success: tester loaded
+2018-06-12T01:31:25.213Z - success: ui-kit-preview-extra loaded
+2018-06-12T01:31:25.217Z - success: ui-kit-preview loaded
+2018-06-12T01:31:25.220Z - success: ui-tree loaded
+2018-06-12T01:31:25.221Z - success: weapp-adapter loaded
+2018-06-12T01:31:25.995Z - normal: Initializing project /Users/mac/MatchVsGames/doubleShoot
+2018-06-12T01:31:25.997Z - normal: Loading packages
+2018-06-12T01:31:26.008Z - success: plugin-matchvs loaded
+2018-06-12T01:31:26.008Z - normal: Watching packages
+2018-06-12T01:31:26.132Z - normal: Run Application
+2018-06-12T01:31:27.057Z - success: preview server running at http://localhost:7456
+2018-06-12T01:31:32.950Z - normal: 1.9.2
+2018-06-12T01:49:56.075Z - error: 请在 [偏好设置 -> 原生开发环境] 中设置微信开发者工具路径。
+    at Object.run (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:387)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/ipc/app-ipc.js:1:1115)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:194:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+2018-06-12T01:50:31.505Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-12T01:50:31.506Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-12T01:50:32.050Z - normal: Initializing...
+
+2018-06-12T01:50:32.057Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-12T01:50:33.079Z - normal: starting ide...
+
+2018-06-12T01:50:35.922Z - normal: IDE server has started, listening on http://127.0.0.1:37783
+
+2018-06-12T01:50:35.926Z - normal: initialization finished
+
+2018-06-12T01:50:36.059Z - error: StatusCodeError: 400 - "{\"code\":400002,\"error\":\"请检查是否 project.config.json 是否存在及是否有效\"}"
+
+    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:1302)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+2018-06-12T01:52:48.815Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-12T01:52:48.817Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-12T01:52:49.340Z - normal: Initializing...
+
+2018-06-12T01:52:49.347Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-12T01:52:50.363Z - normal: starting ide...
+
+2018-06-12T01:52:53.074Z - normal: IDE server has started, listening on http://127.0.0.1:16042
+
+2018-06-12T01:52:53.078Z - normal: initialization finished
+
+2018-06-12T01:52:53.211Z - error: StatusCodeError: 400 - "{\"code\":400002,\"error\":\"请检查是否 project.config.json 是否存在及是否有效\"}"
+
+    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:1302)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+2018-06-12T01:53:17.457Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-12T01:53:17.457Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-12T01:53:17.765Z - normal: Initializing...
+
+2018-06-12T01:53:17.771Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-12T01:53:17.786Z - normal: IDE server has started, listening on http://127.0.0.1:16042
+initialization finished
+
+2018-06-12T01:53:17.796Z - error: StatusCodeError: 400 - "{\"code\":400002,\"error\":\"请检查是否 project.config.json 是否存在及是否有效\"}"
+
+    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:1302)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+2018-06-12T01:55:56.070Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-12T01:55:56.072Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-12T01:55:56.620Z - normal: Initializing...
+
+2018-06-12T01:55:56.627Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-12T01:55:57.645Z - normal: starting ide...
+
+2018-06-12T01:56:00.359Z - normal: IDE server has started, listening on http://127.0.0.1:52934
+
+2018-06-12T01:56:00.363Z - normal: initialization finished
+
+2018-06-12T01:56:00.485Z - error: StatusCodeError: 400 - "{\"code\":400002,\"error\":\"请检查是否 project.config.json 是否存在及是否有效\"}"
+
+    at Socket.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:1302)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
