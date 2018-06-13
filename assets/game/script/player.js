@@ -23,6 +23,10 @@ cc.Class({
             default: null,
             type: cc.Prefab
         },
+        hurtBoom: {
+            default: null,
+            type: cc.Prefab
+        }
     },
 
     init(playerId) {
@@ -55,26 +59,25 @@ cc.Class({
     },
 
     hurt() {
-        // if (this.curHurtGuardTime > 0) {
-        //     return;
-        // }
-        // this.curHurtGuardTime = this.hurtGuardTime;
-
-        this.heart--;
-        if (this.heart <= 0) {
-            this.dead();
-        } else {
+        if (this.heart > 0) {
+            this.heart--;
+            if (this.heart <= 0) {
+                this.dead();
+            }
             this.node.getComponent(cc.Animation).play("hit" + (this.maxHeart - this.heart));
             cc.audioEngine.play(this.hurtClip, false, 1);
+            this.refreshHeartUI();
+            var boom = cc.instantiate(this.hurtBoom);
+            boom.parent = this.node;
+            boom.position = cc.v2(0, 0);
         }
-        this.refreshHeartUI();
-        var boom = cc.instantiate(this.tankBoom);
-        boom.parent = this.node;
-        boom.position = cc.v2(0, 0);
     },
 
     dead() {
         // 游戏结束--
+        var boom = cc.instantiate(this.tankBoom);
+        boom.parent = this.node;
+        boom.position = cc.v2(0, 0);
         cc.audioEngine.play(this.deadClip, false, 1);
         if (GLB.isRoomOwner) {
             var msg = {
