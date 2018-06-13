@@ -123,6 +123,8 @@ cc.Class({
     // },
 
     update(dt) {
-        this.node.x = cc.lerp(this.node.x, this.targetPosX, 4 * dt);
+        if (this.heart > 0) {
+            this.node.x = cc.lerp(this.node.x, this.targetPosX, 4 * dt);
+        }
     }
 });
