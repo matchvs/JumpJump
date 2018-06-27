@@ -1713,3 +1713,46 @@ Missing uuid: "1d370586-7f24-4777-882e-5a15c20ac1fd"
 
 2018-06-27T02:51:30.593Z - normal: ScaleX != ScaleY. Don't know which one to return
 2018-06-27T03:06:45.733Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/resources/commomClips.meta
+2018-06-27T08:59:00.172Z - warn: The Asset used in prefab "uiExit.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiExit.prefab"
+Missing uuid: "1750f17c-aaff-48be-99bf-72727bb8166b"
+
+2018-06-27T08:59:00.174Z - warn: The Asset used by component "cc.Sprite" in prefab "uiExit.prefab" is missing. Detailed information:
+Node path: "uiExit/cpm-logo"
+Asset url: "db://assets/resources/ui/uiExit.prefab"
+Missing uuid: "cd9deacd-594c-48f7-b0c0-0ef137ccd9e4"
+
+2018-06-27T08:59:00.175Z - warn: The Asset used in prefab "uiExit.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiExit.prefab"
+Missing uuid: "1750f17c-aaff-48be-99bf-72727bb8166b"
+
+2018-06-27T08:59:00.175Z - warn: The Asset used in prefab "uiExit.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiExit.prefab"
+Missing uuid: "1750f17c-aaff-48be-99bf-72727bb8166b"
+
+2018-06-27T08:59:00.175Z - warn: The Asset used in prefab "uiExit.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiExit.prefab"
+Missing uuid: "1750f17c-aaff-48be-99bf-72727bb8166b"
+
+2018-06-27T08:59:00.175Z - warn: The Asset used in prefab "uiExit.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiExit.prefab"
+Missing uuid: "1750f17c-aaff-48be-99bf-72727bb8166b"
+
+2018-06-27T08:59:00.175Z - warn: The Asset used in prefab "uiExit.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiExit.prefab"
+Missing uuid: "1750f17c-aaff-48be-99bf-72727bb8166b"
+
+2018-06-27T08:59:00.176Z - warn: The Asset used in prefab "uiExit.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiExit.prefab"
+Missing uuid: "1750f17c-aaff-48be-99bf-72727bb8166b"
+
+2018-06-27T08:59:51.913Z - failed: Task [sync-prefab] run error, stop running other tasks.
+ TypeError: Cannot read property '_uuid' of null
+    at Object._syncPrefab (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:19252)
+    at _queue.Async.queue (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/tasks.js:1:551)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:987:13
+    at Immediate.process (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:953:21)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-06-27T09:07:55.536Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/basic/rivalLose.png.meta
