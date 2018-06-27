@@ -10,7 +10,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "uiWaitingForServer",
+    "_name": "uiMaskLayout",
     "_objFlags": 0,
     "_parent": null,
     "_children": [
@@ -45,8 +45,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 750,
-      "height": 1344
+      "width": 0,
+      "height": 0
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -66,7 +66,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "play-bg",
+    "_name": "BG",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -86,12 +86,12 @@
       "__id__": 5
     },
     "_id": "",
-    "_opacity": 0,
+    "_opacity": 231,
     "_color": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 0,
+      "r": 47,
+      "g": 47,
+      "b": 48,
       "a": 255
     },
     "_cascadeOpacityEnabled": true,
@@ -102,8 +102,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 750,
-      "height": 1344
+      "width": 2000,
+      "height": 2000
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -148,13 +148,56 @@
     "_atlas": null
   },
   {
-    "__type__": "cc.BlockInputEvents",
+    "__type__": "cc.Button",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 2
     },
-    "_enabled": true
+    "_enabled": true,
+    "transition": 0,
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "duration": 0.1,
+    "zoomScale": 1.2,
+    "clickEvents": [],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": false,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 214,
+      "g": 214,
+      "b": 214,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 124,
+      "g": 124,
+      "b": 124,
+      "a": 255
+    },
+    "_N$normalSprite": null,
+    "_N$pressedSprite": null,
+    "pressedSprite": null,
+    "_N$hoverSprite": null,
+    "hoverSprite": null,
+    "_N$disabledSprite": null,
+    "_N$target": {
+      "__id__": 2
+    }
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -162,20 +205,22 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "c38e4c0c-7688-40bc-93fe-b0bb54b4a9b2"
+      "__uuid__": "8d844406-e950-4f57-a78d-c89587ed7d0d"
     },
-    "fileId": "ddiup1otJBCp8L9UqaYxBw",
+    "fileId": "4fQYgcddBMl5JPoy3ji8Ef",
     "sync": false
   },
   {
-    "__type__": "53a79r+TudAKapJWl7FMtH4",
+    "__type__": "a8513vdGlRFfJKr4zQ5ud97",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 1
     },
     "_enabled": true,
-    "isTop": true
+    "showAnimation": 0,
+    "hideAnimation": 0,
+    "isUseMask": false
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -183,9 +228,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "c38e4c0c-7688-40bc-93fe-b0bb54b4a9b2"
+      "__uuid__": "8d844406-e950-4f57-a78d-c89587ed7d0d"
     },
-    "fileId": "70DGWWcc9BcKAXzzV5lKV4",
+    "fileId": "ac/QWBJqhNs4snmDHBrx3p",
     "sync": false
   }
 ]

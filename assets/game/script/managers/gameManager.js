@@ -7,8 +7,15 @@ cc.Class({
         cc.director.getCollisionManager().enabled = true;
         clientEvent.init();
         dataFunc.loadConfigs();
+        cc.view.enableAutoFullScreen(false);
+
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
+        this.network = window.network;
+        network.chooseNetworkMode();
+        this.getRankDataListener();
+        this.findPlayerByAccountListener();
+        /*
         wx.login({
             success: function() {
                 wx.getUserInfo({
@@ -26,6 +33,7 @@ cc.Class({
                 });
             }
         })
+        */
     },
 
     leaveRoom: function(data) {
@@ -392,6 +400,70 @@ cc.Class({
         }
     },
 
+
+    getRankDataListener: function() {
+        this.network.on("connector.rankHandler.getRankData", function(recvMsg) {
+            uiFunc.openUI("uiRankPanelVer", function(obj) {
+                var uiRankPanel = obj.getComponent("uiRankPanel");
+                uiRankPanel.setData(recvMsg.rankArray);
+            });
+        }.bind(this));
+    },
+
+    findPlayerByAccountListener: function() {
+        this.network.on("connector.entryHandler.findPlayerByAccount", function(recvMsg) {
+            clientEvent.dispatch(clientEvent.eventType.playerAccountGet, recvMsg);
+        });
+    },
+
+    loginServer: function() {
+        if (!this.network.isConnected()) {
+            this.network.connect(GLB.IP, GLB.PORT, function() {
+                    this.network.send("connector.entryHandler.login", {
+                        "account": GLB.userInfo.id + "",
+                        "channel": "0",
+                        "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id + "",
+                        "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "-"
+                    });
+                    setTimeout(function() {
+                        this.network.send("connector.rankHandler.updateScore", {
+                            "account": GLB.userInfo.id + "",
+                            "game": GLB.GAME_NAME
+                        });
+                    }.bind(this), 500);
+
+                }.bind(this)
+            );
+        } else {
+            this.network.send("connector.rankHandler.updateScore", {
+                "account": GLB.userInfo.id + "",
+                "game": GLB.GAME_NAME
+            });
+        }
+    },
+
+    userInfoReq: function(userId) {
+        if (!Game.GameManager.network.isConnected()) {
+            Game.GameManager.network.connect(GLB.IP, GLB.PORT, function() {
+                    Game.GameManager.network.send("connector.entryHandler.login", {
+                        "account": GLB.userInfo.id + "",
+                        "channel": "0",
+                        "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id + "",
+                        "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "-"
+                    });
+                    setTimeout(function() {
+                        Game.GameManager.network.send("connector.entryHandler.findPlayerByAccount", {
+                            "account": userId + "",
+                        });
+                    }, 200);
+                }
+            );
+        } else {
+            Game.GameManager.network.send("connector.entryHandler.findPlayerByAccount", {
+                "account": userId + "",
+            });
+        }
+    },
 
     onDestroy() {
         clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);

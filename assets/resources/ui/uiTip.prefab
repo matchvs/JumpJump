@@ -444,7 +444,9 @@
       "__id__": 1
     },
     "_enabled": true,
-    "isTop": true
+    "showAnimation": 0,
+    "hideAnimation": 0,
+    "isUseMask": false
   },
   {
     "__type__": "cc.Animation",

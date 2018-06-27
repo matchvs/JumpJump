@@ -20,7 +20,7 @@
                 ],
                 "height": 226,
                 "type": "panel",
-                "width": 433
+                "width": 604
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 657,
                 "type": "panel",
-                "width": 433
+                "width": 604
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 433
+            "width": 604
           },
           {
             "children": [
@@ -45,23 +45,23 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 557.984375,
+                    "height": 617,
                     "type": "panel",
-                    "width": 774.984375
+                    "width": 658.984375
                   },
                   {
                     "active": 0,
                     "children": [
                       "node-library"
                     ],
-                    "height": 557.984375,
+                    "height": 617,
                     "type": "panel",
-                    "width": 368
+                    "width": 313
                   }
                 ],
-                "height": 557.984375,
+                "height": 617,
                 "type": "dock-h",
-                "width": 1145.984375
+                "width": 975
               },
               {
                 "active": 0,
@@ -69,17 +69,17 @@
                   "console",
                   "timeline"
                 ],
-                "height": 325,
+                "height": 266,
                 "type": "panel",
-                "width": 1145.984375
+                "width": 975
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 1145.984375
+            "width": 975
           },
           {
-            "active": 1,
+            "active": 0,
             "children": [
               "inspector",
               "builder"
@@ -101,8 +101,7 @@
         "assets",
         "scene"
       ]
-    },
-    "worker": {}
+    }
   },
   "panels": {
     "sprite-editor": {
