@@ -12,7 +12,7 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
         this.network = window.network;
-        network.chooseNetworkMode();
+        this.network.chooseNetworkMode();
         this.getRankDataListener();
         this.findPlayerByAccountListener();
         /*

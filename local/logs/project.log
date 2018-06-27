@@ -1712,3 +1712,4 @@ Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
 Missing uuid: "1d370586-7f24-4777-882e-5a15c20ac1fd"
 
 2018-06-27T02:51:30.593Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-27T03:06:45.733Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/resources/commomClips.meta
