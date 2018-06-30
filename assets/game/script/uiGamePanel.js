@@ -7,29 +7,14 @@ cc.Class({
         bgmAudio: {
             default: null,
             url: cc.AudioClip
-        }
+        },
+        GameRoot:cc.Node,
+        CubeRoot:cc.Node
     },
     onLoad() {
-        this._super();
-        this.nodeDict["right"].on(cc.Node.EventType.TOUCH_START, this.rightStart, this);
-        this.nodeDict["right"].on(cc.Node.EventType.TOUCH_END, this.rightCancel, this);
-        this.nodeDict["left"].on(cc.Node.EventType.TOUCH_START, this.leftStart, this);
-        this.nodeDict["left"].on(cc.Node.EventType.TOUCH_END, this.leftCancel, this);
-        this.nodeDict["shootButton"].on(cc.Node.EventType.TOUCH_START, this.sendFireMsg, this);
-        this.defenseBtn = this.nodeDict["defenseButton"].getComponent(cc.Button);
-        this.defenseBtn.enableAutoGrayEffect = true;
-        this.defenseBtn.node.on(cc.Node.EventType.TOUCH_START, this.sendSlateMsg, this);
-        this.lackBulletAnim = this.nodeDict["lackAmmunition"].getComponent(cc.Animation);
-        this.cartridgeBullets = [].concat(this.nodeDict["cartridge"].children);
-        this.bulletCnt = this.cartridgeBullets.length;
-        clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
-        clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
-        clientEvent.on(clientEvent.eventType.refreshSlateBtn, this.refreshSlateBtn, this);
-        clientEvent.on(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
-
-        this.nodeDict["exit"].on("click", this.exit, this);
-
-        this.bgmId = cc.audioEngine.play(this.bgmAudio, true, 1);
+        setTimeout(function () {
+            Game.BattleManager.InstanceBrickAndPlayer();
+        },1000);
     },
 
     leaveRoom(data) {

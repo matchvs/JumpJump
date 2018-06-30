@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "8e7bad8d-bdf3-4883-89b1-8d5cf3b515ce",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "kontiaoji_2": {
+      "ver": "1.0.3",
+      "uuid": "ef9b8e15-35de-4ad6-9ff2-337c7baa52b8",
+      "rawTextureUuid": "8e7bad8d-bdf3-4883-89b1-8d5cf3b515ce",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 280,
+      "height": 245,
+      "rawWidth": 280,
+      "rawHeight": 245,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

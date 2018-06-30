@@ -2,7 +2,11 @@ window.Game = {
     GameManager: null,
     BulletManager: null,
     ItemManager: null,
-    PlayerManager: null
+    PlayerManager: null,
+    BattleManager: null,
+    GameUtitly: null,
+    GlobalsConfig: null,
+    GameStand: null,
 }
 
 window.GameState = cc.Enum({

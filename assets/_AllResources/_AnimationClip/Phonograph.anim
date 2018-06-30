@@ -1,0 +1,97 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Phonograph",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.0166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "32290a25-e26d-4987-b87e-cdd83699daa9"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "84ad1a1a-14dd-48b7-a317-e08f7df0fa73"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "d31c31fa-0b34-459d-8eb6-21c62f9228a3"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "1d21d624-cf28-44ff-b2ed-53d419a0462b"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "4fa64549-9f56-48b8-9f0e-3ec8813f2920"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "f326bed3-d317-408f-90dd-443b176c2af6"
+            }
+          },
+          {
+            "frame": 1.2,
+            "value": {
+              "__uuid__": "997ee1f9-067d-4b02-9108-a1a545a35d13"
+            }
+          },
+          {
+            "frame": 1.4,
+            "value": {
+              "__uuid__": "5ccec017-2524-4c8c-8339-40fdda499ec2"
+            }
+          },
+          {
+            "frame": 1.6,
+            "value": {
+              "__uuid__": "fda1fd1d-1911-488a-a1aa-6b761494a3b0"
+            }
+          },
+          {
+            "frame": 1.8,
+            "value": {
+              "__uuid__": "16789ca2-1666-496e-82f6-07482bced02d"
+            }
+          },
+          {
+            "frame": 2,
+            "value": {
+              "__uuid__": "16789ca2-1666-496e-82f6-07482bced02d"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": 267
+        },
+        {
+          "frame": 2,
+          "value": 359
+        }
+      ]
+    }
+  },
+  "events": []
+}

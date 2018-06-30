@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "017e7d0c-78b5-41cd-8c0d-868c43c8d4b5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "diaoluotexiao_4": {
+      "ver": "1.0.3",
+      "uuid": "9ee5d86f-90e4-4911-99ad-5055a6a195b5",
+      "rawTextureUuid": "017e7d0c-78b5-41cd-8c0d-868c43c8d4b5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": 2.5,
+      "trimX": 5,
+      "trimY": 0,
+      "width": 220,
+      "height": 169,
+      "rawWidth": 226,
+      "rawHeight": 174,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

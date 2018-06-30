@@ -353,9 +353,9 @@ cc.Class({
                 Game.SlateManager.hitSlate(cpProto.slateId);
             }
         }
-        Game.PlayerManager.self.move();
-        Game.PlayerManager.rival.move();
-        Game.ItemManager.move();
+        //Game.PlayerManager.self.move();
+        //Game.PlayerManager.rival.move();
+        //Game.ItemManager.move();
     },
 
     sendReadyMsg: function() {

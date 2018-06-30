@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "JumpFailedAnim",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.5,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "eebd891e-5b5d-472a-8c02-b6bbafdb82ec"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "75977eba-511b-4d83-a106-1505da6c6211"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "fe398378-ad41-4041-8663-bb1d13ed75ef"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "9ee5d86f-90e4-4911-99ad-5055a6a195b5"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "abfa5a17-dc0e-4433-9402-84ed4294f067"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
