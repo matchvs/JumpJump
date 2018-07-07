@@ -64,7 +64,7 @@
                 "width": 963.984375
               },
               {
-                "active": 1,
+                "active": 0,
                 "children": [
                   "console",
                   "timeline"
@@ -111,8 +111,8 @@
       "height": 522
     },
     "project-settings": {
-      "x": 617,
-      "y": 123,
+      "x": 44,
+      "y": 121,
       "width": 584,
       "height": 548
     },
@@ -147,8 +147,8 @@
       "height": 622
     },
     "preferences": {
-      "x": 392,
-      "y": 149,
+      "x": 218,
+      "y": 139,
       "width": 900,
       "height": 594
     }

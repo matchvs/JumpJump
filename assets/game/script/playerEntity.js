@@ -33,7 +33,8 @@ cc.Class({
     onLoad () {
         this.fashe = cc.url.raw('resources/audio/fa she.mp3');
         this.tiaozhong = cc.url.raw('resources/audio/tiao zhong.mp3');
-        this.diaoluo = cc.url.raw('resources/audio/diao luo.mp3')
+        this.diaoluo = cc.url.raw('resources/audio/diao luo.mp3');
+        this.jumpMid = cc.url.raw('resources/audio/+2.mp3');
         this.m_bIsHost = false;
         this.m_nDecideNumber = 0;
         this.m_settimeoutChangeHost = null;
@@ -285,12 +286,12 @@ cc.Class({
                 this.m_animationGatherStrength.play(this.AnimNameGatherStrength);
                 this.m_objCurrentCube.PressStart();
                 this.m_nTimer = 0;
+                this.juli=cc.audioEngine.play(this.fashe, false, 1);
             }
         }
     },
     PressEnd() {
-        //console.log(Game.BattleManager.IsGameOver)
-        if (true) {
+        if (Game.GameManager.gameState !== GameState.Over) {
             if (this.m_bCanPress && this.m_bIsAI == false) {
                 this.m_bIsPress = false;
                 this.m_bCanPress = false;
@@ -305,6 +306,7 @@ cc.Class({
                 this.m_objCurrentCube.PressEnd();
                 this.PlayerJump();
                 this.m_nTimer = 0;
+                cc.audioEngine.stop(this.juli);
             }
         }
     },
@@ -360,7 +362,6 @@ cc.Class({
         this.m_qwyzNode.active = false;
         this.m_rotateNode.runAction(cc.rotateBy(0.3, 360 * dir));
         let actionJump = cc.jumpTo(0.3, posTarget, 200, 1);
-        cc.audioEngine.play(this.fashe, false, 1);
         //this.m_compentMotionStreak.fadeTime = 0;
         setTimeout(() => {
             //     // this.m_compentMotionStreak.reset();
@@ -392,7 +393,6 @@ cc.Class({
         }
     },
     JumpSuccess(brick, point) {
-        cc.audioEngine.play(this.tiaozhong, false, 1);
         if (this.m_objCurrentCube == brick) {
             this.m_intLastScore = 0;
         }
@@ -427,11 +427,13 @@ cc.Class({
                     Game.BattleManager.MoveRoot(this.m_objCurrentCube, 0.5);
                 }
                 if (point == Game.GlobalsConfig.PointInfo().Mid) {
+                    cc.audioEngine.play(this.jumpMid, false, 1);
                     let score = Game.BattleManager.GetNormalScroe(point) + this.m_intLastScore;
                     this.AddScore(score);
                     this.m_intLastScore = score;
                 }
                 else {
+                    cc.audioEngine.play(this.tiaozhong, false, 1);
                     let score = Game.BattleManager.GetNormalScroe(point);
                     this.AddScore(score);
                     this.m_intLastScore = 0;
@@ -508,7 +510,9 @@ cc.Class({
         // this.m_compentMotionStreak.reset();
     },
     PlayerDie(needShake, brick = null, pointInfo = null) {
-        cc.audioEngine.play(this.diaoluo, false, 1);
+        if (this.m_nPlayerID == 1) {
+            cc.audioEngine.play(this.diaoluo, false, 1);
+        }
         if (needShake) {
             this.PlayerShake(brick, pointInfo);
         }

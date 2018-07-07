@@ -19,6 +19,7 @@ cc.Class({
         mvs.engine.leaveRoom("");
         var gamePanel = uiFunc.findUI("uiGamePanel");
         if (gamePanel) {
+            gamePanel.getComponent("uiGamePanel").stopBgm();
             uiFunc.closeUI("uiGamePanel");
             gamePanel.destroy();
         }
