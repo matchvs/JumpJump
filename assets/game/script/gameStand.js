@@ -107,11 +107,12 @@ cc.Class({
         let left_point = null;
         if (x1 > x2) {
             right_point = new cc.Vec2(x1, y1);
-            left_point = new cc.Vec2(x2, y2);} else {
+            left_point = new cc.Vec2(x2, y2);
+        } else {
             left_point = new cc.Vec2(x1, y1);
-            right_point = new cc.Vec2(x2, y2);}
-            return { rightPoint: right_point, leftPoint: left_point
-        };
+            right_point = new cc.Vec2(x2, y2);
+        }
+            return { rightPoint: right_point, leftPoint: left_point };
     },
     // update (dt) {},
 });

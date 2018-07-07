@@ -31,9 +31,7 @@ cc.Class({
 
     init(playerId) {
         this.playerId = playerId;
-        this.direction = DirectState.None;
-        this.targetPosX = this.node.x;
-        this.maxHeart = this.heart;
+
 
         // this.hurtGuardTime = 0.2;
         // this.curHurtGuardTime = 0;

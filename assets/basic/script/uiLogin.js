@@ -11,6 +11,5 @@ cc.Class({
     startGame() {
         Game.GameManager.matchVsInit();
         Game.BulletManager.Init();
-        Game.BattleManager.Init();
     }
 });

@@ -92,16 +92,23 @@ cc.Class({
     //    }
     //}
     Game.PlayerManager.AddOnePlayer(1, firstCenter, firstBrick);
-    Game.PlayerManager.AddOnePlayer(2, firstCenter, firstBrick);
-    setTimeout(function () {
-        this.player=uiFunc.findUI("uiGamePanel").getComponent("uiGamePanel").CubeRoot.children[2]
-        this.player.parent.parent.on(cc.Node.EventType.TOUCH_START,function () {
-            this.player.getComponent("playerEntity").BePress();
-        },this);
-        this.player.parent.parent.on(cc.Node.EventType.TOUCH_END,function () {
-            this.player.getComponent("playerEntity").PressEnd();
-        },this);
-    },2000)
+    Game.PlayerManager.AddOnePlayer2(2, firstCenter, firstBrick);
+    //setTimeout(function () {
+    //    var cubeRoot = uiFunc.findUI("uiGamePanel").getComponent("uiGamePanel").CubeRoot;
+    //    if(cubeRoot.children[2].getComponent("playerEntity").m_nPlayerID==1){
+     //       this.player = cubeRoot.children[2];
+    //        Game.player2 = cubeRoot.children[3].getComponent("playerEntity");
+    //    }else{
+    //        this.player = cubeRoot.children[3];
+     //       Game.player2 = cubeRoot.children[2].getComponent("playerEntity");
+     //   }
+     //   this.player.parent.parent.on(cc.Node.EventType.TOUCH_START,function () {
+     //       this.player.getComponent("playerEntity").BePress();
+     //   },this);
+     //   this.player.parent.parent.on(cc.Node.EventType.TOUCH_END,function () {
+     //       this.player.getComponent("playerEntity").PressEnd();
+     //   },this);
+    //},2000);
     },
 //场景移动
     MoveRoot(brick, duration) {

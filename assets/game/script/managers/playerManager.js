@@ -14,24 +14,29 @@ cc.Class({
         this.isReportFinished = false;
         this.disTime = 0;
         this.m_PlayerPrefabPath = "prefab/player";
+        this.m_PlayerPrefabPath2 = "prefab/player2";
         this.m_listSigns = null;
         this.m_listPlayers = null;
         this.m_listPlayersLength = 0;
         this.m_nPlayersCount = 0;
         this.m_PlayerPrefab = null;
+        //this.self = this.selfNode.getComponent("player");
+        //this.self.init(GLB.playerUserIds[0]);
+        //this.rival = this.rivalNode.getComponent("player");
+        //this.rival.init(GLB.playerUserIds[1]);
     },
     PlayerCount() {
-    return this.m_nPlayersCount;
-},
- CurrentPlayerXDistance() {
-    return this.m_listPlayers[1].XDistance;
-},
- CurrentPlayerPosXDistance() {
-    return this.GetPlayerPosXDistance(1);
-},
-GetPlayerPosXDistance(id) {
-    return this.m_listPlayers[id].GetPosXDistance();
-},
+        return this.m_nPlayersCount;
+    },
+    CurrentPlayerXDistance() {
+        return this.m_listPlayers[1].XDistance;
+    },
+    CurrentPlayerPosXDistance() {
+        return this.GetPlayerPosXDistance(1);
+    },
+    GetPlayerPosXDistance(id) {
+        return this.m_listPlayers[id].GetPosXDistance();
+    },
 GetOnePlayerScore(id) {
     if (null != this.m_listPlayers[id]) {
         return this.m_listPlayers[id].Score;
@@ -166,6 +171,12 @@ AddOnePlayer(id, pos, currentCube, AILevel = null) {
         this.m_PlayerPrefab = Obj;
         let objPlayer = cc.instantiate(this.m_PlayerPrefab);
         objPlayer.parent = uiFunc.findUI("uiGamePanel").getComponent("uiGamePanel").CubeRoot;
+        objPlayer.parent.parent.on(cc.Node.EventType.TOUCH_START,function () {
+            objPlayer.getComponent("playerEntity").BePress();
+        },this);
+        objPlayer.parent.parent.on(cc.Node.EventType.TOUCH_END,function () {
+            objPlayer.getComponent("playerEntity").PressEnd();
+        },this);
         let tempPlayerEntity = objPlayer.getComponent("playerEntity");
         tempPlayerEntity.Init(id, pos, currentCube, AILevel);
         this.m_listPlayersLength += 1;
@@ -177,6 +188,29 @@ AddOnePlayer(id, pos, currentCube, AILevel = null) {
         }
     });
 },
+    AddOnePlayer2(id, pos, currentCube, AILevel = null) {
+        cc.loader.loadRes(this.m_PlayerPrefabPath2, (err, Obj) => {
+            if (err != null) {
+                cc.log(err);
+            }
+            if (null == Obj) {
+                cc.log("读取的" + this.m_PlayerPrefabPath2 + "预制体不存在");
+            }
+            this.m_PlayerPrefab = Obj;
+            let objPlayer = cc.instantiate(this.m_PlayerPrefab);
+            objPlayer.parent = uiFunc.findUI("uiGamePanel").getComponent("uiGamePanel").CubeRoot;
+            let tempPlayerEntity = objPlayer.getComponent("playerEntity");
+            Game.player2 = tempPlayerEntity;
+            tempPlayerEntity.Init(id, pos, currentCube, AILevel);
+            this.m_listPlayersLength += 1;
+            this.m_nPlayersCount += 1;
+            //this.m_listSigns[this.m_listPlayersLength] = id; //记录玩家id对应字典第几个
+            //this.m_listPlayers[id] = tempPlayerEntity;
+            if (id != 1) {
+                tempPlayerEntity.TurnTranslucent(true);
+            }
+        });
+    },
 RemoveAllPlayer() {
     if (this.m_listPlayersLength > 0) {
         for (let key = 1; key <= this.m_listPlayersLength; key++) {
@@ -195,19 +229,19 @@ RemoveOnePlayer(id) {
         this.m_nPlayersCount -= 1;
     }
 },
-MoveOnePlayer(id, fMoveXDistance) {
-    if (null != this.m_listPlayers[id]) {
-        this.m_listPlayers[id].XDistance = fMoveXDistance;
-        this.m_listPlayers[id].PlayerJump();
-    }
-},
-MoveOthersPlayer(listOthersMove) {
-    for (let key = 1; key <= this.m_listPlayersLength; key++) {
-        if (null != listOthersMove[this.m_listSigns[key]]) {
-            this.MoveOnePlayer(this.m_listSigns[key], listOthersMove[this.m_listSigns[key]]);
+    MoveOnePlayer(id, fMoveXDistance) {
+        if (null != this.m_listPlayers[id]) {
+            this.m_listPlayers[id].XDistance = fMoveXDistance;
+            this.m_listPlayers[id].PlayerJump();
         }
-    }
-},
+    },
+    MoveOthersPlayer(listOthersMove) {
+        for (let key = 1; key <= this.m_listPlayersLength; key++) {
+            if (null != listOthersMove[this.m_listSigns[key]]) {
+                this.MoveOnePlayer(this.m_listSigns[key], listOthersMove[this.m_listSigns[key]]);
+            }
+       }
+    },
 OnePlayerDie(id, needShake) {
     this.m_listPlayers[id].PlayerDie(needShake);
 },

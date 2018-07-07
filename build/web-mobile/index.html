@@ -50,5 +50,17 @@
 <script src="src/settings.js" charset="utf-8"></script>
 
 <script src="main.js" charset="utf-8"></script>
+
+<script charset="utf-8" id="protocols" type="text/javascript">
+  var protocols = document.createElement("script");
+  protocols.onload = function () {
+    anysdk.agentManager.init();
+    anysdk.agentManager.loadAllPlugins(function (code, msg) {
+    });
+  };
+  protocols.src = "http://statics.h5.anysdk.com/protocols/protocols.js";
+  document.body.appendChild(protocols);
+</script>
+
 </body>
 </html>

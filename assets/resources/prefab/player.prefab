@@ -700,8 +700,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 116,
-      "height": 115
+      "width": 72,
+      "height": 111
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -728,7 +728,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "bd0bf5ec-b587-4ee7-a248-4899ca74c142"
+      "__uuid__": "2fec0d4f-e05b-422a-9d9f-d4f3108d5c10"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -964,7 +964,9 @@
       "__id__": 30
     },
     "_enabled": true,
-    "_defaultClip": null,
+    "_defaultClip": {
+      "__uuid__": "b364292f-205c-422d-a9af-445819d4316a"
+    },
     "_clips": [
       {
         "__uuid__": "b364292f-205c-422d-a9af-445819d4316a"

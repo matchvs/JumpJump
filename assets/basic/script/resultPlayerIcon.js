@@ -20,6 +20,7 @@ cc.Class({
     },
 
     userInfoSet: function(recvMsg) {
+        console.log(this.nameLb)
         this.nameLb.string = recvMsg.userName;
         if (recvMsg.account == this.playerId) {
             if (recvMsg.headIcon && recvMsg.headIcon !== "-") {

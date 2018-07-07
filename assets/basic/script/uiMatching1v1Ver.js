@@ -39,7 +39,9 @@ cc.Class({
 
     startGame: function() {
         console.log('游戏即将开始');
-        cc.director.loadScene('game');
+        cc.director.loadScene('game',function () {
+            console.log('加载场景');
+        });
     },
 
     joinRoomResponse: function(data) {
@@ -50,7 +52,7 @@ cc.Class({
             console.log('房间号: ' + data.roomInfo.roomID);
         }
         GLB.roomId = data.roomInfo.roomID;
-        var userIds = [GLB.userInfo.id]
+        var userIds = [GLB.userInfo.id];
         console.log('房间用户: ' + userIds);
 
         var playerIcon = null;

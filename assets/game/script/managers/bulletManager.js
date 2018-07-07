@@ -1,3 +1,4 @@
+var mvs = require("Matchvs");
 cc.Class({
     extends: cc.Component,
 
@@ -8,26 +9,41 @@ cc.Class({
     onLoad() {
         Game.BulletManager = this;
         this.BrickName = {
-            book: "Book",
-            calendar: "Calendar",
-            desk: "Desk",
-            fishTank: "FishTank",
-            pig: "Pig",
+            box1: "Box1",
+            box2: "Box2",
+            box3: "Box3",
+            box4: "Box4",
+            box5: "Box5",
+            box6: "Box6",
+            box7: "Box7",
+            box8: "Box8",
+            box9: "Box9",
+            box10: "Box10",
         }
         this.BrickWeight = {
-            book: 0,
-            calendar: 1,
-            desk: 2,
-            fishTank: 3,
-            pig: 4,
-            MaxNumber: 5
+            box1: 0,
+            box2: 1,
+            box3: 2,
+            box4: 3,
+            box5: 4,
+            box6: 5,
+            box7: 6,
+            box8: 7,
+            box9: 8,
+            box10: 9,
+            MaxNumber: 10
         }
         this.m_brickObj = [
-            { Name: "prefab/Book", IsLoaded: false },
-            { Name: "prefab/Desk", IsLoaded: false },
-            { Name: "prefab/Calendar", IsLoaded: false },
-            { Name: "prefab/FishTank", IsLoaded: false },
-            { Name: "prefab/Pig", IsLoaded: false },
+            { Name: "prefab/Box1", IsLoaded: false },
+            { Name: "prefab/Box2", IsLoaded: false },
+            { Name: "prefab/Box3", IsLoaded: false },
+            { Name: "prefab/Box4", IsLoaded: false },
+            { Name: "prefab/Box5", IsLoaded: false },
+            { Name: "prefab/Box6", IsLoaded: false },
+            { Name: "prefab/Box7", IsLoaded: false },
+            { Name: "prefab/Box8", IsLoaded: false },
+            { Name: "prefab/Box9", IsLoaded: false },
+            { Name: "prefab/Box10", IsLoaded: false },
         ];
         this.m_brickSize = [0, 1];
         this.m_brickPrefab = {};
@@ -70,10 +86,10 @@ cc.Class({
     },
 //初始生成方块
 InitInstanceBrick() {
-    let brick1 = this.GetBrick(this.BrickName.book);
+    let brick1 = this.GetBrick(this.BrickName.box1);
     let BrickEntity1 = brick1.getComponent("brickEntity");
     brick1.setPosition(this.FirstBrickPosition());
-    let brick2 = this.GetBrick(this.BrickName.book);
+    let brick2 = this.GetBrick(this.BrickName.box1);
     brick2.setSiblingIndex(0);
     let BrickEntity2 = brick2.getComponent("brickEntity");
     brick2.setPosition(this.SecondBrickPosition());
@@ -116,6 +132,8 @@ InstanceBrick(brickCount, randomBrick, randomSize, randomDirection, randomPositi
     this.m_currentBrickPosition = nextBrickPosition;
     this.m_currentBrickEntity = nextBrickEntity;
     this.m_nBrickCount++;
+    Game.dir = random_direction;
+    Game.pos = nextBrickPosition;
     //GameNetWorkManager_1.GameNetWorkManager.GetInstance().SendGameData({ info: GlobalConfing_1.GlobalConfing.MessageId_InstanceBrick, brickCount: this.m_nBrickCount, randomBrick: random_brick, randomSize: random_size, randomDirection: random_direction, randomPosition: nextBrickPosition });
 },
 //回收对象
@@ -183,28 +201,13 @@ GetNormalScroe(pointInfo) {
 GetSpecialScore(brickName) {
     let score = 0;
     switch (brickName) {
-        case BrickName.blackCube:
+        case this.BrickName.box5:
             score = 10;
             break;
-        case BrickName.book:
+        case this.BrickName.box8:
             score = 10;
             break;
-        case BrickName.desk:
-            score = 10;
-            break;
-        case BrickName.glassTable:
-            score = 10;
-            break;
-        case BrickName.light:
-            score = 10;
-            break;
-        case BrickName.refrigerator:
-            score = 10;
-            break;
-        case BrickName.roundTable:
-            score = 10;
-            break;
-        case BrickName.whiteCube:
+        case this.BrickName.box10:
             score = 10;
             break;
         default:
@@ -263,20 +266,35 @@ BrickFactory(randomBrick, randomSize) {
     let sizeWeight = randomSize % this.m_brickSize.length;
     let brickNode = null;
     switch (brickWeight) {
-        case this.BrickWeight.book:
-            brickNode = this.GetBrick(this.BrickName.book);
+        case this.BrickWeight.box1:
+            brickNode = this.GetBrick(this.BrickName.box1);
             break;
-        case this.BrickWeight.desk:
-            brickNode = this.GetBrick(this.BrickName.desk);
+        case this.BrickWeight.box2:
+            brickNode = this.GetBrick(this.BrickName.box2);
             break;
-        case this.BrickWeight.pig:
-            brickNode = this.GetBrick(this.BrickName.pig);
+        case this.BrickWeight.box3:
+            brickNode = this.GetBrick(this.BrickName.box3);
             break;
-        case this.BrickWeight.calendar:
-            brickNode = this.GetBrick(this.BrickName.calendar);
+        case this.BrickWeight.box4:
+            brickNode = this.GetBrick(this.BrickName.box4);
             break;
-        case this.BrickWeight.fishTank:
-            brickNode = this.GetBrick(this.BrickName.fishTank);
+        case this.BrickWeight.box5:
+            brickNode = this.GetBrick(this.BrickName.box5);
+            break;
+        case this.BrickWeight.box6:
+            brickNode = this.GetBrick(this.BrickName.box6);
+            break;
+        case this.BrickWeight.box7:
+            brickNode = this.GetBrick(this.BrickName.box7);
+            break;
+        case this.BrickWeight.box8:
+            brickNode = this.GetBrick(this.BrickName.box8);
+            break;
+        case this.BrickWeight.box9:
+            brickNode = this.GetBrick(this.BrickName.box9);
+            break;
+        case this.BrickWeight.box10:
+            brickNode = this.GetBrick(this.BrickName.box10);
             break;
         default:
             cc.error("方块工厂出错");

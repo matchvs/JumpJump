@@ -7,6 +7,9 @@ window.Game = {
     GameUtitly: null,
     GlobalsConfig: null,
     GameStand: null,
+    player2: null,
+    dir: null,
+    pos: null
 }
 
 window.GameState = cc.Enum({

@@ -252,6 +252,7 @@ cc.Class({
     },
 
     loginResponse: function(info) {
+        console.log(info)
         if (info.status !== 200) {
             console.log('登录失败,异步回调错误码:' + info.status);
         } else {
@@ -317,26 +318,20 @@ cc.Class({
             }
             var info = rsp.frameItems[i];
             var cpProto = JSON.parse(info.cpProto);
-            if (info.cpProto.indexOf(GLB.DIRECTION) >= 0) {
-                if (GLB.userInfo.id === info.srcUserID) {
-                    Game.PlayerManager.self.setDirect(cpProto.direction);
-                } else {
-                    Game.PlayerManager.rival.setDirect(cpProto.direction);
+            if (cpProto.point != null) {
+                if (GLB.userInfo.id !== info.srcUserID) {
+                    uiFunc.findUI("uiGamePanel").getComponent("uiGamePanel").updateScore2(cpProto.point);
                 }
             }
-            if (info.cpProto.indexOf(GLB.FIRE) >= 0) {
-                if (GLB.userInfo.id === info.srcUserID) {
-                    Game.PlayerManager.self.fire();
-                } else {
-                    Game.PlayerManager.rival.fire();
+            if (cpProto.fxDistance != null) {
+                if (GLB.userInfo.id !== info.srcUserID) {
+                    Game.player2.m_fXDistance = cpProto.fxDistance;
+                    Game.player2.PlayerJump();
                 }
             }
-
-            if (info.cpProto.indexOf(GLB.HURT) >= 0) {
-                if (GLB.userInfo.id === cpProto.playerId) {
-                    Game.PlayerManager.self.hurt();
-                } else {
-                    Game.PlayerManager.rival.hurt();
+            if (cpProto.random_direction != null) {
+                if (GLB.userInfo.id !== info.srcUserID) {
+                    Game.BattleManager.InstanceBrick(null,null,null,cpProto.random_direction,cpProto.nextBrickPosition);
                 }
             }
             if (info.cpProto.indexOf(GLB.SHOOT_GUN_ITEM) >= 0) {
@@ -386,8 +381,9 @@ cc.Class({
         this.readyCnt = 0;
         this.isRivalLeave = false;
         cc.director.loadScene('game', function() {
-            uiFunc.openUI("uiGamePanel", function() {
+            uiFunc.openUI("uiGamePanel", function(panel) {
                 this.sendReadyMsg();
+                panel.getComponent("uiGamePanel").init();
             }.bind(this));
         }.bind(this));
     },

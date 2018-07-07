@@ -15,12 +15,14 @@ cc.Class({
     },
 
     start() {
-        var isLose = Game.GameManager.isRivalLeave ? false : Game.PlayerManager.self.heart < Game.PlayerManager.rival.heart;
-
-        this.player = this.nodeDict["player"].getComponent("resultPlayerIcon");
-        this.player.setData(Game.PlayerManager.self.playerId);
-        this.rival = this.nodeDict["rival"].getComponent("resultPlayerIcon");
-        this.rival.setData(Game.PlayerManager.rival.playerId);
+        uiFunc.findUI("uiGamePanel").getComponent("uiGamePanel").stopBgm();
+        var point1 = uiFunc.findUI("uiGamePanel").getChildByName("Board").getChildByName("player1").getChildByName("score").getComponent(cc.Label).string;
+        var point2 = uiFunc.findUI("uiGamePanel").getChildByName("Board").getChildByName("player2").getChildByName("score").getComponent(cc.Label).string;
+        var isLose = point1 > point2 ? false : true;
+        this.player = this.node.getChildByName("key_playerLayout").getChildByName("key_player");
+        this.player.getChildByName("label").getComponent(cc.Label).string = GLB.playerUserIds[0];
+        this.rival = this.node.getChildByName("key_rivalLayout").getChildByName("key_rival");
+        this.rival.getChildByName("label").getComponent(cc.Label).string = GLB.playerUserIds[1];
         this.nodeDict["vs"].active = false;
         this.nodeDict["score"].active = true;
         this.nodeDict["quit"].on("click", this.quit, this);
@@ -36,8 +38,8 @@ cc.Class({
         } else {
             cc.audioEngine.play(this.loseClip, false, 1);
         }
-        this.nodeDict["playerScore"].getComponent(cc.Label).string = 3 - Game.PlayerManager.rival.heart;
-        this.nodeDict["rivalScore"].getComponent(cc.Label).string = 3 - Game.PlayerManager.self.heart;
+        this.nodeDict["playerScore"].getComponent(cc.Label).string = point1;
+        this.nodeDict["rivalScore"].getComponent(cc.Label).string = point2;
     },
 
     quit: function() {
