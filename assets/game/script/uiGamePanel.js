@@ -99,7 +99,9 @@ cc.Class({
     TimeCount() {
         if (Game.GameManager.gameState !== GameState.Over) {
             this.m_nTime -= 1;
-            this.node.getChildByName("TimeNode").getChildByName("Label").getComponent(cc.Label).string = this.m_nTime
+            if(this.node){
+                this.node.getChildByName("TimeNode").getChildByName("Label").getComponent(cc.Label).string = this.m_nTime
+            }
             // cc.log(this.m_nTime);
             if (this.m_nTime <= 0) {
                 this.m_nTime = 0;

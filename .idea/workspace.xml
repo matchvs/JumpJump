@@ -3,11 +3,243 @@
   <component name="ChangeListManager">
     <list default="true" id="e15cb34a-be2e-45f5-be97-143830e39c1c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/script/uiExit.js" afterPath="$PROJECT_DIR$/assets/basic/script/uiExit.js" />
-      <change beforePath="$PROJECT_DIR$/assets/game/script/playerEntity.js" afterPath="$PROJECT_DIR$/assets/game/script/playerEntity.js" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/audio/BMG_01.mp3" afterPath="$PROJECT_DIR$/assets/resources/audio/BMG_01.mp3" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/audio/diao luo.mp3" afterPath="$PROJECT_DIR$/assets/resources/audio/diao luo.mp3" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/audio/fa she.mp3" afterPath="$PROJECT_DIR$/assets/resources/audio/fa she.mp3" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/boom.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/boom.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/bulletHit.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/bulletHit.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/hit1.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/hit1.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/hit2.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/hit2.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/hit3.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/hit3.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/itemAppear.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/itemAppear.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/lack.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/lack.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/networkError.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/networkError.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/readyanimation.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/readyanimation.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/reloading.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/reloading.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/rival.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/rival/hit1.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/rival/hit1.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/rival/hit2.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/rival/hit2.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/rival/hit3.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/rival/hit3.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/self.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/self/hit1.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/self/hit1.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/self/hit2.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/self/hit2.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/self/hit3.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/self/hit3.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/sheel.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/sheel.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/slateBoom.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/slateBoom.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/tankBoom.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/tankBoom.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/timeover.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/anim/timeover.anim.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/game/script/uiGamePanel.js" afterPath="$PROJECT_DIR$/assets/game/script/uiGamePanel.js" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/di.png.meta" afterPath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/di.png.meta" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子.meta" afterPath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子.meta" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_1.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_2.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_3.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_4.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_5.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_6.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_7.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_8.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_9.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/示意.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/示意.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_1.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_10.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_11.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_12.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_13.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_14.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_15.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_15.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_16.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_17.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_18.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_18.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_2.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_3.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_4.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_5.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_6.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_7.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_8.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_9.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/示意.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/示意.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_1.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_10.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_11.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_2.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_3.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_4.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_5.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_6.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_7.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_8.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_9.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/示意.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/示意.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/kontiaoji_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/kontiaoji_1.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/kontiaoji_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/kontiaoji_2.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/kontiaoji_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/kontiaoji_3.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/示意.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/示意.png.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_UI.meta" afterPath="$PROJECT_DIR$/assets/resources/_AllResources/_UI.meta" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/gameClips.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/gameClips/bgm.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/gameClips/bgm.mp3.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/gameClips/dead.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/gameClips/dead.mp3.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/gameClips/fire.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/gameClips/fire.mp3.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/gameClips/hurt.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/gameClips/hurt.mp3.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/gameClips/shootGunItem.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/gameClips/shootGunItem.mp3.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiGamePanel.prefab" afterPath="$PROJECT_DIR$/assets/resources/ui/uiGamePanel.prefab" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiMaskLayout.prefab" afterPath="$PROJECT_DIR$/assets/resources/ui/uiMaskLayout.prefab" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiMatching1v1.prefab" afterPath="$PROJECT_DIR$/assets/resources/ui/uiMatching1v1.prefab" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/project.config.json" afterPath="$PROJECT_DIR$/build/wechatgame/project.config.json" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/01/01cdbead0.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/03/03aac364b.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/04/0433d0ef-58ac-412e-aed0-2d6615ea652c.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/04/044dc30fc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/08/0851f2098.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0d/0dccf371e.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0f/0fd4c6720.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/1d/1dbf6307-cbb5-405f-8bf4-93c5ce4206af.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/1e/1e829be6-f1b1-4b46-9ccb-894075142b94.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/20/2003f418-8ae5-4dff-95b1-8f74ddeec040.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/2d/2d92e324-997b-431d-ac16-76fec22fbed3.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/50/504712f4-a882-4aa6-9c2b-63bc9672b04b.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/65/65e32f47-e35a-4b33-97e3-af707f011e86.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/7c/7ca92185-edbf-4310-bd25-9532d29ece2d.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/91/91babc8c-c317-48c7-a419-711e39c3850f.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/91/91dd26c7-4fb2-4fc9-bded-a3e407402b69.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/92/9224b611-5192-4853-8680-7f340c0ce621.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/96/9650d07a-deee-4229-ac86-022b6fe42d29.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/a4/a438cc2a-7ac2-4f5d-9010-283cc7b970ef.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/b2/b2cc3eec-68ad-4af4-a20f-b526e3c54cfd.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/b8/b893739f-7c15-4014-8be1-ea8d4e9e509c.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/d0/d0676350-5c60-4671-a2e3-710a33d185f7.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/d4/d46ca44c-8e6a-47d1-baed-7fecf083a401.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/d5/d5b852b3-e254-430a-ab46-e7d391195f41.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/da/da1aaa66-2eaa-4c80-839a-142ecf9fa4d1.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/e4/e4681265-a5f5-4b61-9f30-b6703541fcea.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/f1/f19b7656-c2d9-4b55-b4d1-6a5463767329.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/f9/f9719994-4f79-4136-a698-19c182daf88e.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/示意.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_15.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_18.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/示意.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/示意.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/kontiaoji_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/kontiaoji_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/kontiaoji_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/示意.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/gameClips/bgm.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/gameClips/dead.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/gameClips/fire.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/gameClips/hurt.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/gameClips/shootGunItem.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/src/project.js" afterPath="$PROJECT_DIR$/build/wechatgame/src/project.js" />
+      <change beforePath="$PROJECT_DIR$/build/wechatgame/src/settings.js" afterPath="$PROJECT_DIR$/build/wechatgame/src/settings.js" />
       <change beforePath="$PROJECT_DIR$/local/logs/project.log" afterPath="$PROJECT_DIR$/local/logs/project.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,14 +274,14 @@
       <file leaf-file-name="uiGamePanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/game/script/uiGamePanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+            <state relative-caret-position="399">
+              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uiExit.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uiExit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/basic/script/uiExit.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
@@ -73,7 +305,7 @@
         <entry file="file://$PROJECT_DIR$/assets/basic/script/uiVsResult.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="75" />
+              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -101,10 +333,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/game/script/managers/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
+            <state relative-caret-position="4807">
               <caret line="263" column="27" lean-forward="false" selection-start-line="263" selection-start-column="27" selection-end-line="263" selection-end-column="27" />
               <folding />
             </state>
@@ -177,9 +409,9 @@
         <option value="$PROJECT_DIR$/assets/game/script/managers/playerManager.js" />
         <option value="$PROJECT_DIR$/assets/game/script/managers/gameManager.js" />
         <option value="$PROJECT_DIR$/assets/basic/script/uiVsResult.js" />
-        <option value="$PROJECT_DIR$/assets/game/script/uiGamePanel.js" />
         <option value="$PROJECT_DIR$/assets/game/script/playerEntity.js" />
         <option value="$PROJECT_DIR$/assets/basic/script/uiExit.js" />
+        <option value="$PROJECT_DIR$/assets/game/script/uiGamePanel.js" />
       </list>
     </option>
   </component>
@@ -316,12 +548,12 @@
       <workItem from="1530079304723" duration="44000" />
       <workItem from="1530079407994" duration="633000" />
       <workItem from="1530081892511" duration="102832000" />
-      <workItem from="1530613031565" duration="53220000" />
+      <workItem from="1530613031565" duration="53545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156749000" />
+    <option name="totallyTimeSpent" value="157074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1912" height="988" extended-state="0" />
@@ -582,14 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/game/script/managers/gameManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="263" column="27" lean-forward="false" selection-start-line="263" selection-start-column="27" selection-end-line="263" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/uiLogin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -614,18 +838,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/game/script/uiGamePanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/uiVsResult.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="75" />
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="75" />
           <folding />
         </state>
       </provider>
@@ -634,6 +850,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/game/script/uiGamePanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/game/script/managers/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4807">
+          <caret line="263" column="27" lean-forward="false" selection-start-line="263" selection-start-column="27" selection-end-line="263" selection-end-column="27" />
           <folding />
         </state>
       </provider>

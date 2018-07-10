@@ -1523,3 +1523,3005 @@ initialization finished
 
 2018-07-07T09:00:58.889Z - normal: open IDE success
 
+2018-07-07T09:15:31.928Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/resources/gameClips.meta
+2018-07-07T09:15:34.841Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/edu/jump-123/build",
+  "debug": false,
+  "dest": "/Users/mac/edu/jump-123/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "RichText",
+    "MotionStreak",
+    "DragonBones",
+    "Physics",
+    "Camera",
+    "Native NetWork"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": true,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.jump-123",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "jump-123",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "cc4567b0-a2c0-4b",
+  "zipCompressJs": true,
+  "project": "/Users/mac/edu/jump-123",
+  "projectName": "jump-123",
+  "debugBuildWorker": false
+}
+2018-07-07T09:15:34.854Z - normal: Building /Users/mac/edu/jump-123
+2018-07-07T09:15:34.855Z - normal: Destination /Users/mac/edu/jump-123/build/wechatgame
+2018-07-07T09:15:34.856Z - normal: Delete /Users/mac/edu/jump-123/build/wechatgame/**/*
+2018-07-07T09:15:47.450Z - normal: Compiled project javascript file successfully
+2018-07-07T09:15:47.450Z - normal: Start building assets
+2018-07-07T09:15:47.451Z - normal: Start spawn build-worker
+2018-07-07T09:15:48.239Z - normal: Finish spawn build-worker
+2018-07-07T09:15:48.240Z - normal: Start init build-worker
+2018-07-07T09:15:50.460Z - normal: 1.9.2
+2018-07-07T09:15:50.831Z - normal: Finish init build-worker
+2018-07-07T09:15:50.832Z - normal: Start build-assets in worker
+2018-07-07T09:15:51.516Z - warn: Script attached to "uiMaskLayout" in prefab "uiMaskLayout.prefab" is missing or invalid. Detailed information:
+Node path: "uiMaskLayout"
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Script UUID: "a8513bdd-1a54-457c-92ab-e33439b9df7b"
+Class ID: "a8513vdGlRFfJKr4zQ5ud97"
+
+2018-07-07T09:15:51.555Z - warn: Script attached to "uiMatching1v1" in prefab "uiMatching1v1.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching1v1"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Script UUID: "6d6c930b-cd48-4766-b6eb-781e2d9817cf"
+Class ID: "6d6c9MLzUhHZrbreB4tmBfP"
+
+2018-07-07T09:15:51.596Z - warn: Script attached to "uiMatching2v2" in prefab "uiMatching2v2.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching2v2"
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Script UUID: "a9812302-2fae-432d-94b4-6b86db93294d"
+Class ID: "a9812MCL65DLZS0a4bbkylN"
+
+2018-07-07T09:15:51.659Z - warn: Script attached to "first" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/first"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:15:51.660Z - warn: Script attached to "second" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/second"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:15:51.661Z - warn: Script attached to "third" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/third"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:15:51.662Z - warn: Script attached to "rankItem" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/ScrollView/view/content/rankItem"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:15:51.781Z - warn: The referenced asset used in "db://assets/resources/prefab/Book.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "Book/Background"
+Used in Component: "cc.Sprite"
+uuid: "bbd0cad2-5c37-493b-8926-c5300e5e8cac"
+2018-07-07T09:15:51.784Z - warn: The referenced asset used in "db://assets/resources/prefab/player.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "player/rotate/di/qwyz"
+Used in Component: "cc.Sprite"
+uuid: "d38b3419-8ca2-4988-b794-b2369f47b5f4"
+2018-07-07T09:15:51.785Z - warn: The referenced asset used in "db://assets/resources/ui/uiCreateRoomVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+2018-07-07T09:15:51.810Z - warn: The referenced asset used in "db://assets/resources/ui/uiLobbyPanelVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+2018-07-07T09:15:51.847Z - warn: The referenced asset used in "db://assets/resources/ui/uiMaskLayout.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "8d844406-e950-4f57-a78d-c89587ed7d0d"
+2018-07-07T09:15:51.848Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+2018-07-07T09:15:51.852Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-07-07T09:15:51.857Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-07-07T09:15:51.859Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+2018-07-07T09:15:51.895Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1Ver.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+2018-07-07T09:15:51.899Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
+2018-07-07T09:15:51.902Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+2018-07-07T09:15:51.904Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2Ver.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "7af4c07e-6da4-4e33-a111-2a7e3d7d2c10"
+2018-07-07T09:15:51.905Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatchingVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "9d9420b0-61ef-482e-a2bd-426b5b0e332f"
+2018-07-07T09:15:51.909Z - warn: The referenced asset used in "db://assets/resources/ui/uirankPanelVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+2018-07-07T09:15:51.933Z - warn: The referenced asset used in "db://assets/resources/ui/uiRoomListVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+2018-07-07T09:15:51.952Z - warn: The referenced asset used in "db://assets/resources/ui/uiRoomVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+2018-07-07T09:15:51.989Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+2018-07-07T09:15:51.991Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "275a72f3-ffff-43cf-9c1c-b6495b147d60"
+2018-07-07T09:15:51.992Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "1ceb701f-3aa5-45a6-9daf-c261fabbecbf"
+2018-07-07T09:15:51.994Z - warn: The referenced asset used in "db://assets/resources/ui/uiTip.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+2018-07-07T09:15:53.215Z - normal: Finish build-assets in worker
+2018-07-07T09:15:53.225Z - normal: Finish building assets
+2018-07-07T09:15:53.276Z - normal: Start building raw assets
+2018-07-07T09:15:53.276Z - normal: Start building plugin scripts
+2018-07-07T09:15:55.403Z - normal: Finish building plugin scripts
+2018-07-07T09:15:55.721Z - normal: Finish building raw assets
+2018-07-07T09:15:55.725Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-07-07T09:15:56.899Z - normal: Built to "/Users/mac/edu/jump-123/build/wechatgame" successfully
+2018-07-07T09:16:08.369Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-07-07T09:16:08.369Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-07-07T09:16:08.967Z - normal: Initializing...
+
+2018-07-07T09:16:08.978Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-07-07T09:16:09.014Z - normal: IDE server has started, listening on http://127.0.0.1:42171
+
+2018-07-07T09:16:09.015Z - normal: initialization finished
+
+2018-07-07T09:16:09.196Z - normal: open IDE success
+
+2018-07-07T09:16:17.135Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-07-07T09:16:17.135Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-07-07T09:16:17.441Z - normal: Initializing...
+
+2018-07-07T09:16:17.447Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-07-07T09:16:17.463Z - normal: IDE server has started, listening on http://127.0.0.1:42171
+initialization finished
+
+2018-07-07T09:16:17.609Z - normal: open IDE success
+
+2018-07-07T09:18:14.234Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:18:14.248Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:18:14.248Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:18:14.248Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:18:14.248Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:18:14.249Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:18:14.249Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:18:14.249Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:18:14.250Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:18:14.250Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:18:14.250Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:24:35.740Z - warn: Script attached to "first" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/first"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:24:35.742Z - warn: Script attached to "second" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/second"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:24:35.745Z - warn: Script attached to "third" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/third"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:24:35.750Z - warn: Script attached to "rankItem" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/ScrollView/view/content/rankItem"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:24:35.909Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.911Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.912Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.913Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.915Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.920Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.920Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.921Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.923Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.923Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.923Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.924Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.925Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.926Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.926Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.926Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.926Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.927Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.927Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.928Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.928Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.928Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.929Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.929Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.929Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.929Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.929Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:35.929Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-07T09:24:51.636Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:24:51.636Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:24:51.636Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:24:51.637Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:24:51.637Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:24:51.637Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:24:51.638Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:24:51.638Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:24:51.638Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:24:51.638Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:24:51.639Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-07T09:24:55.881Z - warn: Script attached to "uiMaskLayout" in prefab "uiMaskLayout.prefab" is missing or invalid. Detailed information:
+Node path: "uiMaskLayout"
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Script UUID: "a8513bdd-1a54-457c-92ab-e33439b9df7b"
+Class ID: "a8513vdGlRFfJKr4zQ5ud97"
+
+2018-07-07T09:24:55.955Z - warn: The Asset used in prefab "uiMaskLayout.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Missing uuid: "8d844406-e950-4f57-a78d-c89587ed7d0d"
+
+2018-07-07T09:24:55.955Z - warn: The Asset used in prefab "uiMaskLayout.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Missing uuid: "8d844406-e950-4f57-a78d-c89587ed7d0d"
+
+2018-07-07T09:28:32.611Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/game/anim.meta
+2018-07-07T09:28:32.710Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/resources/_AllResources/_Texture/方块的序列帧图片.meta
+2018-07-07T09:28:32.948Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/resources/gameClips.meta
+2018-07-07T09:28:37.461Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/edu/jump-123/build",
+  "debug": false,
+  "dest": "/Users/mac/edu/jump-123/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "RichText",
+    "MotionStreak",
+    "DragonBones",
+    "Physics",
+    "Camera",
+    "Native NetWork"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": true,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.jump-123",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "jump-123",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "cc4567b0-a2c0-4b",
+  "zipCompressJs": true,
+  "project": "/Users/mac/edu/jump-123",
+  "projectName": "jump-123",
+  "debugBuildWorker": false
+}
+2018-07-07T09:28:37.469Z - normal: Building /Users/mac/edu/jump-123
+2018-07-07T09:28:37.470Z - normal: Destination /Users/mac/edu/jump-123/build/wechatgame
+2018-07-07T09:28:37.471Z - normal: Delete /Users/mac/edu/jump-123/build/wechatgame/**/*
+2018-07-07T09:28:47.215Z - normal: Compiled project javascript file successfully
+2018-07-07T09:28:47.216Z - normal: Start building assets
+2018-07-07T09:28:47.216Z - normal: Start spawn build-worker
+2018-07-07T09:28:47.826Z - normal: Finish spawn build-worker
+2018-07-07T09:28:47.826Z - normal: Start init build-worker
+2018-07-07T09:28:49.627Z - normal: 1.9.2
+2018-07-07T09:28:49.942Z - normal: Finish init build-worker
+2018-07-07T09:28:49.943Z - normal: Start build-assets in worker
+2018-07-07T09:28:50.434Z - warn: Script attached to "uiMaskLayout" in prefab "uiMaskLayout.prefab" is missing or invalid. Detailed information:
+Node path: "uiMaskLayout"
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Script UUID: "a8513bdd-1a54-457c-92ab-e33439b9df7b"
+Class ID: "a8513vdGlRFfJKr4zQ5ud97"
+
+2018-07-07T09:28:50.478Z - warn: Script attached to "uiMatching1v1" in prefab "uiMatching1v1.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching1v1"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Script UUID: "6d6c930b-cd48-4766-b6eb-781e2d9817cf"
+Class ID: "6d6c9MLzUhHZrbreB4tmBfP"
+
+2018-07-07T09:28:50.511Z - warn: Script attached to "uiMatching2v2" in prefab "uiMatching2v2.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching2v2"
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Script UUID: "a9812302-2fae-432d-94b4-6b86db93294d"
+Class ID: "a9812MCL65DLZS0a4bbkylN"
+
+2018-07-07T09:28:50.567Z - warn: Script attached to "first" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/first"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:28:50.568Z - warn: Script attached to "second" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/second"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:28:50.568Z - warn: Script attached to "third" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/third"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:28:50.570Z - warn: Script attached to "rankItem" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/ScrollView/view/content/rankItem"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:28:50.677Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4943f198-e9a3-45e7-ac49-075c14bc5acf"
+2018-07-07T09:28:50.678Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "ef9b8e15-35de-4ad6-9ff2-337c7baa52b8"
+2018-07-07T09:28:50.679Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "3744321b-bea9-42f8-9331-b74c39419668"
+2018-07-07T09:28:50.680Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "9a250fcc-2fce-418c-87bb-ab506f842d50"
+2018-07-07T09:28:50.682Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4eae31ff-5460-4e5e-bffb-4d73bd47003e"
+2018-07-07T09:28:50.683Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "7acf0ead-7ce0-440e-aa97-fb28d2578b61"
+2018-07-07T09:28:50.686Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "c8e2d098-f789-4003-b719-4b09c1db6d35"
+2018-07-07T09:28:50.688Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "104f6289-5a1c-4a70-a6db-3939f80e0bef"
+2018-07-07T09:28:50.689Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "9ed142e6-c4e6-48b3-80c6-408050388532"
+2018-07-07T09:28:50.690Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "38e24c01-14a5-40d7-8ec3-f19df38cf2d0"
+2018-07-07T09:28:50.691Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "a5205a03-b7eb-43d8-9fef-0560629266bd"
+2018-07-07T09:28:50.692Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "32290a25-e26d-4987-b87e-cdd83699daa9"
+2018-07-07T09:28:50.693Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "84ad1a1a-14dd-48b7-a317-e08f7df0fa73"
+2018-07-07T09:28:50.695Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "d31c31fa-0b34-459d-8eb6-21c62f9228a3"
+2018-07-07T09:28:50.698Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "1d21d624-cf28-44ff-b2ed-53d419a0462b"
+2018-07-07T09:28:50.700Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4fa64549-9f56-48b8-9f0e-3ec8813f2920"
+2018-07-07T09:28:50.701Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "f326bed3-d317-408f-90dd-443b176c2af6"
+2018-07-07T09:28:50.704Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "997ee1f9-067d-4b02-9108-a1a545a35d13"
+2018-07-07T09:28:50.705Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "5ccec017-2524-4c8c-8339-40fdda499ec2"
+2018-07-07T09:28:50.706Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "fda1fd1d-1911-488a-a1aa-6b761494a3b0"
+2018-07-07T09:28:50.707Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "16789ca2-1666-496e-82f6-07482bced02d"
+2018-07-07T09:28:50.708Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "fe9731b0-90c4-450c-9065-5d989cc94b4d"
+2018-07-07T09:28:50.710Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "3a327938-1741-461a-8256-3c68b887e964"
+2018-07-07T09:28:50.711Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "04c1305b-d4cb-4f41-8fcb-e2ad6b7debd8"
+2018-07-07T09:28:50.713Z - warn: The referenced asset used in "db://assets/resources/prefab/Book.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "Book/Background"
+Used in Component: "cc.Sprite"
+uuid: "bbd0cad2-5c37-493b-8926-c5300e5e8cac"
+2018-07-07T09:28:50.718Z - warn: The referenced asset used in "db://assets/resources/prefab/player.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "player/rotate/di/qwyz"
+Used in Component: "cc.Sprite"
+uuid: "d38b3419-8ca2-4988-b794-b2369f47b5f4"
+2018-07-07T09:28:50.725Z - warn: The referenced asset used in "db://assets/resources/ui/uiCreateRoomVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+2018-07-07T09:28:50.737Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/key_gameOver"
+Used in Component: "cc.Animation"
+uuid: "128ebe5a-6f35-4651-b3d5-e533cb7054ac"
+2018-07-07T09:28:50.739Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/key_readyGo"
+Used in Component: "cc.Animation"
+uuid: "f97d69e0-0609-4769-98f1-8917ea633cec"
+2018-07-07T09:28:50.746Z - warn: The referenced asset used in "db://assets/resources/ui/uiMaskLayout.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "8d844406-e950-4f57-a78d-c89587ed7d0d"
+2018-07-07T09:28:50.752Z - warn: The referenced asset used in "db://assets/resources/ui/uiLobbyPanelVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+2018-07-07T09:28:50.778Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+2018-07-07T09:28:50.780Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-07-07T09:28:50.787Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-07-07T09:28:50.788Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+2018-07-07T09:28:50.796Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
+2018-07-07T09:28:50.797Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+2018-07-07T09:28:50.801Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1Ver.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+2018-07-07T09:28:50.803Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatchingVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "9d9420b0-61ef-482e-a2bd-426b5b0e332f"
+2018-07-07T09:28:50.805Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2Ver.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "7af4c07e-6da4-4e33-a111-2a7e3d7d2c10"
+2018-07-07T09:28:50.808Z - warn: The referenced asset used in "db://assets/resources/ui/uirankPanelVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+2018-07-07T09:28:50.831Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+2018-07-07T09:28:50.837Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "275a72f3-ffff-43cf-9c1c-b6495b147d60"
+2018-07-07T09:28:50.839Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "1ceb701f-3aa5-45a6-9daf-c261fabbecbf"
+2018-07-07T09:28:50.843Z - warn: The referenced asset used in "db://assets/resources/ui/uiRoomListVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+2018-07-07T09:28:50.854Z - warn: The referenced asset used in "db://assets/resources/ui/uiRoomVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+2018-07-07T09:28:50.873Z - warn: The referenced asset used in "db://assets/resources/ui/uiTip.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+2018-07-07T09:28:50.880Z - warn: The referenced asset used in "db://assets/resources/ui/uiTip.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiTip"
+Used in Component: "cc.Animation"
+uuid: "f8c29568-3367-45a7-956e-8474d8bd9f77"
+2018-07-07T09:28:51.490Z - normal: Finish build-assets in worker
+2018-07-07T09:28:51.492Z - normal: Finish building assets
+2018-07-07T09:28:51.525Z - normal: Start building raw assets
+2018-07-07T09:28:51.526Z - normal: Start building plugin scripts
+2018-07-07T09:28:53.163Z - normal: Finish building plugin scripts
+2018-07-07T09:28:53.274Z - normal: Finish building raw assets
+2018-07-07T09:28:53.278Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-07-07T09:28:54.006Z - normal: Built to "/Users/mac/edu/jump-123/build/wechatgame" successfully
+2018-07-07T09:29:20.002Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-07-07T09:29:20.005Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-07-07T09:29:20.391Z - normal: Initializing...
+
+2018-07-07T09:29:20.399Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-07-07T09:29:20.422Z - normal: IDE server has started, listening on http://127.0.0.1:42171
+
+2018-07-07T09:29:20.422Z - normal: initialization finished
+
+2018-07-07T09:29:20.694Z - normal: open IDE success
+
+2018-07-07T09:30:29.346Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/resources/_AllResources/_Texture/影子.meta
+2018-07-07T09:30:31.625Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/edu/jump-123/build",
+  "debug": false,
+  "dest": "/Users/mac/edu/jump-123/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "RichText",
+    "MotionStreak",
+    "DragonBones",
+    "Physics",
+    "Camera",
+    "Native NetWork"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": true,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.jump-123",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "jump-123",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "cc4567b0-a2c0-4b",
+  "zipCompressJs": true,
+  "project": "/Users/mac/edu/jump-123",
+  "projectName": "jump-123",
+  "debugBuildWorker": false
+}
+2018-07-07T09:30:31.636Z - normal: Building /Users/mac/edu/jump-123
+2018-07-07T09:30:31.636Z - normal: Destination /Users/mac/edu/jump-123/build/wechatgame
+2018-07-07T09:30:31.639Z - normal: Delete /Users/mac/edu/jump-123/build/wechatgame/**/*
+2018-07-07T09:30:41.480Z - normal: Compiled project javascript file successfully
+2018-07-07T09:30:41.480Z - normal: Start building assets
+2018-07-07T09:30:41.480Z - normal: Start spawn build-worker
+2018-07-07T09:30:42.070Z - normal: Finish spawn build-worker
+2018-07-07T09:30:42.070Z - normal: Start init build-worker
+2018-07-07T09:30:43.863Z - normal: 1.9.2
+2018-07-07T09:30:44.169Z - normal: Finish init build-worker
+2018-07-07T09:30:44.169Z - normal: Start build-assets in worker
+2018-07-07T09:30:44.617Z - warn: Script attached to "uiMaskLayout" in prefab "uiMaskLayout.prefab" is missing or invalid. Detailed information:
+Node path: "uiMaskLayout"
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Script UUID: "a8513bdd-1a54-457c-92ab-e33439b9df7b"
+Class ID: "a8513vdGlRFfJKr4zQ5ud97"
+
+2018-07-07T09:30:44.741Z - warn: Script attached to "uiMatching1v1" in prefab "uiMatching1v1.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching1v1"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Script UUID: "6d6c930b-cd48-4766-b6eb-781e2d9817cf"
+Class ID: "6d6c9MLzUhHZrbreB4tmBfP"
+
+2018-07-07T09:30:44.805Z - warn: Script attached to "uiMatching2v2" in prefab "uiMatching2v2.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching2v2"
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Script UUID: "a9812302-2fae-432d-94b4-6b86db93294d"
+Class ID: "a9812MCL65DLZS0a4bbkylN"
+
+2018-07-07T09:30:44.871Z - warn: Script attached to "first" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/first"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:30:44.872Z - warn: Script attached to "second" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/second"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:30:44.872Z - warn: Script attached to "third" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/third"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:30:44.874Z - warn: Script attached to "rankItem" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/ScrollView/view/content/rankItem"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:30:44.951Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4943f198-e9a3-45e7-ac49-075c14bc5acf"
+2018-07-07T09:30:44.953Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "ef9b8e15-35de-4ad6-9ff2-337c7baa52b8"
+2018-07-07T09:30:44.961Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "3744321b-bea9-42f8-9331-b74c39419668"
+2018-07-07T09:30:45.011Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "9a250fcc-2fce-418c-87bb-ab506f842d50"
+2018-07-07T09:30:45.013Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4eae31ff-5460-4e5e-bffb-4d73bd47003e"
+2018-07-07T09:30:45.014Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "7acf0ead-7ce0-440e-aa97-fb28d2578b61"
+2018-07-07T09:30:45.019Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "c8e2d098-f789-4003-b719-4b09c1db6d35"
+2018-07-07T09:30:45.022Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "104f6289-5a1c-4a70-a6db-3939f80e0bef"
+2018-07-07T09:30:45.026Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "9ed142e6-c4e6-48b3-80c6-408050388532"
+2018-07-07T09:30:45.028Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "38e24c01-14a5-40d7-8ec3-f19df38cf2d0"
+2018-07-07T09:30:45.030Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "a5205a03-b7eb-43d8-9fef-0560629266bd"
+2018-07-07T09:30:45.033Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "32290a25-e26d-4987-b87e-cdd83699daa9"
+2018-07-07T09:30:45.036Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "84ad1a1a-14dd-48b7-a317-e08f7df0fa73"
+2018-07-07T09:30:45.038Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "d31c31fa-0b34-459d-8eb6-21c62f9228a3"
+2018-07-07T09:30:45.039Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "1d21d624-cf28-44ff-b2ed-53d419a0462b"
+2018-07-07T09:30:45.046Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4fa64549-9f56-48b8-9f0e-3ec8813f2920"
+2018-07-07T09:30:45.048Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "f326bed3-d317-408f-90dd-443b176c2af6"
+2018-07-07T09:30:45.049Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "997ee1f9-067d-4b02-9108-a1a545a35d13"
+2018-07-07T09:30:45.050Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "5ccec017-2524-4c8c-8339-40fdda499ec2"
+2018-07-07T09:30:45.053Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "fda1fd1d-1911-488a-a1aa-6b761494a3b0"
+2018-07-07T09:30:45.054Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "16789ca2-1666-496e-82f6-07482bced02d"
+2018-07-07T09:30:45.056Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "fe9731b0-90c4-450c-9065-5d989cc94b4d"
+2018-07-07T09:30:45.057Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "3a327938-1741-461a-8256-3c68b887e964"
+2018-07-07T09:30:45.060Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "04c1305b-d4cb-4f41-8fcb-e2ad6b7debd8"
+2018-07-07T09:30:45.061Z - warn: The referenced asset used in "db://assets/resources/prefab/Book.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "Book/Shadow"
+Used in Component: "cc.Sprite"
+uuid: "4f24bee7-37be-4c27-a644-6baa7f4a2500"
+2018-07-07T09:30:45.063Z - warn: The referenced asset used in "db://assets/resources/prefab/Book.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "Book/Background"
+Used in Component: "cc.Sprite"
+uuid: "bbd0cad2-5c37-493b-8926-c5300e5e8cac"
+2018-07-07T09:30:45.064Z - warn: The referenced asset used in "db://assets/resources/prefab/player.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "player/rotate/di/qwyz"
+Used in Component: "cc.Sprite"
+uuid: "d38b3419-8ca2-4988-b794-b2369f47b5f4"
+2018-07-07T09:30:45.084Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/key_gameOver"
+Used in Component: "cc.Animation"
+uuid: "128ebe5a-6f35-4651-b3d5-e533cb7054ac"
+2018-07-07T09:30:45.088Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/key_readyGo"
+Used in Component: "cc.Animation"
+uuid: "f97d69e0-0609-4769-98f1-8917ea633cec"
+2018-07-07T09:30:45.092Z - warn: The referenced asset used in "db://assets/resources/ui/uiCreateRoomVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+2018-07-07T09:30:45.102Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+2018-07-07T09:30:45.106Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-07-07T09:30:45.114Z - warn: The referenced asset used in "db://assets/resources/ui/uiLobbyPanelVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+2018-07-07T09:30:45.158Z - warn: The referenced asset used in "db://assets/resources/ui/uiMaskLayout.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "8d844406-e950-4f57-a78d-c89587ed7d0d"
+2018-07-07T09:30:45.162Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-07-07T09:30:45.164Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+2018-07-07T09:30:45.175Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1Ver.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+2018-07-07T09:30:45.177Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
+2018-07-07T09:30:45.179Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+2018-07-07T09:30:45.181Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2Ver.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "7af4c07e-6da4-4e33-a111-2a7e3d7d2c10"
+2018-07-07T09:30:45.182Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatchingVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "9d9420b0-61ef-482e-a2bd-426b5b0e332f"
+2018-07-07T09:30:45.184Z - warn: The referenced asset used in "db://assets/resources/ui/uirankPanelVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+2018-07-07T09:30:45.209Z - warn: The referenced asset used in "db://assets/resources/ui/uiRoomListVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+2018-07-07T09:30:45.219Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+2018-07-07T09:30:45.226Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "275a72f3-ffff-43cf-9c1c-b6495b147d60"
+2018-07-07T09:30:45.228Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "1ceb701f-3aa5-45a6-9daf-c261fabbecbf"
+2018-07-07T09:30:45.232Z - warn: The referenced asset used in "db://assets/resources/ui/uiRoomVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+2018-07-07T09:30:45.269Z - warn: The referenced asset used in "db://assets/resources/ui/uiTip.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+2018-07-07T09:30:45.270Z - warn: The referenced asset used in "db://assets/resources/ui/uiTip.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiTip"
+Used in Component: "cc.Animation"
+uuid: "f8c29568-3367-45a7-956e-8474d8bd9f77"
+2018-07-07T09:30:45.975Z - normal: Finish build-assets in worker
+2018-07-07T09:30:45.981Z - normal: Finish building assets
+2018-07-07T09:30:46.011Z - normal: Start building raw assets
+2018-07-07T09:30:46.012Z - normal: Start building plugin scripts
+2018-07-07T09:30:47.824Z - normal: Finish building plugin scripts
+2018-07-07T09:30:47.933Z - normal: Finish building raw assets
+2018-07-07T09:30:47.936Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-07-07T09:30:48.809Z - normal: Built to "/Users/mac/edu/jump-123/build/wechatgame" successfully
+2018-07-07T09:31:10.542Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-07-07T09:31:10.543Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-07-07T09:31:10.926Z - normal: Initializing...
+
+2018-07-07T09:31:10.934Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-07-07T09:31:10.952Z - normal: IDE server has started, listening on http://127.0.0.1:42171
+
+2018-07-07T09:31:10.952Z - normal: initialization finished
+
+2018-07-07T09:31:11.108Z - normal: open IDE success
+
+2018-07-07T09:33:38.580Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/resources/_AllResources/_Texture/di.png.meta
+2018-07-07T09:33:38.658Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/resources/_AllResources/_UI.meta
+2018-07-07T09:33:41.583Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/edu/jump-123/build",
+  "debug": false,
+  "dest": "/Users/mac/edu/jump-123/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "RichText",
+    "MotionStreak",
+    "DragonBones",
+    "Physics",
+    "Camera",
+    "Native NetWork"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": true,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.jump-123",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "jump-123",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "cc4567b0-a2c0-4b",
+  "zipCompressJs": true,
+  "project": "/Users/mac/edu/jump-123",
+  "projectName": "jump-123",
+  "debugBuildWorker": false
+}
+2018-07-07T09:33:41.591Z - normal: Building /Users/mac/edu/jump-123
+2018-07-07T09:33:41.591Z - normal: Destination /Users/mac/edu/jump-123/build/wechatgame
+2018-07-07T09:33:41.593Z - normal: Delete /Users/mac/edu/jump-123/build/wechatgame/**/*
+2018-07-07T09:33:50.921Z - normal: Compiled project javascript file successfully
+2018-07-07T09:33:50.922Z - normal: Start building assets
+2018-07-07T09:33:50.922Z - normal: Start spawn build-worker
+2018-07-07T09:33:51.530Z - normal: Finish spawn build-worker
+2018-07-07T09:33:51.531Z - normal: Start init build-worker
+2018-07-07T09:33:53.317Z - normal: 1.9.2
+2018-07-07T09:33:53.643Z - normal: Finish init build-worker
+2018-07-07T09:33:53.644Z - normal: Start build-assets in worker
+2018-07-07T09:33:54.044Z - warn: Script attached to "uiMaskLayout" in prefab "uiMaskLayout.prefab" is missing or invalid. Detailed information:
+Node path: "uiMaskLayout"
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Script UUID: "a8513bdd-1a54-457c-92ab-e33439b9df7b"
+Class ID: "a8513vdGlRFfJKr4zQ5ud97"
+
+2018-07-07T09:33:54.095Z - warn: Script attached to "uiMatching1v1" in prefab "uiMatching1v1.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching1v1"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Script UUID: "6d6c930b-cd48-4766-b6eb-781e2d9817cf"
+Class ID: "6d6c9MLzUhHZrbreB4tmBfP"
+
+2018-07-07T09:33:54.132Z - warn: Script attached to "uiMatching2v2" in prefab "uiMatching2v2.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching2v2"
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Script UUID: "a9812302-2fae-432d-94b4-6b86db93294d"
+Class ID: "a9812MCL65DLZS0a4bbkylN"
+
+2018-07-07T09:33:54.178Z - warn: Script attached to "first" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/first"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:33:54.183Z - warn: Script attached to "second" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/second"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:33:54.184Z - warn: Script attached to "third" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/third"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:33:54.185Z - warn: Script attached to "rankItem" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/ScrollView/view/content/rankItem"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-07T09:33:54.250Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4943f198-e9a3-45e7-ac49-075c14bc5acf"
+2018-07-07T09:33:54.251Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "ef9b8e15-35de-4ad6-9ff2-337c7baa52b8"
+2018-07-07T09:33:54.253Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "3744321b-bea9-42f8-9331-b74c39419668"
+2018-07-07T09:33:54.281Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "9a250fcc-2fce-418c-87bb-ab506f842d50"
+2018-07-07T09:33:54.285Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4eae31ff-5460-4e5e-bffb-4d73bd47003e"
+2018-07-07T09:33:54.287Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "7acf0ead-7ce0-440e-aa97-fb28d2578b61"
+2018-07-07T09:33:54.288Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "c8e2d098-f789-4003-b719-4b09c1db6d35"
+2018-07-07T09:33:54.291Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "104f6289-5a1c-4a70-a6db-3939f80e0bef"
+2018-07-07T09:33:54.292Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "9ed142e6-c4e6-48b3-80c6-408050388532"
+2018-07-07T09:33:54.293Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "38e24c01-14a5-40d7-8ec3-f19df38cf2d0"
+2018-07-07T09:33:54.295Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "a5205a03-b7eb-43d8-9fef-0560629266bd"
+2018-07-07T09:33:54.296Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "32290a25-e26d-4987-b87e-cdd83699daa9"
+2018-07-07T09:33:54.299Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "84ad1a1a-14dd-48b7-a317-e08f7df0fa73"
+2018-07-07T09:33:54.300Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "d31c31fa-0b34-459d-8eb6-21c62f9228a3"
+2018-07-07T09:33:54.302Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "1d21d624-cf28-44ff-b2ed-53d419a0462b"
+2018-07-07T09:33:54.304Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4fa64549-9f56-48b8-9f0e-3ec8813f2920"
+2018-07-07T09:33:54.305Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "f326bed3-d317-408f-90dd-443b176c2af6"
+2018-07-07T09:33:54.306Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "997ee1f9-067d-4b02-9108-a1a545a35d13"
+2018-07-07T09:33:54.308Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "5ccec017-2524-4c8c-8339-40fdda499ec2"
+2018-07-07T09:33:54.309Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "fda1fd1d-1911-488a-a1aa-6b761494a3b0"
+2018-07-07T09:33:54.310Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "16789ca2-1666-496e-82f6-07482bced02d"
+2018-07-07T09:33:54.311Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "fe9731b0-90c4-450c-9065-5d989cc94b4d"
+2018-07-07T09:33:54.312Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "3a327938-1741-461a-8256-3c68b887e964"
+2018-07-07T09:33:54.313Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "04c1305b-d4cb-4f41-8fcb-e2ad6b7debd8"
+2018-07-07T09:33:54.316Z - warn: The referenced asset used in "db://assets/resources/prefab/Book.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "Book/Shadow"
+Used in Component: "cc.Sprite"
+uuid: "4f24bee7-37be-4c27-a644-6baa7f4a2500"
+2018-07-07T09:33:54.318Z - warn: The referenced asset used in "db://assets/resources/prefab/Book.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "Book/Background"
+Used in Component: "cc.Sprite"
+uuid: "bbd0cad2-5c37-493b-8926-c5300e5e8cac"
+2018-07-07T09:33:54.319Z - warn: The referenced asset used in "db://assets/resources/prefab/Book.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "Book/JudgeNode/mid"
+Used in Component: "cc.Sprite"
+uuid: "cc2bae4c-c0ad-4e76-aa66-dbbdb94176da"
+2018-07-07T09:33:54.321Z - warn: The referenced asset used in "db://assets/resources/prefab/player.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "player/rotate/di/qwyz"
+Used in Component: "cc.Sprite"
+uuid: "d38b3419-8ca2-4988-b794-b2369f47b5f4"
+2018-07-07T09:33:54.323Z - warn: The referenced asset used in "db://assets/resources/prefab/player.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "player"
+Used in Component: "cc.MotionStreak"
+uuid: "e333e768-a831-4831-9e9e-7c4cb35784ea"
+2018-07-07T09:33:54.331Z - warn: The referenced asset used in "db://assets/resources/ui/uiCreateRoomVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+2018-07-07T09:33:54.340Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/key_gameOver"
+Used in Component: "cc.Animation"
+uuid: "128ebe5a-6f35-4651-b3d5-e533cb7054ac"
+2018-07-07T09:33:54.341Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/key_readyGo"
+Used in Component: "cc.Animation"
+uuid: "f97d69e0-0609-4769-98f1-8917ea633cec"
+2018-07-07T09:33:54.347Z - warn: The referenced asset used in "db://assets/resources/ui/uiMaskLayout.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "8d844406-e950-4f57-a78d-c89587ed7d0d"
+2018-07-07T09:33:54.348Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+2018-07-07T09:33:54.349Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-07-07T09:33:54.353Z - warn: The referenced asset used in "db://assets/resources/ui/uiLobbyPanelVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+2018-07-07T09:33:54.376Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-07-07T09:33:54.379Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+2018-07-07T09:33:54.394Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
+2018-07-07T09:33:54.396Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+2018-07-07T09:33:54.397Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1Ver.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+2018-07-07T09:33:54.399Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatchingVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "9d9420b0-61ef-482e-a2bd-426b5b0e332f"
+2018-07-07T09:33:54.400Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2Ver.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "7af4c07e-6da4-4e33-a111-2a7e3d7d2c10"
+2018-07-07T09:33:54.403Z - warn: The referenced asset used in "db://assets/resources/ui/uirankPanelVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+2018-07-07T09:33:54.420Z - warn: The referenced asset used in "db://assets/resources/ui/uiRoomListVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+2018-07-07T09:33:54.442Z - warn: The referenced asset used in "db://assets/resources/ui/uiRoomVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+2018-07-07T09:33:54.468Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+2018-07-07T09:33:54.470Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "275a72f3-ffff-43cf-9c1c-b6495b147d60"
+2018-07-07T09:33:54.471Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "1ceb701f-3aa5-45a6-9daf-c261fabbecbf"
+2018-07-07T09:33:54.480Z - warn: The referenced asset used in "db://assets/resources/ui/uiTip.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+2018-07-07T09:33:54.487Z - warn: The referenced asset used in "db://assets/resources/ui/uiTip.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiTip"
+Used in Component: "cc.Animation"
+uuid: "f8c29568-3367-45a7-956e-8474d8bd9f77"
+2018-07-07T09:33:55.136Z - normal: Finish build-assets in worker
+2018-07-07T09:33:55.139Z - normal: Finish building assets
+2018-07-07T09:33:55.167Z - normal: Start building raw assets
+2018-07-07T09:33:55.168Z - normal: Start building plugin scripts
+2018-07-07T09:33:57.023Z - normal: Finish building plugin scripts
+2018-07-07T09:33:57.117Z - normal: Finish building raw assets
+2018-07-07T09:33:57.120Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-07-07T09:33:58.152Z - normal: Built to "/Users/mac/edu/jump-123/build/wechatgame" successfully
+2018-07-07T09:34:51.062Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-07-07T09:34:51.063Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-07-07T09:34:51.412Z - normal: Initializing...
+
+2018-07-07T09:34:51.419Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-07-07T09:34:51.439Z - normal: IDE server has started, listening on http://127.0.0.1:42171
+initialization finished
+
+2018-07-07T09:34:51.789Z - normal: open IDE success
+
+2018-07-07T10:04:04.018Z - warn: Script attached to "uiMaskLayout" in prefab "uiMaskLayout.prefab" is missing or invalid. Detailed information:
+Node path: "uiMaskLayout"
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Script UUID: "a8513bdd-1a54-457c-92ab-e33439b9df7b"
+Class ID: "a8513vdGlRFfJKr4zQ5ud97"
+
+2018-07-07T10:04:04.201Z - warn: The Asset used in prefab "uiMaskLayout.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Missing uuid: "8d844406-e950-4f57-a78d-c89587ed7d0d"
+
+2018-07-07T10:04:04.201Z - warn: The Asset used in prefab "uiMaskLayout.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Missing uuid: "8d844406-e950-4f57-a78d-c89587ed7d0d"
+
+2018-07-10T01:38:26.054Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/edu/jump-123/build",
+  "debug": false,
+  "dest": "/Users/mac/edu/jump-123/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "RichText",
+    "MotionStreak",
+    "DragonBones",
+    "Physics",
+    "Camera",
+    "Native NetWork"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": true,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.jump-123",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "jump-123",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "cc4567b0-a2c0-4b",
+  "zipCompressJs": true,
+  "project": "/Users/mac/edu/jump-123",
+  "projectName": "jump-123",
+  "debugBuildWorker": false
+}
+2018-07-10T01:38:26.063Z - normal: Building /Users/mac/edu/jump-123
+2018-07-10T01:38:26.064Z - normal: Destination /Users/mac/edu/jump-123/build/wechatgame
+2018-07-10T01:38:26.064Z - normal: Delete /Users/mac/edu/jump-123/build/wechatgame/**/*
+2018-07-10T01:38:38.291Z - normal: Compiled project javascript file successfully
+2018-07-10T01:38:38.291Z - normal: Start building assets
+2018-07-10T01:38:38.292Z - normal: Start spawn build-worker
+2018-07-10T01:38:39.077Z - normal: Finish spawn build-worker
+2018-07-10T01:38:39.077Z - normal: Start init build-worker
+2018-07-10T01:38:41.590Z - normal: 1.9.2
+2018-07-10T01:38:42.031Z - normal: Finish init build-worker
+2018-07-10T01:38:42.031Z - normal: Start build-assets in worker
+2018-07-10T01:38:42.720Z - warn: Script attached to "uiMaskLayout" in prefab "uiMaskLayout.prefab" is missing or invalid. Detailed information:
+Node path: "uiMaskLayout"
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Script UUID: "a8513bdd-1a54-457c-92ab-e33439b9df7b"
+Class ID: "a8513vdGlRFfJKr4zQ5ud97"
+
+2018-07-10T01:38:42.749Z - warn: Script attached to "uiMatching1v1" in prefab "uiMatching1v1.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching1v1"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Script UUID: "6d6c930b-cd48-4766-b6eb-781e2d9817cf"
+Class ID: "6d6c9MLzUhHZrbreB4tmBfP"
+
+2018-07-10T01:38:42.833Z - warn: Script attached to "uiMatching2v2" in prefab "uiMatching2v2.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching2v2"
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Script UUID: "a9812302-2fae-432d-94b4-6b86db93294d"
+Class ID: "a9812MCL65DLZS0a4bbkylN"
+
+2018-07-10T01:38:42.991Z - warn: Script attached to "first" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/first"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-10T01:38:42.993Z - warn: Script attached to "second" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/second"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-10T01:38:42.998Z - warn: Script attached to "third" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/third"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-10T01:38:42.999Z - warn: Script attached to "rankItem" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/ScrollView/view/content/rankItem"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-10T01:38:43.146Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4943f198-e9a3-45e7-ac49-075c14bc5acf"
+2018-07-10T01:38:43.149Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "ef9b8e15-35de-4ad6-9ff2-337c7baa52b8"
+2018-07-10T01:38:43.156Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "3744321b-bea9-42f8-9331-b74c39419668"
+2018-07-10T01:38:43.209Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "9a250fcc-2fce-418c-87bb-ab506f842d50"
+2018-07-10T01:38:43.214Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4eae31ff-5460-4e5e-bffb-4d73bd47003e"
+2018-07-10T01:38:43.215Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "7acf0ead-7ce0-440e-aa97-fb28d2578b61"
+2018-07-10T01:38:43.216Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "c8e2d098-f789-4003-b719-4b09c1db6d35"
+2018-07-10T01:38:43.218Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "104f6289-5a1c-4a70-a6db-3939f80e0bef"
+2018-07-10T01:38:43.219Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "9ed142e6-c4e6-48b3-80c6-408050388532"
+2018-07-10T01:38:43.221Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "38e24c01-14a5-40d7-8ec3-f19df38cf2d0"
+2018-07-10T01:38:43.223Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "a5205a03-b7eb-43d8-9fef-0560629266bd"
+2018-07-10T01:38:43.224Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "fe9731b0-90c4-450c-9065-5d989cc94b4d"
+2018-07-10T01:38:43.226Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "3a327938-1741-461a-8256-3c68b887e964"
+2018-07-10T01:38:43.231Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "04c1305b-d4cb-4f41-8fcb-e2ad6b7debd8"
+2018-07-10T01:38:43.232Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "32290a25-e26d-4987-b87e-cdd83699daa9"
+2018-07-10T01:38:43.234Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "84ad1a1a-14dd-48b7-a317-e08f7df0fa73"
+2018-07-10T01:38:43.236Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "d31c31fa-0b34-459d-8eb6-21c62f9228a3"
+2018-07-10T01:38:43.238Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "1d21d624-cf28-44ff-b2ed-53d419a0462b"
+2018-07-10T01:38:43.240Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4fa64549-9f56-48b8-9f0e-3ec8813f2920"
+2018-07-10T01:38:43.246Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "f326bed3-d317-408f-90dd-443b176c2af6"
+2018-07-10T01:38:43.247Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "997ee1f9-067d-4b02-9108-a1a545a35d13"
+2018-07-10T01:38:43.249Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "5ccec017-2524-4c8c-8339-40fdda499ec2"
+2018-07-10T01:38:43.251Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "fda1fd1d-1911-488a-a1aa-6b761494a3b0"
+2018-07-10T01:38:43.252Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "16789ca2-1666-496e-82f6-07482bced02d"
+2018-07-10T01:38:43.254Z - warn: The referenced asset used in "db://assets/resources/prefab/Book.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "Book/Background"
+Used in Component: "cc.Sprite"
+uuid: "bbd0cad2-5c37-493b-8926-c5300e5e8cac"
+2018-07-10T01:38:43.256Z - warn: The referenced asset used in "db://assets/resources/prefab/player.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "player/rotate/di/qwyz"
+Used in Component: "cc.Sprite"
+uuid: "d38b3419-8ca2-4988-b794-b2369f47b5f4"
+2018-07-10T01:38:43.258Z - warn: The referenced asset used in "db://assets/resources/ui/uiCreateRoomVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+2018-07-10T01:38:43.286Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/key_gameOver"
+Used in Component: "cc.Animation"
+uuid: "128ebe5a-6f35-4651-b3d5-e533cb7054ac"
+2018-07-10T01:38:43.288Z - warn: The referenced asset used in "db://assets/resources/ui/uiGamePanel.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiGamePanel/key_readyGo"
+Used in Component: "cc.Animation"
+uuid: "f97d69e0-0609-4769-98f1-8917ea633cec"
+2018-07-10T01:38:43.306Z - warn: The referenced asset used in "db://assets/resources/ui/uiLobbyPanelVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+2018-07-10T01:38:43.341Z - warn: The referenced asset used in "db://assets/resources/ui/uiMaskLayout.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "8d844406-e950-4f57-a78d-c89587ed7d0d"
+2018-07-10T01:38:43.348Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+2018-07-10T01:38:43.350Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-07-10T01:38:43.354Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-07-10T01:38:43.356Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+2018-07-10T01:38:43.375Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
+2018-07-10T01:38:43.378Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+2018-07-10T01:38:43.383Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1Ver.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+2018-07-10T01:38:43.384Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2Ver.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "7af4c07e-6da4-4e33-a111-2a7e3d7d2c10"
+2018-07-10T01:38:43.387Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatchingVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "9d9420b0-61ef-482e-a2bd-426b5b0e332f"
+2018-07-10T01:38:43.388Z - warn: The referenced asset used in "db://assets/resources/ui/uirankPanelVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+2018-07-10T01:38:43.409Z - warn: The referenced asset used in "db://assets/resources/ui/uiRoomListVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+2018-07-10T01:38:43.424Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+2018-07-10T01:38:43.430Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "275a72f3-ffff-43cf-9c1c-b6495b147d60"
+2018-07-10T01:38:43.432Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "1ceb701f-3aa5-45a6-9daf-c261fabbecbf"
+2018-07-10T01:38:43.436Z - warn: The referenced asset used in "db://assets/resources/ui/uiRoomVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+2018-07-10T01:38:43.463Z - warn: The referenced asset used in "db://assets/resources/ui/uiTip.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+2018-07-10T01:38:43.465Z - warn: The referenced asset used in "db://assets/resources/ui/uiTip.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiTip"
+Used in Component: "cc.Animation"
+uuid: "f8c29568-3367-45a7-956e-8474d8bd9f77"
+2018-07-10T01:38:44.402Z - normal: Finish build-assets in worker
+2018-07-10T01:38:44.407Z - normal: Finish building assets
+2018-07-10T01:38:44.451Z - normal: Start building raw assets
+2018-07-10T01:38:44.452Z - normal: Start building plugin scripts
+2018-07-10T01:38:47.118Z - normal: Finish building plugin scripts
+2018-07-10T01:38:47.389Z - normal: Finish building raw assets
+2018-07-10T01:38:47.393Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-07-10T01:38:48.554Z - normal: Built to "/Users/mac/edu/jump-123/build/wechatgame" successfully
+2018-07-10T01:49:08.757Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-10T01:49:08.759Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-10T01:49:08.759Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-10T01:49:08.759Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-10T01:49:08.761Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-10T01:49:08.761Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-10T01:49:08.762Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-10T01:49:08.762Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-10T01:49:08.763Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-10T01:49:08.774Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-10T01:49:08.774Z - warn: The Asset used in prefab "uiCreateRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiCreateRoomVer.prefab"
+Missing uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+
+2018-07-10T01:49:13.748Z - warn: The Asset used by component "cc.Animation" in prefab "uiGamePanel.prefab" is missing. Detailed information:
+Node path: "uiGamePanel/key_gameOver"
+Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
+Missing uuid: "128ebe5a-6f35-4651-b3d5-e533cb7054ac"
+
+2018-07-10T01:49:13.748Z - warn: The Asset used by component "cc.Animation" in prefab "uiGamePanel.prefab" is missing. Detailed information:
+Node path: "uiGamePanel/key_readyGo"
+Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
+Missing uuid: "f97d69e0-0609-4769-98f1-8917ea633cec"
+
+2018-07-10T01:49:15.325Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.325Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.328Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.328Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.328Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.331Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.331Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.331Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.332Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.332Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.332Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.333Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.333Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.334Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.334Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.335Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.335Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.335Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.336Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.336Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.336Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.336Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.337Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.337Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.337Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.337Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.338Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:15.338Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T01:49:16.578Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T01:49:16.579Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T01:49:16.579Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-07-10T01:49:16.579Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T01:49:16.579Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T01:49:16.580Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T01:49:16.580Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T01:49:16.580Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T01:50:08.425Z - warn: Script attached to "uiMaskLayout" in prefab "uiMaskLayout.prefab" is missing or invalid. Detailed information:
+Node path: "uiMaskLayout"
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Script UUID: "a8513bdd-1a54-457c-92ab-e33439b9df7b"
+Class ID: "a8513vdGlRFfJKr4zQ5ud97"
+
+2018-07-10T01:50:08.541Z - warn: The Asset used in prefab "uiMaskLayout.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Missing uuid: "8d844406-e950-4f57-a78d-c89587ed7d0d"
+
+2018-07-10T01:50:08.542Z - warn: The Asset used in prefab "uiMaskLayout.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMaskLayout.prefab"
+Missing uuid: "8d844406-e950-4f57-a78d-c89587ed7d0d"
+
+2018-07-10T01:50:21.624Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.624Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.625Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.626Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.626Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.628Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.628Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.629Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.629Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.629Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.630Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.630Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.630Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:21.630Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:24.617Z - warn: Script attached to "uiMatching1v1" in prefab "uiMatching1v1.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching1v1"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Script UUID: "6d6c930b-cd48-4766-b6eb-781e2d9817cf"
+Class ID: "6d6c9MLzUhHZrbreB4tmBfP"
+
+2018-07-10T01:50:24.740Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+
+2018-07-10T01:50:24.741Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.741Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.741Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.741Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.742Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.742Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.744Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.744Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.744Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.745Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.745Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.745Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.746Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:24.746Z - warn: The Asset used in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "1501ad1a-053b-49cf-964e-d1ed27642949"
+
+2018-07-10T01:50:45.986Z - warn: Script attached to "uiMatching2v2" in prefab "uiMatching2v2.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching2v2"
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Script UUID: "a9812302-2fae-432d-94b4-6b86db93294d"
+Class ID: "a9812MCL65DLZS0a4bbkylN"
+
+2018-07-10T01:50:46.103Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
+
+2018-07-10T01:50:46.103Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.103Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.103Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.106Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.106Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.106Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.106Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.106Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.106Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.107Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.108Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.108Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.108Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.108Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.108Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.109Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.109Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.109Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.110Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.111Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.111Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:46.112Z - warn: The Asset used in prefab "uiMatching2v2.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Missing uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+
+2018-07-10T01:50:49.892Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.892Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.893Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.897Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.898Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.898Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.899Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.899Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.905Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.905Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.905Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.905Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.906Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:49.906Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T01:50:53.469Z - warn: Script attached to "first" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/first"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-10T01:50:53.470Z - warn: Script attached to "second" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/second"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-10T01:50:53.471Z - warn: Script attached to "third" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/third"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-10T01:50:53.472Z - warn: Script attached to "rankItem" in prefab "uirankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer/ScrollView/view/content/rankItem"
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Script UUID: "6993e5d1-8444-477c-8198-5d6b2511fc12"
+Class ID: "6993eXRhERHfIGYXWslEfwS"
+
+2018-07-10T01:50:53.674Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.675Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.675Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.676Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.676Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.677Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.677Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.678Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.680Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.680Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.680Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.680Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.680Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.680Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.681Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.681Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.682Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.684Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.685Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.685Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.685Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.686Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.686Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.686Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.687Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.687Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.687Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:53.687Z - warn: The Asset used in prefab "uirankPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanelVer.prefab"
+Missing uuid: "4227759d-1777-4c3f-bfac-9dc323bb5cf7"
+
+2018-07-10T01:50:56.424Z - warn: The Asset used in prefab "uiTip.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+
+2018-07-10T01:50:56.427Z - warn: The Asset used in prefab "uiTip.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+
+2018-07-10T01:50:56.428Z - warn: The Asset used in prefab "uiTip.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+
+2018-07-10T01:50:56.429Z - warn: The Asset used in prefab "uiTip.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+
+2018-07-10T01:50:56.430Z - warn: The Asset used by component "cc.Animation" in prefab "uiTip.prefab" is missing. Detailed information:
+Node path: "uiTip"
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "f8c29568-3367-45a7-956e-8474d8bd9f77"
+
+2018-07-10T01:50:56.430Z - warn: The Asset used in prefab "uiTip.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+
+2018-07-10T01:50:59.956Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.956Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.956Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.957Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.957Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.957Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.957Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.957Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.957Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.958Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.958Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.958Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.959Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.959Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.959Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.959Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.959Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.959Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.960Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.960Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.960Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.960Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.960Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.960Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.961Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.961Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.962Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.962Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.963Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.963Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.963Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:50:59.963Z - warn: The Asset used in prefab "uiRoomVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomVer.prefab"
+Missing uuid: "db29b85e-8a5a-4f1a-8627-d91a699111d8"
+
+2018-07-10T01:51:01.737Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.737Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.737Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.738Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.738Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.739Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.739Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.740Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.740Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.740Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.741Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.741Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.741Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.741Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.742Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.742Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:01.743Z - warn: The Asset used in prefab "uiRoomListVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiRoomListVer.prefab"
+Missing uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+
+2018-07-10T01:51:04.760Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.761Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.762Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.762Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.763Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.763Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.763Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.763Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.764Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.764Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.764Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.764Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.765Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.765Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:51:04.766Z - warn: The Asset used by component "uiResult" in prefab "uiResultVer.prefab" is missing. Detailed information:
+Node path: "uiResultVer"
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "275a72f3-ffff-43cf-9c1c-b6495b147d60"
+
+2018-07-10T01:51:04.766Z - warn: The Asset used by component "uiResult" in prefab "uiResultVer.prefab" is missing. Detailed information:
+Node path: "uiResultVer"
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "1ceb701f-3aa5-45a6-9daf-c261fabbecbf"
+
+2018-07-10T01:51:04.766Z - warn: The Asset used in prefab "uiResultVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiResultVer.prefab"
+Missing uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+
+2018-07-10T01:52:07.536Z - warn: The Asset used by component "cc.Animation" in prefab "uiGamePanel.prefab" is missing. Detailed information:
+Node path: "uiGamePanel/key_gameOver"
+Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
+Missing uuid: "128ebe5a-6f35-4651-b3d5-e533cb7054ac"
+
+2018-07-10T01:52:07.537Z - warn: The Asset used by component "cc.Animation" in prefab "uiGamePanel.prefab" is missing. Detailed information:
+Node path: "uiGamePanel/key_readyGo"
+Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
+Missing uuid: "f97d69e0-0609-4769-98f1-8917ea633cec"
+
+2018-07-10T02:02:54.370Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.372Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.372Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.372Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.372Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.372Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.374Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.375Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.375Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.376Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.382Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.385Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.385Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.388Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.388Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.389Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.389Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.389Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.390Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.390Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.391Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.391Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.392Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.392Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.393Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.393Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.393Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:02:54.393Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:03:13.359Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:03:13.361Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:03:13.362Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-07-10T02:03:13.363Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:03:13.363Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:03:13.363Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:03:13.364Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:03:13.364Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:03:30.141Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.144Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.145Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.148Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.149Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.149Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.149Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.150Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.150Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.150Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.151Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.151Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.151Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:03:30.152Z - warn: The Asset used in prefab "uiMatching1v1Ver.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiMatching1v1Ver.prefab"
+Missing uuid: "70f13a21-2a60-4924-8be6-4c802ae346db"
+
+2018-07-10T02:04:33.489Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:04:33.490Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:04:33.490Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-07-10T02:04:33.490Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:04:33.491Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:04:33.491Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:04:33.492Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:04:33.492Z - warn: The Asset used in prefab "uiLogin.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+
+2018-07-10T02:05:31.899Z - warn: The Asset used in prefab "uiTip.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+
+2018-07-10T02:05:31.900Z - warn: The Asset used in prefab "uiTip.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+
+2018-07-10T02:05:31.900Z - warn: The Asset used in prefab "uiTip.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+
+2018-07-10T02:05:31.900Z - warn: The Asset used in prefab "uiTip.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+
+2018-07-10T02:05:31.900Z - warn: The Asset used by component "cc.Animation" in prefab "uiTip.prefab" is missing. Detailed information:
+Node path: "uiTip"
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "f8c29568-3367-45a7-956e-8474d8bd9f77"
+
+2018-07-10T02:05:31.900Z - warn: The Asset used in prefab "uiTip.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+
+2018-07-10T02:07:34.675Z - warn: The Asset used by component "cc.Sprite" in prefab "Book.prefab" is missing. Detailed information:
+Node path: "Book/Background"
+Asset url: "db://assets/resources/prefab/Book.prefab"
+Missing uuid: "bbd0cad2-5c37-493b-8926-c5300e5e8cac"
+
+2018-07-10T02:07:41.283Z - error: Failed to apply "Book" because the prefab asset is missing, please save the prefab to a new asset by dragging and drop the node from Node Tree into Assets.
+    at Object.applyPrefab (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:15658)
+    at Object.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-edit-mode.js:1:2800)
+    at Object._save (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/edit-mode.js:1:2223)
+    at _queue.Async.queue (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/tasks.js:1:551)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:987:13
+    at Immediate.process (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:953:21)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-10T02:07:46.945Z - error: Failed to apply "Book" because the prefab asset is missing, please save the prefab to a new asset by dragging and drop the node from Node Tree into Assets.
+    at Object.applyPrefab (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:15658)
+    at Object.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-edit-mode.js:1:2800)
+    at Object._save (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/edit-mode.js:1:2223)
+    at _queue.Async.queue (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/tasks.js:1:551)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:987:13
+    at Immediate.process (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:953:21)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-10T02:08:23.017Z - warn: The Asset used by component "cc.Sprite" in prefab "player2.prefab" is missing. Detailed information:
+Node path: "player/rotate/di/qwyz"
+Asset url: "db://assets/resources/prefab/player2.prefab"
+Missing uuid: "d38b3419-8ca2-4988-b794-b2369f47b5f4"
+
+2018-07-10T02:08:24.267Z - warn: The Asset used by component "cc.Sprite" in prefab "player.prefab" is missing. Detailed information:
+Node path: "player/rotate/di/qwyz"
+Asset url: "db://assets/resources/prefab/player.prefab"
+Missing uuid: "d38b3419-8ca2-4988-b794-b2369f47b5f4"
+
+2018-07-10T02:08:46.702Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.703Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.703Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.703Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.703Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.704Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.704Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.704Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.704Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.704Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.705Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.705Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.705Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.705Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.706Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.706Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.706Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.706Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.706Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.707Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.707Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.707Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.707Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.707Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.708Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.708Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.708Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:46.708Z - warn: The Asset used in prefab "uiLobbyPanelVer.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uiLobbyPanelVer.prefab"
+Missing uuid: "016cf9a5-5a3b-4cc3-9841-7bbe0b8b8b3f"
+
+2018-07-10T02:08:58.811Z - warn: The Asset used by component "cc.Sprite" in prefab "player.prefab" is missing. Detailed information:
+Node path: "player/rotate/di/qwyz"
+Asset url: "db://assets/resources/prefab/player.prefab"
+Missing uuid: "d38b3419-8ca2-4988-b794-b2369f47b5f4"
+
+2018-07-10T02:11:58.591Z - warn: The Asset used by component "cc.Sprite" in prefab "player2.prefab" is missing. Detailed information:
+Node path: "player/rotate/di/qwyz"
+Asset url: "db://assets/resources/prefab/player2.prefab"
+Missing uuid: "d38b3419-8ca2-4988-b794-b2369f47b5f4"
+
+2018-07-10T02:12:57.950Z - warn: The Asset used by component "cc.Sprite" in prefab "player.prefab" is missing. Detailed information:
+Node path: "player/rotate/di/qwyz"
+Asset url: "db://assets/resources/prefab/player.prefab"
+Missing uuid: "d38b3419-8ca2-4988-b794-b2369f47b5f4"
+
+2018-07-10T02:15:05.300Z - warn: The Asset used by component "cc.Sprite" in prefab "player.prefab" is missing. Detailed information:
+Node path: "player/rotate/di/qwyz"
+Asset url: "db://assets/resources/prefab/player.prefab"
+Missing uuid: "d38b3419-8ca2-4988-b794-b2369f47b5f4"
+
+2018-07-10T02:15:09.611Z - warn: The Asset used by component "cc.Sprite" in prefab "player.prefab" is missing. Detailed information:
+Node path: "player/rotate/di/qwyz"
+Asset url: "db://assets/resources/prefab/player.prefab"
+Missing uuid: "d38b3419-8ca2-4988-b794-b2369f47b5f4"
+
