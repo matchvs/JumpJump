@@ -30,8 +30,8 @@
   "title": "jump-123",
   "webOrientation": "auto",
   "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/jump",
+    "appid": "wx793199d0ca521154",
     "isSubdomain": false,
     "orientation": "portrait",
     "subContext": ""

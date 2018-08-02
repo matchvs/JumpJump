@@ -18,11 +18,11 @@ cc.Class({
         uiFunc.findUI("uiGamePanel").getComponent("uiGamePanel").stopBgm();
         var point1 = uiFunc.findUI("uiGamePanel").getChildByName("Board").getChildByName("player1").getChildByName("score").getComponent(cc.Label).string;
         var point2 = uiFunc.findUI("uiGamePanel").getChildByName("Board").getChildByName("player2").getChildByName("score").getComponent(cc.Label).string;
-        var isLose = point1 > point2 ? false : true;
-        this.player = this.node.getChildByName("key_playerLayout").getChildByName("key_player");
-        this.player.getChildByName("label").getComponent(cc.Label).string = GLB.playerUserIds[0];
-        this.rival = this.node.getChildByName("key_rivalLayout").getChildByName("key_rival");
-        this.rival.getChildByName("label").getComponent(cc.Label).string = GLB.playerUserIds[1];
+        var isLose = point1 >= point2 ? false : true;
+        this.player = this.nodeDict["player"].getComponent("resultPlayerIcon");
+        this.player.setData(GLB.playerUserIds[0]);
+        this.rival = this.nodeDict["rival"].getComponent("resultPlayerIcon");
+        this.rival.setData(GLB.playerUserIds[1]);
         this.nodeDict["vs"].active = false;
         this.nodeDict["score"].active = true;
         this.nodeDict["quit"].on("click", this.quit, this);

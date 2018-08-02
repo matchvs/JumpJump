@@ -10,7 +10,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "player",
+    "_name": "player2",
     "_objFlags": 0,
     "_parent": null,
     "_children": [
@@ -35,13 +35,10 @@
     "_components": [
       {
         "__id__": 37
-      },
-      {
-        "__id__": 38
       }
     ],
     "_prefab": {
-      "__id__": 39
+      "__id__": 38
     },
     "_id": "",
     "_opacity": 255,
@@ -69,8 +66,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 1,
-      "y": -418
+      "x": -132,
+      "y": -480
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -184,7 +181,7 @@
     "asset": {
       "__uuid__": "b479c566-f6ad-41c6-94e4-c8fd174d39ca"
     },
-    "fileId": "b10YYhHf1LpZ2ONPmeSm9t",
+    "fileId": "a6kj5DwrJM1YELwcqRtRBt",
     "sync": false
   },
   {
@@ -292,7 +289,7 @@
     "asset": {
       "__uuid__": "b479c566-f6ad-41c6-94e4-c8fd174d39ca"
     },
-    "fileId": "906zIaEa9HbKqCPAogFPau",
+    "fileId": "2d6p9hJZJJ2Iuwnwe1OdaH",
     "sync": false
   },
   {
@@ -444,8 +441,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 90,
-      "height": 56
+      "width": 89,
+      "height": 25
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -453,8 +450,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": -9
+      "x": -3.8,
+      "y": -12.4
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -475,7 +472,7 @@
       "__uuid__": "08046bf3-b9af-48cb-9443-8759224a8566"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -497,7 +494,7 @@
     "asset": {
       "__uuid__": "b479c566-f6ad-41c6-94e4-c8fd174d39ca"
     },
-    "fileId": "b6ixoqB8VLyI8clJUUvjFw",
+    "fileId": "ddq/jz619NSqUaqgnFlY+p",
     "sync": false
   },
   {
@@ -662,7 +659,7 @@
     "asset": {
       "__uuid__": "b479c566-f6ad-41c6-94e4-c8fd174d39ca"
     },
-    "fileId": "342vxkf/FHlI8NcFKO/cEN",
+    "fileId": "b5IPqN5SdAoJ16jccD+iaD",
     "sync": false
   },
   {
@@ -753,7 +750,7 @@
     "asset": {
       "__uuid__": "b479c566-f6ad-41c6-94e4-c8fd174d39ca"
     },
-    "fileId": "25esKZNoNNDrWxAuHolpv/",
+    "fileId": "257bhI8jVDV4xTOpn8gJje",
     "sync": false
   },
   {
@@ -764,7 +761,7 @@
     "asset": {
       "__uuid__": "b479c566-f6ad-41c6-94e4-c8fd174d39ca"
     },
-    "fileId": "36AZTuVSNBVYqf31SjODpV",
+    "fileId": "48TzP2qWJH7IZUMsda+Zo/",
     "sync": false
   },
   {
@@ -874,7 +871,7 @@
     "asset": {
       "__uuid__": "b479c566-f6ad-41c6-94e4-c8fd174d39ca"
     },
-    "fileId": "5cPqgVjttHL5GmHHD3WY8h",
+    "fileId": "7eCUDKTTdCKL8fg6zYsCEz",
     "sync": false
   },
   {
@@ -885,7 +882,7 @@
     "asset": {
       "__uuid__": "b479c566-f6ad-41c6-94e4-c8fd174d39ca"
     },
-    "fileId": "b1nNCwJLFNq4n89HAshxcn",
+    "fileId": "14t6Dw2LFGP46wTfbjfltY",
     "sync": false
   },
   {
@@ -896,7 +893,7 @@
     "asset": {
       "__uuid__": "b479c566-f6ad-41c6-94e4-c8fd174d39ca"
     },
-    "fileId": "9ci8lyycpKTqtZstOy5FWv",
+    "fileId": "c2WOPg9UBB+blX3b6SbnWw",
     "sync": false
   },
   {
@@ -1004,7 +1001,7 @@
     "asset": {
       "__uuid__": "b479c566-f6ad-41c6-94e4-c8fd174d39ca"
     },
-    "fileId": "5fXO8GSzJO47+qVnJcRE0z",
+    "fileId": "61lRMo/XZCspX2whfs86Eu",
     "sync": false
   },
   {
@@ -1091,32 +1088,8 @@
     "asset": {
       "__uuid__": "b479c566-f6ad-41c6-94e4-c8fd174d39ca"
     },
-    "fileId": "57XMTCjq5An4DDEX8PPOGd",
+    "fileId": "53HUK904NDXYzyNRWP2R1k",
     "sync": false
-  },
-  {
-    "__type__": "cc.MotionStreak",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "_fadeTime": 0.3,
-    "_minSeg": 1,
-    "_stroke": 30,
-    "_texture": {
-      "__uuid__": "e333e768-a831-4831-9e9e-7c4cb35784ea"
-    },
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_fastMode": false,
-    "_N$preview": true
   },
   {
     "__type__": "731d70a1pVPSZaokkpVKAWq",
@@ -1135,7 +1108,7 @@
     "asset": {
       "__uuid__": "b479c566-f6ad-41c6-94e4-c8fd174d39ca"
     },
-    "fileId": "05CvQ+3spNgoj14TjunnPe",
+    "fileId": "cb09lIb8lFeraOYiXzBOk6",
     "sync": false
   }
 ]

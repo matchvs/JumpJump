@@ -82,7 +82,6 @@ cc.Class({
         this.AnimNameJumpFailed = "JumpFailedAnim";
         this.AnimNameJumpFailedSweat = "JumpFailedSweat";
         this.m_listPlayerActions = [];
-        this.gameMain = uiFunc.findUI("uiGamePanel").getComponent("uiGamePanel");
     },
     AddScore(point) {
         if (point <= 0) {
@@ -173,8 +172,12 @@ cc.Class({
         pos.x = pos.x + this.m_fXDistance;
         return pos;
     },
-    Init(id, pos, currentCube, AILevel = null) {
+    Init(id, pos, currentCube, playerId, AILevel = null) {
         cc.log("初始化玩家");
+        var uiGamePanel = uiFunc.findUI("uiGamePanel");
+        if(uiGamePanel){
+            this.gameMain = uiGamePanel.getComponent("uiGamePanel");
+        }
         this.m_nPlayerScore = 0;
         this.m_nTimer = 0;
         this.m_nAddPower = 430;
@@ -286,7 +289,7 @@ cc.Class({
                 this.m_animationGatherStrength.play(this.AnimNameGatherStrength);
                 this.m_objCurrentCube.PressStart();
                 this.m_nTimer = 0;
-                this.juli=cc.audioEngine.play(this.fashe, false, 1);
+                this.juli = cc.audioEngine.play(this.fashe, false, 1);
             }
         }
     },

@@ -8,7 +8,6 @@ cc.Class({
         clientEvent.init();
         dataFunc.loadConfigs();
         cc.view.enableAutoFullScreen(false);
-
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
         this.network = window.network;

@@ -9,7 +9,9 @@ window.Game = {
     GameStand: null,
     player2: null,
     dir: null,
-    pos: null
+    pos: null,
+    m_PlayerPrefab: null,
+    m_PlayerPrefab2: null
 }
 
 window.GameState = cc.Enum({
@@ -49,13 +51,13 @@ window.GLB = {
 
     channel: 'MatchVS',
     platform: 'alpha',
-    gameId: 201408,
+    gameId: 201553,
     gameVersion: 1,
     IP: "wxrank.matchvs.com",
     PORT: "3010",
     GAME_NAME: "game5",
-    appKey: '0acff65acc984c5aaad2b362b58314bc',
-    secret: '372fdb54456f4717b913e9211d99e85e',
+    appKey: 'e4ec6e88380843ed89f4e6327b333752',
+    secret: 'dd9a27fe64894f12863b189570451474',
 
     matchType: 1,
     gameType: 2,

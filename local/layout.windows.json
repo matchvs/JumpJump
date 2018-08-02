@@ -79,7 +79,7 @@
             "width": 963.984375
           },
           {
-            "active": 0,
+            "active": 1,
             "children": [
               "inspector",
               "builder"
@@ -111,8 +111,8 @@
       "height": 522
     },
     "project-settings": {
-      "x": 44,
-      "y": 121,
+      "x": 405,
+      "y": 300,
       "width": 584,
       "height": 548
     },

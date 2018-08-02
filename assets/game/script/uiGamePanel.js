@@ -9,12 +9,16 @@ cc.Class({
             url: cc.AudioClip
         },
         GameRoot: cc.Node,
-        CubeRoot: cc.Node
+        CubeRoot: cc.Node,
     },
     onLoad() {
         this.score = this.node.getChildByName("Board").getChildByName("player1").getChildByName("score");
         this.score2 = this.node.getChildByName("Board").getChildByName("player2").getChildByName("score");
-        this.node.getChildByName("tuichuanniu").on(cc.Node.EventType.TOUCH_START, this.exit, this)
+        this.node.getChildByName("tuichuanniu").on(cc.Node.EventType.TOUCH_START, this.exit, this);
+        this.player = this.node.getChildByName("Board").getChildByName("player1").getComponent("resultPlayerIcon");
+        this.player.setData(GLB.playerUserIds[0]);
+        this.rival = this.node.getChildByName("Board").getChildByName("player2").getComponent("resultPlayerIcon");
+        this.rival.setData(GLB.playerUserIds[1]);
     },
     init(){
         Game.BattleManager.Init();
@@ -24,12 +28,6 @@ cc.Class({
             this.m_nTime = 60;
             this.time = setInterval(this.TimeCount.bind(this), 1000);
         }.bind(this), 1000);
-        if (Game.GameManager.avatarUrl) {
-            cc.loader.load({url: Game.GameManager.avatarUrl, type: 'png'}, function(err, texture) {
-                var spriteFrame = new cc.SpriteFrame(texture, cc.Rect(0, 0, texture.width, texture.height));
-                this.nodeDict["userIcon"].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            }.bind(this));
-        }
     },
     playBgm(){
         this.audio = cc.audioEngine.play(this.bgmAudio, true, 1);

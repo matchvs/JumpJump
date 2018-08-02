@@ -39,19 +39,19 @@ cc.Class({
     rank: function() {
         if (!Game.GameManager.network.isConnected()) {
             Game.GameManager.network.connect(GLB.IP, GLB.PORT, function() {
-                    Game.GameManager.network.send("connector.entryHandler.login", {
+                Game.GameManager.network.send("connector.entryHandler.login", {
+                    "account": GLB.userInfo.id + "",
+                    "channel": "0",
+                    "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id + "",
+                    "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "-"
+                });
+                setTimeout(function () {
+                    Game.GameManager.network.send("connector.rankHandler.getRankData", {
                         "account": GLB.userInfo.id + "",
-                        "channel": "0",
-                        "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id + "",
-                        "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "-"
+                        "game": GLB.GAME_NAME
                     });
-                    setTimeout(function() {
-                        Game.GameManager.network.send("connector.rankHandler.getRankData", {
-                            "account": GLB.userInfo.id + "",
-                            "game": GLB.GAME_NAME
-                        });
-                    }, 500);
-                }
+                }, 500);
+            }
             );
         } else {
             Game.GameManager.network.send("connector.rankHandler.getRankData", {

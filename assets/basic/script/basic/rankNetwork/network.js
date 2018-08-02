@@ -105,7 +105,6 @@ window.network = {
         // 请求参数中加入唯一标识,用于跟踪请求链。
         dataObj.uuid = this.guid();
         console.log("send route:" + routeStr + " data:" + JSON.stringify(dataObj));
-
         // 记录路由请求
         this.addRouterToManager(routeStr);
 
