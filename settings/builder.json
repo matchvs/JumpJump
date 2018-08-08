@@ -9,7 +9,7 @@
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
   "jailbreakPlatform": false,
-  "md5Cache": false,
+  "md5Cache": true,
   "mergeStartScene": false,
   "oauthLoginServer": "",
   "optimizeHotUpdate": false,
@@ -28,7 +28,7 @@
   "renderMode": "0",
   "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
   "title": "jump-123",
-  "webOrientation": "auto",
+  "webOrientation": "portrait",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/jump",
     "appid": "wx793199d0ca521154",

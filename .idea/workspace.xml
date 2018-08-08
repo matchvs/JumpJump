@@ -2,929 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e15cb34a-be2e-45f5-be97-143830e39c1c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/script/basic/Globals.js" afterPath="$PROJECT_DIR$/assets/basic/script/basic/Globals.js" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/script/basic/rankNetwork/network.js" afterPath="$PROJECT_DIR$/assets/basic/script/basic/rankNetwork/network.js" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/script/resultPlayerIcon.js" afterPath="$PROJECT_DIR$/assets/basic/script/resultPlayerIcon.js" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/script/uiLobbyPanel.js" afterPath="$PROJECT_DIR$/assets/basic/script/uiLobbyPanel.js" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/script/uiLogin.js" afterPath="$PROJECT_DIR$/assets/basic/script/uiLogin.js" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/script/uiRoomList.js" afterPath="$PROJECT_DIR$/assets/basic/script/uiRoomList.js" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/script/uiVsResult.js" afterPath="$PROJECT_DIR$/assets/basic/script/uiVsResult.js" />
-      <change beforePath="$PROJECT_DIR$/assets/game/script/managers/battleManager.js" afterPath="$PROJECT_DIR$/assets/game/script/managers/battleManager.js" />
-      <change beforePath="$PROJECT_DIR$/assets/game/script/managers/gameManager.js" afterPath="$PROJECT_DIR$/assets/game/script/managers/gameManager.js" />
-      <change beforePath="$PROJECT_DIR$/assets/game/script/managers/playerManager.js" afterPath="$PROJECT_DIR$/assets/game/script/managers/playerManager.js" />
-      <change beforePath="$PROJECT_DIR$/assets/game/script/player.js" afterPath="$PROJECT_DIR$/assets/game/script/player.js" />
-      <change beforePath="$PROJECT_DIR$/assets/game/script/playerEntity.js" afterPath="$PROJECT_DIR$/assets/game/script/playerEntity.js" />
-      <change beforePath="$PROJECT_DIR$/assets/game/script/uiGamePanel.js" afterPath="$PROJECT_DIR$/assets/game/script/uiGamePanel.js" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/失败掉落特效.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_1.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_2.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_3.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_4.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_5.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/10y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/10y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/11y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/11y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/12y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/12y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/13y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/13y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/14y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/14y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/15y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/15y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/16y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/16y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/17y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/17y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/18y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/18y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/19y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/19y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/1y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/1y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/1y_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/1y_1.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/20y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/20y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/21y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/21y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/22y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/22y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/23y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/23y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/24y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/24y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/2y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/2y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/3y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/3y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/4y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/4y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/4y_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/4y_1.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/5y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/5y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/6y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/6y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/7y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/7y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/8y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/8y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/9y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/影子/9y.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_1.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_2.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_3.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_4.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_5.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_6.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/liuhan_7.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/示意.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/流汗特效/示意.jpg.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/luodi_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/luodi_1.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/luodi_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/luodi_2.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/luodi_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/luodi_3.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/luodi_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/luodi_4.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/zonxinluoditexiao_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/zonxinluoditexiao_1.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/zonxinluoditexiao_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/zonxinluoditexiao_2.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/zonxinluoditexiao_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/落地特效/zonxinluoditexiao_3.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_1.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_2.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_3.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_4.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_5.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_6.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/prefab/Box1.prefab" afterPath="$PROJECT_DIR$/assets/resources/prefab/Box1.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/prefab/Box10.prefab" afterPath="$PROJECT_DIR$/assets/resources/prefab/Box10.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/prefab/Box2.prefab" afterPath="$PROJECT_DIR$/assets/resources/prefab/Box2.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/prefab/Box3.prefab" afterPath="$PROJECT_DIR$/assets/resources/prefab/Box3.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/prefab/Box4.prefab" afterPath="$PROJECT_DIR$/assets/resources/prefab/Box4.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/prefab/Box5.prefab" afterPath="$PROJECT_DIR$/assets/resources/prefab/Box5.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/prefab/Box6.prefab" afterPath="$PROJECT_DIR$/assets/resources/prefab/Box6.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/prefab/Box7.prefab" afterPath="$PROJECT_DIR$/assets/resources/prefab/Box7.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/prefab/Box8.prefab" afterPath="$PROJECT_DIR$/assets/resources/prefab/Box8.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/prefab/Box9.prefab" afterPath="$PROJECT_DIR$/assets/resources/prefab/Box9.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/prefab/player.prefab" afterPath="$PROJECT_DIR$/assets/resources/prefab/player.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/prefab/player2.prefab" afterPath="$PROJECT_DIR$/assets/resources/prefab/player2.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiGamePanel.prefab" afterPath="$PROJECT_DIR$/assets/resources/ui/uiGamePanel.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiLobbyPanelVer.prefab" afterPath="$PROJECT_DIR$/assets/resources/ui/uiLobbyPanelVer.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiMatching1v1Ver.prefab" afterPath="$PROJECT_DIR$/assets/resources/ui/uiMatching1v1Ver.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uirankPanelVer.prefab" afterPath="$PROJECT_DIR$/assets/resources/ui/uirankPanelVer.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/scenes/lobby.fire" afterPath="$PROJECT_DIR$/assets/scenes/lobby.fire" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/cocos2d-js-min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/01/01a1428ff.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/01/01cdbead0.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/01/01e4a86d3.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/02/022639c54.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/02/028bf33e9.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/02/029a4f5c2.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/02/02dd6da24.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/03/03aac364b.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/03/03da89d06.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/04/040cca297.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/04/0433d0ef-58ac-412e-aed0-2d6615ea652c.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/04/043493fd6.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/04/044dc30fc.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/04/04938b489.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/04/04f004e6f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/05/052a5713b.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/05/05b7a8796.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/06/065d237fa.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/06/06a600f75.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/07/07613cb3e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/07/07f18a8fe.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/08/0851f2098.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/08/08726f809.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/08/088f71728.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/08/08ccf42c9.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/09/0937986f-6535-44fc-92a7-dc80a1243ebe.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/09/09440626e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/09/094e7f1c7.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/09/095e2a3df.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/09/096370af7.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/09/09948967d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/09/099edae2f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/09/09b256523.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/09/09b4cc252.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/09/09b6f9327.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0a/0a56d7e76.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0a/0a9ad765b.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0a/0afe4e262.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0b/0b338e78-626d-43e9-94ae-950f125ebe08.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0b/0b4cd7a5d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0b/0b5bf26f1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0b/0b94f7c3c.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0b/0ba27b6d-9603-4148-8e99-ce7f74915bda.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0b/0bc76c92a.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0c/0c0137697.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0c/0c4d08403.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0c/0cac881e0.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0c/0cf86bea5.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0d/0dd39ec86.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0e/0e066dc9e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0e/0e073a72d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0e/0e3c2df65.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0f/0f0518988.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0f/0f8337fea.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0f/0fd4c6720.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0f/0fdfcb928.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/0f/0ff879516.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/12/12545f69-037f-48a2-ad37-b173f62d08e5.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/13/130c97c4-6f6c-4efb-bc1d-3d7f8099452e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/15/158915e7-955b-464c-8924-89b1f1fde0fb.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/16/16510b4f-55f6-44a8-9ac2-a8a00cb5c830.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/16/169be5d7-9615-4311-bfc3-3f27434a1425.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/17/1704e8c4-f2c6-48d5-8a29-8be6861e3c43.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/1a/1a300efc-5111-4ec0-ba66-833f33ecd7c3.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/1d/1d9a20eb-6f52-4bc7-98f3-60b5b451bff4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/1d/1dbf6307-cbb5-405f-8bf4-93c5ce4206af.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/1d/1dddff6e-67d6-42b9-ad17-eae9d94cf7eb.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/1e/1e829be6-f1b1-4b46-9ccb-894075142b94.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/1f/1f75b4ed-8295-4abf-ab8c-d439fd5d2c0c.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/20/2003f418-8ae5-4dff-95b1-8f74ddeec040.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/20/20fce153-fede-4f29-ac03-a232777d4be5.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/21/21821c0d-8846-42de-9562-a9507ef1795e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/21/2197743a-a343-472f-a9e6-21e7cdb92f14.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/22/22a58b86-20ac-4409-aa30-e5c18cb7488d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/25/256221e9-ee86-495b-b48d-622b4b142a15.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/28/2852f024-24af-4f6e-bbd6-f423a4dd8795.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/28/2879260b-e623-45ca-8042-427aa08b4cde.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/28/28fa9fec-035e-40a3-a1e1-27f79e9bcd38.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/29/2921149e-3ff7-4b72-bbce-b08ac1039acc.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/2a/2a745475-41b2-4c91-a465-0f252537fdff.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/2a/2af55b0b-adfd-48af-890f-ea25fc9d2be2.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/2b/2b657d8e-e8cc-4de9-82eb-f30b4ae1b357.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/2d/2d13f3cd-b3ae-426f-891e-486d0d02df73.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/2d/2d92e324-997b-431d-ac16-76fec22fbed3.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/2e/2e59a804-257d-4bd8-a369-ebdfe2ac9e83.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/35/35c01da5-8e16-4805-adcd-9851b1e36c34.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/38/38252796-8716-47d2-847b-cd34109221d3.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/38/385ead00-0b97-40c9-85e1-a30a826db66c.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/3a/3ab95940-a58b-44c0-9f7f-ffa4db736853.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/3c/3c93b79b-d327-48d3-be28-b71fb73591d8.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/3c/3cf1ad5f-da6a-429f-8c4c-b4e17d2aa4ae.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/3d/3d6ef372-d949-477d-b08e-08561954c756.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/3d/3daa4c51-2ce5-44ec-8f41-1e6b944d4bcb.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/3d/3ddfbba8-6ebb-4467-afe1-92b389582368.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/3e/3e06ae10-6a56-483e-a90b-d648be150be3.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/3f/3f7f0491-cfd9-431a-8fa2-9824b3d468e4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/3f/3f8e90b9-cd4b-42e6-89ef-02e9440b5945.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/40/40a687ce-d7c5-4eeb-8c39-d601a61a7efe.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/41/41c70984-580b-4026-a218-49aa5a069d89.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/44/44b38a02-0f40-4ed3-a269-a3dd90adacf3.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/4e/4e5bd90a-9d48-4dda-9916-be050d23afee.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/4e/4e83163a-759c-4172-b184-8baefe6c96d3.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/4e/4ea3fd83-5a87-450f-9a7d-255d084ee595.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/4f/4f19f104-13f1-4be5-b959-a226d9ecff1f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/4f/4f2f22a2-6521-404b-92e7-4e98a342b02d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/4f/4f5dc743-527e-4440-9faf-dd76295e7194.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/50/504712f4-a882-4aa6-9c2b-63bc9672b04b.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/50/505d03f1-54a5-469c-953c-dff642970a71.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/57/57b351d5-c4ec-4a6b-ac3d-6b02255d20e4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/59/595f2286-ab22-4681-88be-451c25d933ac.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/59/596f5bf8-83e3-44a0-9f43-0928a0e6926b.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/59/5983bb01-a939-4aaa-a7b8-b7b630372bbd.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/59/59cf7f45-b91e-4501-86d9-08d9590abfb9.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/5e/5e7e75d4-a2a3-419b-a3a0-f220d9c91b1a.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/5e/5ec0f7d8-d00f-4afe-9cab-b9b0b5b239f6.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/60/60331843-cd45-4a29-845f-a04a25500983.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/60/60676279-4eb6-4efb-93a7-c98428b117c8.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/62/6265570b-565d-40a5-97d6-e04f5b8e5405.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/65/65e31029-155e-4abd-9821-d8889c6bde39.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/65/65e32f47-e35a-4b33-97e3-af707f011e86.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/67/67a599df-6481-4cd4-9447-75e4ffe3184a.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/69/698ae146-253b-4952-a6d0-ff895fc71387.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/69/69913f6c-47bc-42de-bdf3-a5b388e42c31.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/6a/6a93ab68-5176-4ea8-809e-ccbd21d3a3fd.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/6c/6c922939-ce10-4b69-84a6-6184d84493e8.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/6d/6d36b203-a698-4597-8f4f-01d6f7961198.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/6d/6dc01b82-e206-437a-b729-18c0511f641e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/6f/6fb97847-eccd-4ea1-a635-9b39f25d827d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/71/710c08b5-2865-48e3-9ff5-bd44e67e909b.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/72/72630acb-3c94-44e1-b24c-54b634754ecc.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/73/730545b1-3d2f-4ac6-8b37-258210a9956e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/73/7334ca2b-dc2c-4607-bc74-2074b655b3a8.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/74/7438365e-73c3-4896-a7d0-43677c6c334d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/76/7619d3ad-3195-4e9f-bec3-4a1a5e29a6f9.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/77/77bc0473-6890-4a13-8a85-dc162b1607a4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/79/79bda570-8d37-4a42-8c6c-b43c3955cc4d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/7c/7c0706cf-6ac4-4b04-a581-fbc31dd0191b.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/7c/7ca92185-edbf-4310-bd25-9532d29ece2d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/7f/7f318701-fbcf-4570-b40f-cf1dd5dd73f0.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/82/82703a89-150b-44a5-9e84-a7a545e1e709.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/89/89055e5c-76ae-4dad-95ac-e168efb3befc.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/8e/8e10eb64-9537-41ae-8819-01b61981fb1f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/90/90f130e1-8197-471d-a82d-98c9d183f6fb.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/91/91ab22bc-70cf-40f2-bc83-db44e3b60c91.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/91/91babc8c-c317-48c7-a419-711e39c3850f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/91/91dd26c7-4fb2-4fc9-bded-a3e407402b69.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/92/9224b611-5192-4853-8680-7f340c0ce621.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/93/931b14a4-1b9e-437b-8f13-c14848237938.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/94/9410a5b8-0b8f-44dd-a57f-2ce94432efe8.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/94/94da1a14-9ff1-40c0-905e-3a477700e5ea.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/94/94f62ecd-d6e2-45ee-bbd5-87cb7f4570bb.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/96/9650d07a-deee-4229-ac86-022b6fe42d29.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/98/98385e38-b171-4da4-8989-8ffd32d4f1d2.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/99/9927dd01-f93b-461d-9d50-c61490f6f00c.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/9a/9a09b627-b5d5-41bb-83a8-eef4fba50b91.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/9b/9b43152f-d9d1-480e-99ee-cd00e8763202.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/9c/9c5203a8-1533-4df2-ac33-7139b22a1ca5.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/9e/9ec71088-db63-451a-8cda-1222a34b4bc0.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/9f/9fff4344-0671-4213-82b8-cb4ff7379eca.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/a1/a193a604-1cc5-4322-baa5-eace775fbf87.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/a3/a32e9319-0bc8-4761-ba53-73b1e72366e1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/a3/a37805a1-3d27-4669-ba4d-c634c53d748f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/a4/a438cc2a-7ac2-4f5d-9010-283cc7b970ef.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/a4/a4e71eda-57a0-446c-a9b4-dd28ffc788a9.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/a6/a6ce2dcb-a4f7-440c-837f-f0bc1b141b1d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/ac/acd055fe-5b7b-4788-b865-b53e3e0bb884.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/ad/ad07d720-efed-451d-ac52-fe6bf83f1b2b.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/ae/aedfb992-d717-4a04-88c5-e36aacf3821f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/b2/b2cc3eec-68ad-4af4-a20f-b526e3c54cfd.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/b3/b35be54d-686d-4bd0-9228-cacf7de4e5ec.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/b3/b372c328-6a53-4704-9e8b-d51d9a8aadfc.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/b7/b761f536-4784-4a6b-8f7f-e4d12747a27a.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/b8/b893739f-7c15-4014-8be1-ea8d4e9e509c.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/b8/b8a912aa-b530-4518-b821-c1a3a833a129.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/b8/b8dc24da-106f-4fce-9b5e-2250b1ff25ec.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/b9/b956a06a-85bc-4e05-869c-eed342617391.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/b9/b9dc1f04-1f91-4f9e-9e5d-397b726265d5.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/bd/bd0bf5ec-b587-4ee7-a248-4899ca74c142.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/bf/bf4c33f1-d8b1-4731-8562-f3541b419b69.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/c1/c1b11b32-7619-4b91-8a0a-967db59ea830.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/c2/c27b8942-77d7-4cde-8771-c238302759d2.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/c7/c723b1ed-c8dc-4583-9bd2-184a96a2ec2c.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/ca/cacde897-7753-4a8a-907f-727d4768bcf9.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/ce/ce7af76c-fe61-4505-ac71-8d40730edda1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/ce/ceeeaa6f-85b4-4291-b72b-1500e3e958ca.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/cf/cfae2a26-11df-4bcf-869a-5b9bf859c3af.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/d0/d0676350-5c60-4671-a2e3-710a33d185f7.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/d4/d46ca44c-8e6a-47d1-baed-7fecf083a401.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/d4/d4742008-4f30-4f1f-8314-ad9080627bd4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/d5/d5b852b3-e254-430a-ab46-e7d391195f41.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/d9/d92d5f78-cdf1-48ba-b8de-1c87cca1b961.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/da/da1aaa66-2eaa-4c80-839a-142ecf9fa4d1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/e1/e1294b54-2032-4dbd-8450-8cbb84ad7e18.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/e2/e2c8b2b9-66b9-41e8-ba9a-ea392a7cae15.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/e4/e4681265-a5f5-4b61-9f30-b6703541fcea.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/e7/e7687aca-d597-4381-896b-7768d56d3564.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/e7/e7c3057f-3709-417f-bb72-d87608a1c74d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/e9/e95e15a4-9ee3-46d4-8139-92380cad5f57.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/ef/ef0d2938-fb1f-4c3d-a116-23e1e96c825a.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/ef/ef5d8628-da02-47f5-95dc-de0ef4af152e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/ef/efcd467a-3c34-495d-8c39-50cfaddf8a0d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/f0/f03b6ecb-e165-44dd-b3fd-c7a772146861.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/f1/f17b525c-6f66-4377-a96e-0e228d7d637c.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/f1/f19b7656-c2d9-4b55-b4d1-6a5463767329.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/f3/f3576ff0-20dd-4879-8a7e-4574c9eef731.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/f4/f4c01bec-c38f-47d9-84ba-713c1598de51.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/f4/f4cf5cd6-44bd-44ec-9745-b0f282cc8d09.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/f7/f79062b7-7494-45c2-872a-b7bec2c9ac29.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/f9/f960c7ce-74eb-474e-9497-66238d10cd3d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/import/f9/f9719994-4f79-4136-a698-19c182daf88e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/audio/lose.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/audio/vitory.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/bar-user1.1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/bar-user1.2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/bar-user2.1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/bar-user2.2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/bar-user3.1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/bar-user3.3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/bian.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/bot-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/btn-back.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/con-user1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/con-user2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/cpm-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/cpm-logo2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/dating-btn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/dating-btn2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/dating-btn3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/def-use.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/def-user-squ.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/di.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/friendsRanking.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/handcon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/home-btn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/home-btn2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/home-btn5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/icon-money.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/icon-plus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/inviteFriends.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/kick.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/kuang.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/list-sign.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/minus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/play-user1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/play-user2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/rank-bg2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/rank-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/rank-num.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/rank-num2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/rank-user1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/rank-user2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/rank-user3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/rome-gold.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/room-kuang2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/room.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/roomnumber-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/share-icon1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/share-icon2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/share-icon3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/share-icon4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/share-icon5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/sr-btn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/sr-con-bg3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/sr-con-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/sr-con-lose.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/startGame.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/ver-bot-bg2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/ver-con-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/ver-con-light.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/ver-join-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/ver-rank-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/ver-rank-bg2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/ver-user-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/vs.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/basic/texture/worldRanking.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/18.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/20.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/21.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/22.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/23.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/24.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/di.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/ZWlogo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/box1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/box10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/box2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/box3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/box4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/box5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/box6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/box7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/box8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/box9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/boxEnd.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/boxEnd2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/boxShadow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/player.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/drawable/rival.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/image_block.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/image_cube.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/image_player.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/image_sphere.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/image_tuowei.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/js.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/动画/bsddbz_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/动画/bsddbz_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/动画/bsddbz_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/动画/bsddbz_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/动画/bsddbz_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/动画/bsddbz_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/动画/bsddbz_7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/动画/bsddbz_8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/动画/bsddbz_9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/10y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/11y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/12y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/13y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/14y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/15y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/16y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/17y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/18y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/19y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/1y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/1y_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/20y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/21y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/22y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/23y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/24y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/2y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/3y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/4y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/4y_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/5y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/6y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/7y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/8y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/影子/9y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/18.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/20.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/21.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/22.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/23.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/24.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块/9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/tizonji_9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/体重计特效/示意.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_18.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/dianshiji_9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/电视机特效/示意.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/liushenji_9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/留声机特效/示意.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/kontiaoji_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/kontiaoji_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/kontiaoji_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/方块的序列帧图片/空调机特效/示意.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/流汗特效/示意.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/界面资源/132.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/界面资源/banzhuanniu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/界面资源/biaoqinanniu1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/界面资源/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/界面资源/minzikuan.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/界面资源/touxian.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/界面资源/touxiankuannan.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/界面资源/touxiankuannv.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/界面资源/tuichuanniu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/界面资源/yuyinanniuguan.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/界面资源/yuyinanniukai.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/界面资源/跳一跳示意.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/落地特效/luodi_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/落地特效/luodi_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/落地特效/luodi_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/落地特效/luodi_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/落地特效/zonxinluoditexiao_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/落地特效/zonxinluoditexiao_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/落地特效/zonxinluoditexiao_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/角色/qw.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_Texture/角色/qwyz.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_UI/banzhuanniu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_UI/biaozhinan.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_UI/biaozhinv.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_UI/kaishi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_UI/touxiang.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_UI/tuichuanniu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_UI/tuoyuanditiao.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_UI/yuyinanniu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_UI/yuyinguanbi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_UI/yuyinkaiqi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_UI/zunbei.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/_AllResources/_UI/跳一跳示意.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/audio/BMG_01.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/audio/diao luo.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/audio/fa she.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/audio/tiao zhong.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/gameClips/bgm.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/gameClips/dead.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/gameClips/fire.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/gameClips/hurt.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/gameClips/shootGunItem.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/texture/background.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/texture/boom/boom-1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/texture/debris/tankBoom-1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/texture/main-1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-assets/resources/texture/sealDebris/sealDebris-1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-internal/image/default_btn_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-internal/image/default_btn_normal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-internal/image/default_btn_pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-internal/image/default_panel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/res/raw-internal/image/default_sprite_splash.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/splash.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/src/assets/basic/script/basic/rankNetwork/ProtoBuf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/src/project.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/src/settings.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/style-desktop.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/web-mobile/style-mobile.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/cocos2d-js-min.js" afterPath="$PROJECT_DIR$/build/wechatgame/cocos2d-js-min.js" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/game.js" afterPath="$PROJECT_DIR$/build/wechatgame/game.js" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/libs/weapp-adapter/Audio.js" afterPath="$PROJECT_DIR$/build/wechatgame/libs/weapp-adapter/Audio.js" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/libs/weapp-adapter/EventIniter/DeviceMotionEvent.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/libs/weapp-adapter/EventIniter/index.js" afterPath="$PROJECT_DIR$/build/wechatgame/libs/weapp-adapter/EventIniter/index.js" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/libs/weapp-adapter/WindowProperties.js" afterPath="$PROJECT_DIR$/build/wechatgame/libs/weapp-adapter/WindowProperties.js" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/main.js" afterPath="$PROJECT_DIR$/build/wechatgame/main.js" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/project.config.json" afterPath="$PROJECT_DIR$/build/wechatgame/project.config.json" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/01/01a1428ff.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/02/022639c54.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/02/028bf33e9.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/02/029a4f5c2.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/02/02bd5e19.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/03/03da89d06.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/04/040cca297.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/04/043493fd6.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/04/04938b489.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/04/049ca845a.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/04/04f004e6f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/06/0693c4750.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/06/06a600f75.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/07/07613cb3e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/08/08726f809.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/08/088f71728.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/08/08ccf42c9.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/09/09440626e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/09/094e7f1c7.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/09/095e2a3df.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/09/096370af7.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/09/099edae2f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/09/09b256523.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/09/09b4cc252.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/09/09b6f9327.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/09/09cc8591f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0a/0a9ad765b.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0a/0ae42e32-1416-4787-9f0f-d505315c0e63.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0a/0afe4e262.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0b/0b0b5474.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0b/0b5bf26f1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0b/0ba27b6d-9603-4148-8e99-ce7f74915bda.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0c/0c4d08403.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0c/0cac881e0.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0c/0cf86bea5.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0d/0dd39ec86.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0e/0e3c2df65.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/0f/0fdfcb928.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/13/13cc2036-0123-473e-91ef-99f056442208.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/16/169be5d7-9615-4311-bfc3-3f27434a1425.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/1a/1a300efc-5111-4ec0-ba66-833f33ecd7c3.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/1d/1d9a20eb-6f52-4bc7-98f3-60b5b451bff4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/21/2197743a-a343-472f-a9e6-21e7cdb92f14.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/28/2852f024-24af-4f6e-bbd6-f423a4dd8795.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/29/2921149e-3ff7-4b72-bbce-b08ac1039acc.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/2a/2a745475-41b2-4c91-a465-0f252537fdff.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/2e/2e59a804-257d-4bd8-a369-ebdfe2ac9e83.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/35/35c01da5-8e16-4805-adcd-9851b1e36c34.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/38/38252796-8716-47d2-847b-cd34109221d3.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/3f/3f7f0491-cfd9-431a-8fa2-9824b3d468e4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/3f/3f8e90b9-cd4b-42e6-89ef-02e9440b5945.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/41/41c70984-580b-4026-a218-49aa5a069d89.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/45/452b6cfe-03a4-485c-bb6b-de8d2e208509.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/4b/4bccd542-f3bc-42d6-948f-4ca3232ea34a.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/4c/4c7006f2-d2f4-4b82-9625-1ad654d8145a.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/4e/4e5bd90a-9d48-4dda-9916-be050d23afee.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/4e/4ea3fd83-5a87-450f-9a7d-255d084ee595.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/4f/4f19f104-13f1-4be5-b959-a226d9ecff1f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/4f/4f2f22a2-6521-404b-92e7-4e98a342b02d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/4f/4f5dc743-527e-4440-9faf-dd76295e7194.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/50/505d03f1-54a5-469c-953c-dff642970a71.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/5e/5e7e75d4-a2a3-419b-a3a0-f220d9c91b1a.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/60/60331843-cd45-4a29-845f-a04a25500983.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/62/6265570b-565d-40a5-97d6-e04f5b8e5405.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/67/67a599df-6481-4cd4-9447-75e4ffe3184a.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/6d/6dc01b82-e206-437a-b729-18c0511f641e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/6f/6fb97847-eccd-4ea1-a635-9b39f25d827d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/76/7619d3ad-3195-4e9f-bec3-4a1a5e29a6f9.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/77/77bc0473-6890-4a13-8a85-dc162b1607a4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/7c/7c0706cf-6ac4-4b04-a581-fbc31dd0191b.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/93/93ce7a0b-c651-4571-9f4e-acf460aa5de6.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/98/98385e38-b171-4da4-8989-8ffd32d4f1d2.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/9c/9c5203a8-1533-4df2-ac33-7139b22a1ca5.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/9e/9ec71088-db63-451a-8cda-1222a34b4bc0.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/a1/a1d1e51c-084d-4372-bd39-b373542cad41.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/ac/acd055fe-5b7b-4788-b865-b53e3e0bb884.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/b8/b8dc24da-106f-4fce-9b5e-2250b1ff25ec.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/b9/b9dc1f04-1f91-4f9e-9e5d-397b726265d5.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/bf/bf4c33f1-d8b1-4731-8562-f3541b419b69.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/ca/cacde897-7753-4a8a-907f-727d4768bcf9.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/ce/ce68b75b-d889-401c-8fae-5acea19a0c3b.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/ce/ceeeaa6f-85b4-4291-b72b-1500e3e958ca.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/cf/cfae2a26-11df-4bcf-869a-5b9bf859c3af.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/e1/e1294b54-2032-4dbd-8450-8cbb84ad7e18.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/e2/e2cb83ec-c592-46b8-bd35-bc5d5fd38c20.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/e7/e7c3057f-3709-417f-bb72-d87608a1c74d.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/ef/ef5d8628-da02-47f5-95dc-de0ef4af152e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/f0/f03b6ecb-e165-44dd-b3fd-c7a772146861.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/f1/f17b525c-6f66-4377-a96e-0e228d7d637c.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/import/f4/f48d50ef-584c-4167-b4c5-9e578d7631e7.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/audio/lose.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/audio/vitory.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/bar-user1.1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/bar-user1.2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/bar-user2.1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/bar-user2.2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/bar-user3.1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/bar-user3.3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/bian.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/bot-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/btn-back.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/con-user1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/con-user2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/cpm-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/cpm-logo2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/dating-btn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/dating-btn2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/dating-btn3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/def-use.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/def-user-squ.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/di.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/exit.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/friendsRanking.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/handcon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/home-btn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/home-btn2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/home-btn5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/icon-money.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/icon-plus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/inviteFriends.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/kick.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/kuang.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/list-sign.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/minus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/play-user1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/play-user2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/rank-bg2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/rank-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/rank-num.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/rank-num2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/rank-user1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/rank-user2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/rank-user3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/rome-gold.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/room-kuang2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/room.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/roomnumber-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/share-icon1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/share-icon2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/share-icon3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/share-icon4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/share-icon5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/sr-btn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/sr-con-bg3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/sr-con-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/sr-con-lose.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/startGame.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/ver-bot-bg2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/ver-con-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/ver-con-light.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/ver-join-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/ver-rank-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/ver-rank-bg2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/ver-user-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/vs.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/basic/texture/worldRanking.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/di.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/ZWlogo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/box1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/box10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/box2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/box3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/box4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/box5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/box6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/box7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/box8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/box9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/boxEnd.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/boxEnd2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/boxShadow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/player.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/drawable/rival.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/image_block.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/image_cube.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/image_player.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/image_sphere.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/image_tuowei.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/js.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/失败掉落特效/diaoluotexiao_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/10y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/11y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/12y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/13y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/14y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/15y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/16y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/17y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/18y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/19y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/1y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/1y_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/20y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/21y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/22y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/23y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/24y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/2y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/3y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/4y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/4y_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/5y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/6y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/7y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/8y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/影子/9y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/流汗特效/liuhan_7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/流汗特效/示意.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/落地特效/luodi_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/落地特效/luodi_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/落地特效/luodi_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/落地特效/luodi_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/落地特效/zonxinluoditexiao_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/落地特效/zonxinluoditexiao_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/落地特效/zonxinluoditexiao_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_Texture/蓄力特效/xulitexiao_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_UI/banzhuanniu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_UI/biaozhinan.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_UI/biaozhinv.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_UI/kaishi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_UI/touxiang.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_UI/tuichuanniu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_UI/tuoyuanditiao.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_UI/yuyinanniu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_UI/yuyinguanbi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_UI/yuyinkaiqi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_UI/zunbei.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/_AllResources/_UI/跳一跳示意.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/audio/+2.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/audio/BMG_01.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/audio/diao luo.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/audio/fa she.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-assets/resources/audio/tiao zhong.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_btn_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_btn_normal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_btn_pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_panel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/res/raw-internal/image/default_sprite_splash.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/src/project.js" afterPath="$PROJECT_DIR$/build/wechatgame/src/project.js" />
-      <change beforePath="$PROJECT_DIR$/build/wechatgame/src/settings.js" afterPath="$PROJECT_DIR$/build/wechatgame/src/settings.js" />
-      <change beforePath="$PROJECT_DIR$/local/assets.json" afterPath="$PROJECT_DIR$/local/assets.json" />
-      <change beforePath="$PROJECT_DIR$/local/builder.json" afterPath="$PROJECT_DIR$/local/builder.json" />
-      <change beforePath="$PROJECT_DIR$/local/console.json" afterPath="$PROJECT_DIR$/local/console.json" />
-      <change beforePath="$PROJECT_DIR$/local/hierarchy.json" afterPath="$PROJECT_DIR$/local/hierarchy.json" />
-      <change beforePath="$PROJECT_DIR$/local/layout.windows.json" afterPath="$PROJECT_DIR$/local/layout.windows.json" />
-      <change beforePath="$PROJECT_DIR$/local/logs/project.log" afterPath="$PROJECT_DIR$/local/logs/project.log" />
-      <change beforePath="$PROJECT_DIR$/settings/builder.json" afterPath="$PROJECT_DIR$/settings/builder.json" />
-      <change beforePath="$PROJECT_DIR$/settings/project.json" afterPath="$PROJECT_DIR$/settings/project.json" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/basic/script/uiLobbyPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/basic/script/uiLobbyPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/game/script/managers/gameManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/game/script/managers/gameManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uirankPanelVer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resources/ui/uirankPanelVer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uirankPanelVer.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resources/ui/uirankPanelVer.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/hierarchy.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/hierarchy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/layout.windows.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/layout.windows.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/local/logs/project.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/package-asset.import.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/package-asset.import.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -935,12 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/basic/script/uiLobbyPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2185">
-              <caret line="115" column="48" lean-forward="false" selection-start-line="115" selection-start-column="48" selection-end-line="115" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="681">
+              <caret line="140" column="111" selection-start-line="140" selection-start-column="111" selection-end-line="140" selection-end-column="111" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uiLobbyPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../AnimalChecker/AnimalChecker/assets/common/script/uiLobbyPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="647">
+              <caret line="141" selection-start-line="141" selection-end-line="142" />
             </state>
           </provider>
         </entry>
@@ -949,8 +44,7 @@
         <entry file="file://$PROJECT_DIR$/assets/basic/script/resultPlayerIcon.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
-              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding />
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -959,8 +53,7 @@
         <entry file="file://$PROJECT_DIR$/assets/basic/script/uiRankPanel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
-              <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-              <folding />
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -968,9 +61,8 @@
       <file leaf-file-name="uiGamePanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/game/script/uiGamePanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="665">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -979,8 +71,7 @@
         <entry file="file://$PROJECT_DIR$/assets/game/script/playerEntity.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5396">
-              <caret line="292" column="13" lean-forward="false" selection-start-line="292" selection-start-column="13" selection-end-line="292" selection-end-column="13" />
-              <folding />
+              <caret line="292" column="13" selection-start-line="292" selection-start-column="13" selection-end-line="292" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -989,28 +80,16 @@
         <entry file="file://$PROJECT_DIR$/assets/basic/script/uiVsResult.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="665">
-              <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-              <folding />
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/game/script/managers/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loadingPanelUIEvent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/game/anyGameFramework/client/assets/resources/panel/loading/loadingPanelUIEvent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="646">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -1076,10 +155,10 @@
         <option value="$PROJECT_DIR$/assets/game/script/managers/playerManager.js" />
         <option value="$PROJECT_DIR$/assets/game/script/uiGamePanel.js" />
         <option value="$PROJECT_DIR$/assets/game/script/playerEntity.js" />
-        <option value="$PROJECT_DIR$/assets/basic/script/uiLobbyPanel.js" />
         <option value="$USER_HOME$/NewProject/assets/Script/HelloWorld.js" />
         <option value="$USER_HOME$/NewProject/build/web-mobile/index.html" />
         <option value="$PROJECT_DIR$/assets/game/script/managers/gameManager.js" />
+        <option value="$PROJECT_DIR$/assets/basic/script/uiLobbyPanel.js" />
       </list>
     </option>
   </component>
@@ -1095,28 +174,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="1912" />
     <option name="height" value="988" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1187,17 +255,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
+    <property name="node.js.selected.package.prettier" value="" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1210,9 +281,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1231,34 +299,35 @@
       <workItem from="1530613031565" duration="97950000" />
       <workItem from="1531797163646" duration="1941000" />
       <workItem from="1533176721600" duration="28000" />
+      <workItem from="1533692452452" duration="300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203448000" />
+    <option name="totallyTimeSpent" value="203748000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1912" height="988" extended-state="0" />
+    <frame x="0" y="23" width="1912" height="981" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16710734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16710734" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2494043" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1271,373 +340,298 @@
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/basic/script/uiRankPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/playerEntity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5396">
-          <caret line="292" column="13" lean-forward="false" selection-start-line="292" selection-start-column="13" selection-end-line="292" selection-end-column="13" />
-          <folding />
+          <caret line="292" column="13" selection-start-line="292" selection-start-column="13" selection-end-line="292" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/uiVsResult.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
-          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding />
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/managers/gameManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
-          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/managers/bulletManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/uiLobbyPanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/uiGamePanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/managers/gameManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6460">
-          <caret line="340" column="13" lean-forward="false" selection-start-line="340" selection-start-column="13" selection-end-line="340" selection-end-column="13" />
-          <folding />
+          <caret line="340" column="13" selection-start-line="340" selection-start-column="13" selection-end-line="340" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/basic/Globals.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/managers/battleManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2983">
-          <caret line="165" column="29" lean-forward="false" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
+          <caret line="165" column="29" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/playerEntity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6688">
-          <caret line="360" column="22" lean-forward="false" selection-start-line="360" selection-start-column="22" selection-end-line="360" selection-end-column="22" />
-          <folding />
+          <caret line="360" column="22" selection-start-line="360" selection-start-column="22" selection-end-line="360" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/basic/Globals.js.meta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/basic/Globals.js.meta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jump-master/assets/basic/basic/Globals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../jump-master/assets/basic/basic/Globals.js" />
     <entry file="file://$PROJECT_DIR$/assets/basic/script/basic/Matchvs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+        <state relative-caret-position="-36" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../123/Globals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../123/Globals.js" />
     <entry file="file://$PROJECT_DIR$/assets/game/script/cubeBrickEntity.js" />
     <entry file="file://$PROJECT_DIR$/creator.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10893" column="8" lean-forward="false" selection-start-line="10893" selection-start-column="8" selection-end-line="10893" selection-end-column="8" />
+          <caret line="10893" column="8" selection-start-line="10893" selection-start-column="8" selection-end-line="10893" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/managers/gameManager.js.meta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/GlobalsConfig.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
-          <caret line="83" column="4" lean-forward="false" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/gameStand.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
-          <caret line="114" column="70" lean-forward="false" selection-start-line="114" selection-start-column="70" selection-end-line="114" selection-end-column="70" />
+          <caret line="114" column="70" selection-start-line="114" selection-start-column="70" selection-end-line="114" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/basic/uiPanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.webworker.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
-          <caret line="1503" column="13" lean-forward="false" selection-start-line="1503" selection-start-column="13" selection-end-line="1503" selection-end-column="13" />
+          <caret line="1503" column="13" selection-start-line="1503" selection-start-column="13" selection-end-line="1503" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/uiLogin.js.meta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/uiMatching1v1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
-          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/uiExit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/basic/rankNetwork/network.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="577">
-          <caret line="106" column="83" lean-forward="false" selection-start-line="106" selection-start-column="83" selection-end-line="106" selection-end-column="83" />
+          <caret line="106" column="83" selection-start-line="106" selection-start-column="83" selection-end-line="106" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
-          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/brickEntity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
-          <caret line="180" column="4" lean-forward="false" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
+          <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/imports/98/98205980-4fbd-4c46-a767-3cb423e65955.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
-          <caret line="215" column="12" lean-forward="false" selection-start-line="215" selection-start-column="12" selection-end-line="215" selection-end-column="12" />
+          <caret line="215" column="12" selection-start-line="215" selection-start-column="12" selection-end-line="215" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/uiRoomList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="709">
-          <caret line="96" column="49" lean-forward="false" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
+          <caret line="96" column="49" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/uiLogin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="65" lean-forward="false" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/playerIcon.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/managers/bulletManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="227" column="9" lean-forward="false" selection-start-line="227" selection-start-column="9" selection-end-line="227" selection-end-column="9" />
+          <caret line="227" column="9" selection-start-line="227" selection-start-column="9" selection-end-line="227" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/basic/Globals.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
-          <caret line="59" column="45" lean-forward="false" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+          <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/rankUserInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/managers/battleManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/uiMatching1v1Ver.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/managers/playerManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
-          <caret line="156" column="33" lean-forward="false" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
+          <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/resultPlayerIcon.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
-          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding />
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/basic/script/uiVsResult.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
-          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding />
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../reunionDinner/build/reunion-dinner/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/NewProject/build/web-mobile/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="44" column="31" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../reunionDinner/build/reunion-dinner/index.html" />
+    <entry file="file://$USER_HOME$/NewProject/build/web-mobile/index.html" />
     <entry file="file:///Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/webview/CCSGWebView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3570">
-          <caret line="312" column="35" lean-forward="false" selection-start-line="312" selection-start-column="35" selection-end-line="312" selection-end-column="35" />
+          <caret line="312" column="35" selection-start-line="312" selection-start-column="35" selection-end-line="312" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/NewProject/assets/Script/HelloWorld.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/basic/script/uiLobbyPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="115" column="48" lean-forward="false" selection-start-line="115" selection-start-column="48" selection-end-line="115" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/NewProject/assets/Script/HelloWorld.js" />
     <entry file="file://$PROJECT_DIR$/assets/basic/script/uiRankPanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
-          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding />
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/playerEntity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5396">
-          <caret line="292" column="13" lean-forward="false" selection-start-line="292" selection-start-column="13" selection-end-line="292" selection-end-column="13" />
-          <folding />
+          <caret line="292" column="13" selection-start-line="292" selection-start-column="13" selection-end-line="292" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/game/anyGameFramework/client/assets/resources/panel/loading/loadingPanelUIEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/game/anyGameFramework/client/assets/resources/panel/loading/loadingPanelUIEvent.js" />
     <entry file="file://$PROJECT_DIR$/assets/game/script/uiGamePanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="665">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/game/script/managers/gameManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="646">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../AnimalChecker/AnimalChecker/assets/common/script/uiLobbyPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="141" selection-start-line="141" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/basic/script/uiLobbyPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="140" column="111" selection-start-line="140" selection-start-column="111" selection-end-line="140" selection-end-column="111" />
         </state>
       </provider>
     </entry>
