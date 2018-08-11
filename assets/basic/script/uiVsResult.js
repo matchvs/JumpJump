@@ -18,7 +18,7 @@ cc.Class({
         uiFunc.findUI("uiGamePanel").getComponent("uiGamePanel").stopBgm();
         var point1 = uiFunc.findUI("uiGamePanel").getChildByName("Board").getChildByName("player1").getChildByName("score").getComponent(cc.Label).string;
         var point2 = uiFunc.findUI("uiGamePanel").getChildByName("Board").getChildByName("player2").getChildByName("score").getComponent(cc.Label).string;
-        var isLose = point1 >= point2 ? false : true;
+        var isLose = Game.GameManager.isRivalLeave ? false : point1 >= point2 ? false : true;
         this.player = this.nodeDict["player"].getComponent("resultPlayerIcon");
         this.player.setData(GLB.playerUserIds[0]);
         this.rival = this.nodeDict["rival"].getComponent("resultPlayerIcon");
