@@ -568,6 +568,9 @@
     "_components": [
       {
         "__id__": 28
+      },
+      {
+        "__id__": 29
       }
     ],
     "_prefab": null,
@@ -588,8 +591,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 2000,
+      "height": 3000
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -920,5 +923,14 @@
       "__id__": 17
     },
     "_enabled": true
+  },
+  {
+    "__type__": "cc.BlockInputEvents",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 17
+    },
+    "_enabled": false
   }
 ]
