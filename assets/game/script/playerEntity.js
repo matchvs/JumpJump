@@ -31,6 +31,7 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
+        console.log(GLB.isRoomOwner)
         this.fashe = cc.url.raw('resources/audio/fa she.mp3');
         this.tiaozhong = cc.url.raw('resources/audio/tiao zhong.mp3');
         this.diaoluo = cc.url.raw('resources/audio/diao luo.mp3');
@@ -421,7 +422,7 @@ cc.Class({
                     // this.m_animationJumpSuccessNotCenter.node.active=true;
                     // this.m_animationJumpSuccessNotCenter.play(this.AnimNameJumpSuccessNotCenter);
                 }
-                if (this.m_objCurrentCube.nextBrick == null) {
+                if (this.m_objCurrentCube.nextBrick == null&&GLB.isRoomOwner==true) {
                     Game.BattleManager.InstanceBrick();
                     var msg = {random_direction: Game.dir, nextBrickPosition: Game.pos};
                     mvs.engine.sendFrameEvent(JSON.stringify(msg));
@@ -444,12 +445,42 @@ cc.Class({
                 this.m_timecountStand = setTimeout(() => {
                     this.AddScore(Game.BattleManager.GetSpecialScore(this.m_objCurrentCube.GetBrickName()));
                 }, 2000);
+            }else if(this.m_nPlayerID==2){
+                this.m_animationBrickTimeOut = setTimeout(() => {
+                    this.m_objCurrentCube.PlayAnimation();
+                }, 1000);
+                this.m_animationJumpSuccessNotCenter.node.active = true;
+                this.m_animationJumpSuccessNotCenter.play(this.AnimNameJumpSuccessNotCenter);
+                if (point == Game.GlobalsConfig.PointInfo().Mid) {
+                    this.m_animationJumpSuccessCenter.node.active = true;
+                    this.m_animationJumpSuccessCenter.play(this.AnimNameJumpSuccessCenter);
+                }
+                else {
+                    // this.m_animationJumpSuccessNotCenter.node.active=true;
+                    // this.m_animationJumpSuccessNotCenter.play(this.AnimNameJumpSuccessNotCenter);
+                }
+                if (this.m_objCurrentCube.nextBrick == null&&GLB.isRoomOwner==true) {
+                    Game.BattleManager.InstanceBrick();
+                    var msg = {random_direction: Game.dir, nextBrickPosition: Game.pos};
+                    mvs.engine.sendFrameEvent(JSON.stringify(msg));
+                }
+                else {
+                    cc.audioEngine.play(this.tiaozhong, false, 1);
+                    let score = Game.BattleManager.GetNormalScroe(point);
+                    this.AddScore(score);
+                    this.m_intLastScore = 0;
+                }
+                this.m_timecountStand = setTimeout(() => {
+                    this.AddScore(Game.BattleManager.GetSpecialScore(this.m_objCurrentCube.GetBrickName()));
+                }, 2000);
             }
             else {
                 //Game.BattleManager.RecoveryBrick(Game.PlayerManager.GetMinYPlayerPos());
                 if (this.m_bIsAI) {
                     if (this.m_objCurrentCube.nextBrick == null) {
                         Game.BattleManager.InstanceBrick();
+                        var msg = {random_direction: Game.dir, nextBrickPosition: Game.pos};
+                        mvs.engine.sendFrameEvent(JSON.stringify(msg));
                     }
                     if (point == Game.GlobalsConfig.PointInfo.Mid) {
                         let score = Game.BattleManager.GetNormalScroe(point) + this.m_intLastScore;

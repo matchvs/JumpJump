@@ -19,7 +19,6 @@ cc.Class({
         this.player.setData(GLB.playerUserIds[0]);
         this.rival = this.node.getChildByName("Board").getChildByName("player2").getComponent("resultPlayerIcon");
         this.rival.setData(GLB.playerUserIds[1]);
-
         clientEvent.on(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
     },
     init() {
@@ -28,8 +27,17 @@ cc.Class({
         setTimeout(function() {
             Game.BattleManager.InstanceBrickAndPlayer();
             this.m_nTime = 60;
-            this.time = setInterval(this.TimeCount.bind(this), 1000);
+            if(GLB.isRoomOwner==true){
+                this.time = setInterval(function () {
+                    var msg = {timeCount:true};
+                    mvs.engine.sendFrameEvent(JSON.stringify(msg));
+                    this.TimeCount();
+                }.bind(this), 1000);
+            }
         }.bind(this), 1000);
+    },
+    stopTime(){
+        clearInterval(this.time);
     },
     playBgm() {
         this.audio = cc.audioEngine.play(this.bgmAudio, true, 1);
@@ -51,7 +59,7 @@ cc.Class({
         if (Game.GameManager.gameState !== GameState.Over) {
             this.m_nTime -= 1;
             if (this.node) {
-                this.node.getChildByName("TimeNode").getChildByName("Label").getComponent(cc.Label).string = this.m_nTime
+                this.node.getChildByName("TimeNode").getChildByName("Label").getComponent(cc.Label).string = this.m_nTime;
             }
             // cc.log(this.m_nTime);
             if (this.m_nTime <= 0) {
@@ -64,6 +72,7 @@ cc.Class({
 
     leaveRoom() {
         if (Game.GameManager.gameState !== GameState.Over) {
+            clearInterval(this.time);
             uiFunc.openUI("uiTip", function(obj) {
                 var uiTip = obj.getComponent("uiTip");
                 if (uiTip) {
@@ -75,6 +84,5 @@ cc.Class({
 
     onDestroy() {
         clientEvent.off(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
-
     }
 });

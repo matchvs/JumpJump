@@ -56,6 +56,8 @@ cc.Class({
         console.log("游戏结束");
         var gamePanel = uiFunc.findUI("uiGamePanel");
         if (gamePanel && Game.GameManager.gameState !== GameState.Over) {
+            gamePanel.getComponent("uiGamePanel").stopBgm();
+            gamePanel.getComponent("uiGamePanel").stopTime();
             Game.GameManager.gameState = GameState.Over;
             this.readyCnt = 0;
             setTimeout(function() {
@@ -242,6 +244,11 @@ cc.Class({
                 cc.director.loadScene('lobby');
             }.bind(this), 2500);
         }
+        var gamePanel = uiFunc.findUI("uiGamePanel");
+        if (gamePanel && Game.GameManager.gameState !== GameState.Over) {
+            gamePanel.getComponent("uiGamePanel").stopBgm();
+            gamePanel.getComponent("uiGamePanel").stopTime();
+        }
         console.log("错误信息：" + error);
         console.log("错误信息：" + msg);
     },
@@ -355,6 +362,12 @@ cc.Class({
             if (cpProto.random_direction != null) {
                 if (GLB.userInfo.id !== info.srcUserID) {
                     Game.BattleManager.InstanceBrick(null,null,null,cpProto.random_direction,cpProto.nextBrickPosition);
+                    Game.BattleManager.MoveRoot(Game.PlayerManager.m_listPlayers[1].m_objCurrentCube,0.5);
+                }
+            }if (cpProto.timeCount != null) {
+                if (GLB.userInfo.id !== info.srcUserID) {
+                    var uiGamePanel = uiFunc.findUI("uiGamePanel").getComponent("uiGamePanel");
+                    uiGamePanel.TimeCount();
                 }
             }
             if (info.cpProto.indexOf(GLB.SHOOT_GUN_ITEM) >= 0) {

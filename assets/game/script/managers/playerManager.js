@@ -16,7 +16,7 @@ cc.Class({
         this.m_PlayerPrefabPath = "prefab/player";
         this.m_PlayerPrefabPath2 = "prefab/player2";
         this.m_listSigns = null;
-        this.m_listPlayers = null;
+        this.m_listPlayers = [null,null,null];
         this.m_listPlayersLength = 0;
         this.m_nPlayersCount = 0;
         this.m_PlayerPrefab = null;
@@ -177,6 +177,7 @@ cc.Class({
             tempPlayerEntity.Init(id, pos, currentCube, AILevel);
             this.m_listPlayersLength += 1;
             this.m_nPlayersCount += 1;
+            this.m_listPlayers[id] = tempPlayerEntity;
             if (id != 1) {
                 tempPlayerEntity.TurnTranslucent(true);
             }
@@ -198,6 +199,7 @@ cc.Class({
             tempPlayerEntity.Init(id, pos, currentCube, AILevel);
             this.m_listPlayersLength += 1;
             this.m_nPlayersCount += 1;
+            this.m_listPlayers[id] = tempPlayerEntity;
             //this.m_listSigns[this.m_listPlayersLength] = id; //记录玩家id对应字典第几个
             //this.m_listPlayers[id] = tempPlayerEntity;
             if (id != 1) {
