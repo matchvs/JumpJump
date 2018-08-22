@@ -464,15 +464,6 @@ cc.Class({
                     var msg = {random_direction: Game.dir, nextBrickPosition: Game.pos};
                     mvs.engine.sendFrameEvent(JSON.stringify(msg));
                 }
-                else {
-                    cc.audioEngine.play(this.tiaozhong, false, 1);
-                    let score = Game.BattleManager.GetNormalScroe(point);
-                    this.AddScore(score);
-                    this.m_intLastScore = 0;
-                }
-                this.m_timecountStand = setTimeout(() => {
-                    this.AddScore(Game.BattleManager.GetSpecialScore(this.m_objCurrentCube.GetBrickName()));
-                }, 2000);
             }
             else {
                 //Game.BattleManager.RecoveryBrick(Game.PlayerManager.GetMinYPlayerPos());
