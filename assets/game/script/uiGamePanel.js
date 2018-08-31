@@ -83,6 +83,7 @@ cc.Class({
     },
 
     onDestroy() {
+        clearInterval(this.time);
         clientEvent.off(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
     }
 });
