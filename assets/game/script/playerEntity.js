@@ -85,6 +85,9 @@ cc.Class({
         this.m_listPlayerActions = [];
     },
     AddScore(point) {
+        if (Game.GameManager.gameState === GameState.Over) {
+            return;
+        }
         if (point <= 0) {
             return;
         }
