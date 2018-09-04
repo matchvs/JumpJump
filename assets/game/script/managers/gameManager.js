@@ -362,7 +362,7 @@ cc.Class({
             }
             if (cpProto.random_direction != null) {
                 if (GLB.userInfo.id !== info.srcUserID) {
-                    Game.BattleManager.InstanceBrick(null,null,null,cpProto.random_direction,cpProto.nextBrickPosition);
+                    Game.BattleManager.InstanceBrick(null,cpProto.random_brick,null,cpProto.random_direction,cpProto.nextBrickPosition);
                     Game.BattleManager.MoveRoot(Game.PlayerManager.m_listPlayers[1].m_objCurrentCube,0.5);
                 }
             }if (cpProto.timeCount != null) {

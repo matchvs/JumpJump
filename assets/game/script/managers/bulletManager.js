@@ -115,6 +115,7 @@ InstanceBrick(brickCount, randomBrick, randomSize, randomDirection, randomPositi
     //下一个方块方向
     //let random_direction:number = 1;
     //下一个方块名字
+    console.log(random_brick)
     let random_brick = null == randomBrick ? Game.GameUtility.GetRandomRoundInt(0, 100) : randomBrick;
     //下一个方块尺寸
     let random_size = null == randomSize ? Game.GameUtility.GetRandomRoundInt(0, 100) : randomSize;
@@ -132,6 +133,7 @@ InstanceBrick(brickCount, randomBrick, randomSize, randomDirection, randomPositi
     this.m_currentBrickPosition = nextBrickPosition;
     this.m_currentBrickEntity = nextBrickEntity;
     this.m_nBrickCount++;
+    Game.brick = random_brick;
     Game.dir = random_direction;
     Game.pos = nextBrickPosition;
     //GameNetWorkManager_1.GameNetWorkManager.GetInstance().SendGameData({ info: GlobalConfing_1.GlobalConfing.MessageId_InstanceBrick, brickCount: this.m_nBrickCount, randomBrick: random_brick, randomSize: random_size, randomDirection: random_direction, randomPosition: nextBrickPosition });

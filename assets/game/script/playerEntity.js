@@ -427,7 +427,7 @@ cc.Class({
                 }
                 if (this.m_objCurrentCube.nextBrick == null&&GLB.isRoomOwner==true) {
                     Game.BattleManager.InstanceBrick();
-                    var msg = {random_direction: Game.dir, nextBrickPosition: Game.pos};
+                    var msg = {random_brick: Game.brick,random_direction: Game.dir, nextBrickPosition: Game.pos};
                     mvs.engine.sendFrameEvent(JSON.stringify(msg));
                 }
                 if (this.m_objCurrentCube.nextBrick != null) {
@@ -464,7 +464,7 @@ cc.Class({
                 }
                 if (this.m_objCurrentCube.nextBrick == null&&GLB.isRoomOwner==true) {
                     Game.BattleManager.InstanceBrick();
-                    var msg = {random_direction: Game.dir, nextBrickPosition: Game.pos};
+                    var msg = {random_brick: Game.brick,random_direction: Game.dir, nextBrickPosition: Game.pos};
                     mvs.engine.sendFrameEvent(JSON.stringify(msg));
                 }
             }
@@ -473,7 +473,7 @@ cc.Class({
                 if (this.m_bIsAI) {
                     if (this.m_objCurrentCube.nextBrick == null) {
                         Game.BattleManager.InstanceBrick();
-                        var msg = {random_direction: Game.dir, nextBrickPosition: Game.pos};
+                        var msg = {random_brick: Game.brick,random_direction: Game.dir, nextBrickPosition: Game.pos};
                         mvs.engine.sendFrameEvent(JSON.stringify(msg));
                     }
                     if (point == Game.GlobalsConfig.PointInfo.Mid) {
