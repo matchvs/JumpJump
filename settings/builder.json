@@ -32,9 +32,7 @@
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/jump",
     "appid": "wx793199d0ca521154",
-    "isSubdomain": false,
     "orientation": "portrait",
-    "subContext": ""
   },
   "xxteaKey": "cc4567b0-a2c0-4b",
   "zipCompressJs": true
