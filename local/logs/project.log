@@ -1,57 +1,51 @@
-2018-08-31T02:48:33.738Z - normal: Load ~/.CocosCreator/settings.json
-2018-08-31T02:48:33.742Z - normal: checking language setting...
-2018-08-31T02:48:33.742Z - normal: Language: zh
-2018-08-31T02:48:34.520Z - success: protocol editor-framework registered
-2018-08-31T02:48:34.520Z - success: protocol app registered
-2018-08-31T02:48:34.521Z - success: protocol theme registered
-2018-08-31T02:48:34.521Z - success: protocol packages registered
-2018-08-31T02:48:34.522Z - success: protocol unpack registerred
-2018-08-31T02:48:34.522Z - success: protocol disable-commonjs registerred
-2018-08-31T02:48:35.263Z - normal: connected!
-2018-08-31T02:48:35.264Z - normal: Check project /Users/mac/MatchVsGithub/JumpJump/JumpJump
-2018-08-31T02:48:35.265Z - normal: Initializing Cocos2d
-2018-08-31T02:48:35.487Z - normal: Initializing Asset Database
-2018-08-31T02:48:35.523Z - success: protocol uuid registerred
-2018-08-31T02:48:35.523Z - success: protocol db registerred
-2018-08-31T02:48:35.523Z - success: protocol thumbnail registerred
-2018-08-31T02:48:35.523Z - normal: Loading editor/builtin packages
-2018-08-31T02:48:35.547Z - success: anysdk loaded
-2018-08-31T02:48:35.662Z - success: assets loaded
-2018-08-31T02:48:35.667Z - success: builder loaded
-2018-08-31T02:48:35.669Z - success: cocos-analytics loaded
-2018-08-31T02:48:35.674Z - success: console loaded
-2018-08-31T02:48:35.710Z - success: fb-instant-games loaded
-2018-08-31T02:48:35.715Z - success: hierarchy loaded
-2018-08-31T02:48:35.720Z - success: inspector loaded
-2018-08-31T02:48:35.721Z - success: keystore loaded
-2018-08-31T02:48:35.728Z - success: node-library loaded
-2018-08-31T02:48:35.729Z - success: package-asset loaded
-2018-08-31T02:48:35.731Z - success: preferences loaded
-2018-08-31T02:48:35.735Z - success: project-exporter loaded
-2018-08-31T02:48:35.751Z - success: project-importer loaded
-2018-08-31T02:48:35.754Z - success: project-settings loaded
-2018-08-31T02:48:35.759Z - success: ui-kit loaded
-2018-08-31T02:48:35.764Z - success: ui-grid loaded
-2018-08-31T02:48:35.768Z - success: scene loaded
-2018-08-31T02:48:35.769Z - success: sprite-editor loaded
-2018-08-31T02:48:35.773Z - success: store loaded
-2018-08-31T02:48:35.779Z - success: timeline loaded
-2018-08-31T02:48:35.780Z - normal: Loading builtin packages
-2018-08-31T02:48:35.784Z - success: asset-db-debugger loaded
-2018-08-31T02:48:35.785Z - success: color-picker loaded
-2018-08-31T02:48:35.789Z - success: package-manager loaded
-2018-08-31T02:48:35.790Z - success: qqplay-adapter loaded
-2018-08-31T02:48:35.859Z - success: sdkbox loaded
-2018-08-31T02:48:35.865Z - normal: last time update is in one day
-2018-08-31T02:48:35.866Z - success: tester loaded
-2018-08-31T02:48:35.870Z - success: ui-kit-preview-extra loaded
-2018-08-31T02:48:35.874Z - success: ui-kit-preview loaded
-2018-08-31T02:48:35.877Z - success: ui-tree loaded
-2018-08-31T02:48:35.879Z - success: weapp-adapter loaded
-2018-08-31T02:48:36.892Z - normal: Initializing project /Users/mac/MatchVsGithub/JumpJump/JumpJump
-2018-08-31T02:48:36.895Z - normal: Loading packages
-2018-08-31T02:48:36.908Z - success: plugin-matchvs loaded
-2018-08-31T02:48:36.908Z - normal: Watching packages
-2018-08-31T02:48:37.023Z - normal: Run Application
-2018-08-31T02:48:38.153Z - success: preview server running at http://localhost:7461
-2018-08-31T02:48:45.736Z - normal: 1.9.3
+2018-09-06T02:48:53.027Z - normal: Load ~/.CocosCreator/settings.json
+2018-09-06T02:48:53.031Z - normal: checking language setting...
+2018-09-06T02:48:53.031Z - normal: Language: zh
+2018-09-06T02:48:53.923Z - success: protocol editor-framework registered
+2018-09-06T02:48:53.923Z - success: protocol app registered
+2018-09-06T02:48:53.923Z - success: protocol theme registered
+2018-09-06T02:48:53.923Z - success: protocol packages registered
+2018-09-06T02:48:53.924Z - success: protocol unpack registerred
+2018-09-06T02:48:53.924Z - success: protocol disable-commonjs registerred
+2018-09-06T02:48:54.157Z - normal: connected!
+2018-09-06T02:48:54.158Z - normal: Check project /Users/mac/Documents/MatchVs/JumpJump
+2018-09-06T02:48:54.159Z - normal: Initializing Cocos2d
+2018-09-06T02:48:54.430Z - normal: Initializing Asset Database
+2018-09-06T02:48:54.468Z - success: protocol uuid registerred
+2018-09-06T02:48:54.470Z - success: protocol db registerred
+2018-09-06T02:48:54.470Z - success: protocol thumbnail registerred
+2018-09-06T02:48:54.470Z - normal: Loading editor/builtin packages
+2018-09-06T02:48:54.495Z - success: anysdk loaded
+2018-09-06T02:48:54.612Z - success: assets loaded
+2018-09-06T02:48:54.616Z - success: builder loaded
+2018-09-06T02:48:54.620Z - success: cocos-analytics loaded
+2018-09-06T02:48:54.624Z - success: console loaded
+2018-09-06T02:48:54.665Z - success: fb-instant-games loaded
+2018-09-06T02:48:54.672Z - success: hierarchy loaded
+2018-09-06T02:48:54.676Z - success: inspector loaded
+2018-09-06T02:48:54.677Z - success: keystore loaded
+2018-09-06T02:48:54.681Z - success: node-library loaded
+2018-09-06T02:48:54.683Z - success: package-asset loaded
+2018-09-06T02:48:54.687Z - success: preferences loaded
+2018-09-06T02:48:54.690Z - success: project-exporter loaded
+2018-09-06T02:48:54.706Z - success: project-importer loaded
+2018-09-06T02:48:54.709Z - success: project-settings loaded
+2018-09-06T02:48:54.714Z - success: ui-kit loaded
+2018-09-06T02:48:54.723Z - success: ui-grid loaded
+2018-09-06T02:48:54.727Z - success: scene loaded
+2018-09-06T02:48:54.728Z - success: sprite-editor loaded
+2018-09-06T02:48:54.736Z - success: store loaded
+2018-09-06T02:48:54.741Z - success: timeline loaded
+2018-09-06T02:48:54.742Z - normal: Loading builtin packages
+2018-09-06T02:48:54.745Z - success: asset-db-debugger loaded
+2018-09-06T02:48:54.747Z - success: color-picker loaded
+2018-09-06T02:48:54.753Z - success: package-manager loaded
+2018-09-06T02:48:54.754Z - success: qqplay-adapter loaded
+2018-09-06T02:48:54.760Z - success: sdkbox loaded
+2018-09-06T02:48:54.767Z - success: tester loaded
+2018-09-06T02:48:54.773Z - success: ui-kit-preview-extra loaded
+2018-09-06T02:48:54.777Z - success: ui-kit-preview loaded
+2018-09-06T02:48:54.780Z - success: ui-tree loaded
+2018-09-06T02:48:54.782Z - success: weapp-adapter loaded
+2018-09-06T02:48:56.113Z - normal: Initializing project /Users/mac/Documents/MatchVs/JumpJump
+2018-09-06T02:48:56.119Z - normal: Loading packages

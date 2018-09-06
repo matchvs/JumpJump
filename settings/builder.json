@@ -4,7 +4,7 @@
   "encryptJs": true,
   "excludeScenes": [],
   "fb-instant-games": {},
-  "includeAnySDK": true,
+  "includeAnySDK": false,
   "includeSDKBox": false,
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
@@ -19,7 +19,7 @@
     "portrait": false,
     "upsideDown": false
   },
-  "packageName": "org.cocos2d.jump-123",
+  "packageName": "org.cocos2d.JumpJump",
   "privateKey": "",
   "qqplay": {
     "REMOTE_SERVER_ROOT": "",
@@ -27,13 +27,13 @@
   },
   "renderMode": "0",
   "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "title": "jump-123",
-  "webOrientation": "portrait",
+  "title": "JumpJump",
+  "webOrientation": "auto",
   "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/jump",
+    "REMOTE_SERVER_ROOT": "https://imgs.matchvs.com/static/tianziyou/jumpjump",
     "appid": "wx793199d0ca521154",
-    "orientation": "portrait",
+    "orientation": "portrait"
   },
-  "xxteaKey": "cc4567b0-a2c0-4b",
+  "xxteaKey": "e42c7e97-9ffc-4e",
   "zipCompressJs": true
 }
