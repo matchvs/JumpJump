@@ -156,7 +156,7 @@ cc.Class({
         //Game.PlayerManager.GetInstance().SetSettimeoutWaittingUI(null);
         //GameMain_1.default.GetInstance().DlgGameBattle.getComponent(DlgGameBattle_1.default).CloseWaitting();
         //}
-        console.log(randomBrick, randomDirection)
+        // console.log(randomBrick, randomDirection)
         Game.BulletManager.InstanceBrick(brickCount, randomBrick, randomSize, randomDirection, randomPosition);
     },
     //回收方块

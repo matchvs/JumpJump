@@ -115,7 +115,7 @@ InstanceBrick(brickCount, randomBrick, randomSize, randomDirection, randomPositi
     //下一个方块方向
     //let random_direction:number = 1;
     //下一个方块名字
-    console.log(random_brick)
+    // console.log(random_brick)
     let random_brick = null == randomBrick ? Game.GameUtility.GetRandomRoundInt(0, 100) : randomBrick;
     //下一个方块尺寸
     let random_size = null == randomSize ? Game.GameUtility.GetRandomRoundInt(0, 100) : randomSize;
