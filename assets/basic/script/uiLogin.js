@@ -38,14 +38,22 @@ cc.Class({
                         }, 1000);
                         Game.GameManager.nickName = res.userInfo.nickName;
                         Game.GameManager.avatarUrl = res.userInfo.avatarUrl;
-                        Game.GameManager.matchVsInit();
+
+                        this.startGame();
+
                         Game.GameManager.getUserInfoBtn.hide();
-                    });
-                }
+                    }.bind(this));
+                }.bind(this)
             });
         } else {
-            this.nodeDict["start"].on("click", Game.GameManager.matchVsInit, Game.GameManager);
+            this.nodeDict["start"].on("click", this.startGame, this);
         }
+    },
+
+    startGame() {
+        Game.GameManager.matchVsInit();
+        Game.BulletManager.Init();
+        Game.BattleManager.Init();
     },
 
     onEnable() {
