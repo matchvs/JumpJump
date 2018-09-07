@@ -446,7 +446,9 @@ cc.Class({
                     this.m_intLastScore = 0;
                 }
                 this.m_timecountStand = setTimeout(() => {
-                    this.AddScore(Game.BattleManager.GetSpecialScore(this.m_objCurrentCube.GetBrickName()));
+                    if(this.m_objCurrentCube) {
+                        this.AddScore(Game.BattleManager.GetSpecialScore(this.m_objCurrentCube.GetBrickName()));
+                    }
                 }, 2000);
             }else if(this.m_nPlayerID==2){
                 this.m_animationBrickTimeOut = setTimeout(() => {
