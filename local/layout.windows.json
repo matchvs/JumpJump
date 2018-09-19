@@ -5,9 +5,9 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 19,
-      "y": 25,
-      "width": 1879,
+      "x": 16,
+      "y": 23,
+      "width": 1904,
       "height": 977,
       "layout": {
         "children": [
@@ -20,7 +20,7 @@
                 ],
                 "height": 363,
                 "type": "panel",
-                "width": 519
+                "width": 526
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 520,
                 "type": "panel",
-                "width": 519
+                "width": 526
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 519
+            "width": 526
           },
           {
             "children": [
@@ -47,7 +47,7 @@
                     ],
                     "height": 617,
                     "type": "panel",
-                    "width": 419
+                    "width": 490
                   },
                   {
                     "active": 0,
@@ -56,12 +56,12 @@
                     ],
                     "height": 617,
                     "type": "panel",
-                    "width": 284
+                    "width": 333
                   }
                 ],
                 "height": 617,
                 "type": "dock-h",
-                "width": 706
+                "width": 826
               },
               {
                 "active": 1,
@@ -71,22 +71,22 @@
                 ],
                 "height": 266,
                 "type": "panel",
-                "width": 706
+                "width": 826
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 706
+            "width": 826
           },
           {
-            "active": 1,
+            "active": 0,
             "children": [
               "inspector",
               "builder"
             ],
             "height": 886,
             "type": "panel",
-            "width": 642
+            "width": 540
           }
         ],
         "type": "dock-h"

@@ -81,6 +81,7 @@ cc.Class({
     for (let i = 0; i < this.m_brickObj.length; i++) {
         this.LoadBrickPrefab(this.m_brickObj[i]);
     }
+    console.log("初始化")
     this.m_fAngle = null;
     this.m_currentBrickPosition = null;
     },

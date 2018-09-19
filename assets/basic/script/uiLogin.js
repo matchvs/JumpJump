@@ -5,8 +5,13 @@ cc.Class({
 
     onLoad() {
         this._super();
+        this.nodeDict["start"].on("click", this.startGame, this);
     },
-
+    startGame() {
+        Game.GameManager.matchVsInit();
+        Game.BulletManager.Init();
+        Game.BattleManager.Init();
+    },
     start() {
         if (window.wx) {
             this.nodeDict["start"].active = false;
