@@ -244,9 +244,9 @@ cc.Class({
             return {minLen: 200, minPos: playerPosition, pointInfo: "", info: Game.GlobalsConfig.Drop(), brick: null};
         }
         //两点的向量
-        let tempDir = cc.pSub(playerPosition, leftDownOutPoint);
+        let tempDir = playerPosition.sub(leftDownOutPoint);
         //两点的距离
-        let tempLen = cc.pLength(tempDir);
+        let tempLen = tempDir.mag();
         let minLen = tempLen;
         //距离最小的点
         let minPos = leftDownOutPoint;
@@ -264,9 +264,9 @@ cc.Class({
         this.DebugJudgeInfo(playerPosition, leftDownOutPoint, minLen, minPos);
         for (let i = 1; i < pointList.length; i++) {
             //两点的向量
-            tempDir = cc.pSub(playerPosition, pointList[i].position);
+            tempDir = playerPosition.sub(pointList[i].position);
             //两点的距离
-            tempLen = cc.pLength(tempDir);
+            let tempLen = tempDir.mag();
             if (tempLen < minLen) {
                 //最小距离
                 minLen = tempLen;
@@ -297,9 +297,9 @@ cc.Class({
             return {minLen: 999, minPos: playerPosition, pointInfo: "", info: Game.GlobalsConfig.Drop(), brick: null};
         }
         //两点的向量
-        let tempDir = cc.pSub(playerPosition, rightDownOutPoint);
+        let tempDir = playerPosition.sub(rightDownOutPoint);
         //两点的距离
-        let tempLen = cc.pLength(tempDir);
+        let tempLen = tempDir.mag();
         let minLen = tempLen;
         //距离最小的点
         let minPos = rightDownOutPoint;
@@ -317,9 +317,9 @@ cc.Class({
         this.DebugJudgeInfo(playerPosition, rightDownOutPoint, minLen, minPos);
         for (let i = 0; i < pointList.length; i++) {
             //两点的向量
-            tempDir = cc.pSub(playerPosition, pointList[i].position);
+            tempDir = playerPosition.sub(pointList[i].position);
             //两点的距离
-            tempLen = cc.pLength(tempDir);
+            let tempLen = tempDir.mag();
             if (tempLen < minLen) {
                 //最小距离
                 minLen = tempLen;
@@ -347,7 +347,7 @@ cc.Class({
         for (let i = 0; i < pointList.length; i++) {
             if (rightJump) {
                 if (playerPosition.x <= pointList[i].position.x) {
-                    minLen = cc.pLength(cc.pSub(playerPosition, pointList[i].position));
+                    minLen = (playerPosition.sub(pointList[i].position)).mag();
                     minPos = pointList[i].position;
                     minPointInfo = pointList[i].info;
                     if (i == pointList.length - 1) {
@@ -358,7 +358,7 @@ cc.Class({
             }
             else {
                 if (playerPosition.x >= pointList[i].position.x) {
-                    minLen = cc.pLength(cc.pSub(playerPosition, pointList[i].position));
+                    minLen = (playerPosition.sub(pointList[i].position)).mag();
                     minPos = pointList[i].position;
                     minPointInfo = pointList[i].info;
                     if (i == pointList.length - 1) {

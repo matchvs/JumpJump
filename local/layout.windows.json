@@ -47,7 +47,7 @@
                     ],
                     "height": 617,
                     "type": "panel",
-                    "width": 794
+                    "width": 801
                   },
                   {
                     "active": 0,
@@ -56,12 +56,12 @@
                     ],
                     "height": 617,
                     "type": "panel",
-                    "width": 537
+                    "width": 293
                   }
                 ],
                 "height": 617,
                 "type": "dock-h",
-                "width": 1334
+                "width": 1097
               },
               {
                 "active": 0,
@@ -71,12 +71,12 @@
                 ],
                 "height": 266,
                 "type": "panel",
-                "width": 1334
+                "width": 1097
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 1334
+            "width": 1097
           },
           {
             "active": 1,
@@ -86,7 +86,7 @@
             ],
             "height": 886,
             "type": "panel",
-            "width": 329
+            "width": 566
           }
         ],
         "type": "dock-h"
@@ -101,8 +101,7 @@
         "assets",
         "scene"
       ]
-    },
-    "worker": {}
+    }
   },
   "panels": {
     "sprite-editor": {
