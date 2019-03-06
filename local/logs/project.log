@@ -1,60 +1,60 @@
-2019-03-06T10:59:45.078Z - normal: Load ~/.CocosCreator/settings.json
-2019-03-06T10:59:45.081Z - normal: checking language setting...
-2019-03-06T10:59:45.083Z - normal: Language: zh
-2019-03-06T10:59:46.149Z - success: protocol editor-framework registered
-2019-03-06T10:59:46.150Z - success: protocol app registered
-2019-03-06T10:59:46.151Z - success: protocol theme registered
-2019-03-06T10:59:46.151Z - success: protocol packages registered
-2019-03-06T10:59:46.152Z - success: protocol unpack registerred
-2019-03-06T10:59:46.152Z - success: protocol disable-commonjs registerred
-2019-03-06T10:59:46.370Z - normal: connected!
-2019-03-06T10:59:46.371Z - normal: Check project /Users/mac/JumpJump
-2019-03-06T10:59:46.372Z - normal: Initializing Cocos2d
-2019-03-06T10:59:46.606Z - normal: Initializing Asset Database
-2019-03-06T10:59:46.642Z - success: protocol uuid registerred
-2019-03-06T10:59:46.642Z - success: protocol db registerred
-2019-03-06T10:59:46.643Z - success: protocol thumbnail registerred
-2019-03-06T10:59:46.643Z - normal: Loading editor/builtin packages
-2019-03-06T10:59:46.677Z - success: anysdk loaded
-2019-03-06T10:59:46.810Z - success: assets loaded
-2019-03-06T10:59:46.814Z - success: builder loaded
-2019-03-06T10:59:46.819Z - success: cocos-analytics loaded
-2019-03-06T10:59:46.824Z - success: console loaded
-2019-03-06T10:59:46.863Z - success: fb-instant-games loaded
-2019-03-06T10:59:46.870Z - success: hierarchy loaded
-2019-03-06T10:59:46.874Z - success: inspector loaded
-2019-03-06T10:59:46.876Z - success: keystore loaded
-2019-03-06T10:59:46.880Z - success: node-library loaded
-2019-03-06T10:59:46.882Z - success: package-asset loaded
-2019-03-06T10:59:46.886Z - success: preferences loaded
-2019-03-06T10:59:46.889Z - success: project-exporter loaded
-2019-03-06T10:59:46.906Z - success: project-importer loaded
-2019-03-06T10:59:46.910Z - success: project-settings loaded
-2019-03-06T10:59:46.915Z - success: ui-kit loaded
-2019-03-06T10:59:46.922Z - success: ui-grid loaded
-2019-03-06T10:59:46.927Z - success: scene loaded
-2019-03-06T10:59:46.928Z - success: sprite-editor loaded
-2019-03-06T10:59:46.932Z - success: store loaded
-2019-03-06T10:59:46.940Z - success: timeline loaded
-2019-03-06T10:59:46.941Z - normal: Loading builtin packages
-2019-03-06T10:59:46.948Z - success: asset-db-debugger loaded
-2019-03-06T10:59:46.949Z - success: color-picker loaded
-2019-03-06T10:59:46.955Z - success: package-manager loaded
-2019-03-06T10:59:46.956Z - success: qqplay-adapter loaded
-2019-03-06T10:59:46.963Z - success: sdkbox loaded
-2019-03-06T10:59:46.970Z - success: tester loaded
-2019-03-06T10:59:46.973Z - success: ui-kit-preview-extra loaded
-2019-03-06T10:59:46.977Z - success: ui-kit-preview loaded
-2019-03-06T10:59:46.981Z - success: ui-tree loaded
-2019-03-06T10:59:46.985Z - success: weapp-adapter loaded
-2019-03-06T10:59:48.149Z - normal: Initializing project /Users/mac/JumpJump
-2019-03-06T10:59:48.153Z - normal: Loading packages
-2019-03-06T10:59:48.165Z - success: plugin-matchvs loaded
-2019-03-06T10:59:48.165Z - normal: Watching packages
-2019-03-06T10:59:48.300Z - normal: Run Application
-2019-03-06T10:59:49.473Z - success: preview server running at http://localhost:7456
-2019-03-06T10:59:57.944Z - normal: 1.9.3
-2019-03-06T10:59:59.141Z - warn: The Asset used by component "cc.Button" in scene "lobby.fire" is missing. Detailed information:
+2019-03-04T03:33:01.792Z - normal: Load ~/.CocosCreator/settings.json
+2019-03-04T03:33:01.796Z - normal: checking language setting...
+2019-03-04T03:33:01.796Z - normal: Language: zh
+2019-03-04T03:33:02.509Z - success: protocol editor-framework registered
+2019-03-04T03:33:02.509Z - success: protocol app registered
+2019-03-04T03:33:02.509Z - success: protocol theme registered
+2019-03-04T03:33:02.509Z - success: protocol packages registered
+2019-03-04T03:33:02.510Z - success: protocol unpack registerred
+2019-03-04T03:33:02.510Z - success: protocol disable-commonjs registerred
+2019-03-04T03:33:02.704Z - normal: connected!
+2019-03-04T03:33:02.706Z - normal: Check project /Users/mac/JumpJumpZW
+2019-03-04T03:33:02.707Z - normal: Initializing Cocos2d
+2019-03-04T03:33:02.894Z - normal: Initializing Asset Database
+2019-03-04T03:33:02.926Z - success: protocol uuid registerred
+2019-03-04T03:33:02.926Z - success: protocol db registerred
+2019-03-04T03:33:02.926Z - success: protocol thumbnail registerred
+2019-03-04T03:33:02.926Z - normal: Loading editor/builtin packages
+2019-03-04T03:33:02.948Z - success: anysdk loaded
+2019-03-04T03:33:03.062Z - success: assets loaded
+2019-03-04T03:33:03.066Z - success: builder loaded
+2019-03-04T03:33:03.068Z - success: cocos-analytics loaded
+2019-03-04T03:33:03.072Z - success: console loaded
+2019-03-04T03:33:03.103Z - success: fb-instant-games loaded
+2019-03-04T03:33:03.108Z - success: hierarchy loaded
+2019-03-04T03:33:03.112Z - success: inspector loaded
+2019-03-04T03:33:03.113Z - success: keystore loaded
+2019-03-04T03:33:03.118Z - success: node-library loaded
+2019-03-04T03:33:03.120Z - success: package-asset loaded
+2019-03-04T03:33:03.121Z - success: preferences loaded
+2019-03-04T03:33:03.124Z - success: project-exporter loaded
+2019-03-04T03:33:03.140Z - success: project-importer loaded
+2019-03-04T03:33:03.142Z - success: project-settings loaded
+2019-03-04T03:33:03.146Z - success: ui-kit loaded
+2019-03-04T03:33:03.151Z - success: ui-grid loaded
+2019-03-04T03:33:03.155Z - success: scene loaded
+2019-03-04T03:33:03.156Z - success: sprite-editor loaded
+2019-03-04T03:33:03.160Z - success: store loaded
+2019-03-04T03:33:03.166Z - success: timeline loaded
+2019-03-04T03:33:03.166Z - normal: Loading builtin packages
+2019-03-04T03:33:03.170Z - success: asset-db-debugger loaded
+2019-03-04T03:33:03.171Z - success: color-picker loaded
+2019-03-04T03:33:03.174Z - success: package-manager loaded
+2019-03-04T03:33:03.175Z - success: qqplay-adapter loaded
+2019-03-04T03:33:03.181Z - success: sdkbox loaded
+2019-03-04T03:33:03.185Z - success: tester loaded
+2019-03-04T03:33:03.188Z - success: ui-kit-preview-extra loaded
+2019-03-04T03:33:03.191Z - success: ui-kit-preview loaded
+2019-03-04T03:33:03.194Z - success: ui-tree loaded
+2019-03-04T03:33:03.195Z - success: weapp-adapter loaded
+2019-03-04T03:33:04.192Z - normal: Initializing project /Users/mac/JumpJumpZW
+2019-03-04T03:33:04.196Z - normal: Loading packages
+2019-03-04T03:33:04.207Z - success: plugin-matchvs loaded
+2019-03-04T03:33:04.207Z - normal: Watching packages
+2019-03-04T03:33:04.316Z - normal: Run Application
+2019-03-04T03:33:07.149Z - success: preview server running at http://localhost:7456
+2019-03-04T03:33:13.543Z - normal: 1.9.3
+2019-03-04T03:33:18.169Z - warn: The Asset used by component "cc.Button" in scene "lobby.fire" is missing. Detailed information:
 Node path: "Canvas/uiLogin/key_start"
 Asset url: "db://assets/scenes/lobby.fire"
 Missing uuid: "29158224-f8dd-4661-a796-1ffab537140e"

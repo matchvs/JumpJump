@@ -144,7 +144,7 @@ cc.Class({
     //方块掉落
     Drop() {
         //方块掉落
-        this.backgroundNode.setPositionY(this.backgroundNode.position.y + uiFunc.findUI("uiGamePanel").getComponent("uiGamePanel").GameRoot.height);
+        this.backgroundNode.y = this.backgroundNode.position.y + uiFunc.findUI("uiGamePanel").getComponent("uiGamePanel").GameRoot.height;
         let move = cc.moveTo(0.3, this.bgEndPosition);
         let move2 = cc.moveTo(0.1, new cc.Vec2(this.bgEndPosition.x, this.bgEndPosition.y + 20));
         let move3 = cc.moveTo(0.1, this.bgEndPosition);
