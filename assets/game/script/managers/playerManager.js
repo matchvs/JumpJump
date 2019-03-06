@@ -156,7 +156,7 @@ cc.Class({
         self.m_listPlayersLength = 0;
         self.m_nPlayersCount = 0;
     },
-    AddOnePlayer(id, pos, currentCube, AILevel = null) {
+    AddOnePlayer(id, pos, currentCube, AILevel ) {
         cc.loader.loadRes(this.m_PlayerPrefabPath, function (err, Obj) {
             if (err != null) {
                 cc.log(err);
@@ -183,7 +183,7 @@ cc.Class({
             }
         }.bind(this));
     },
-    AddOnePlayer2(id, pos, currentCube, AILevel = null) {
+    AddOnePlayer2(id, pos, currentCube, AILevel ) {
         cc.loader.loadRes(this.m_PlayerPrefabPath2, function (err, Obj) {
             if (err != null) {
                 cc.log(err, 1);

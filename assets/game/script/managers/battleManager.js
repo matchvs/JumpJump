@@ -79,8 +79,12 @@ cc.Class({
             }
         }
         */
-        Game.PlayerManager.AddOnePlayer(1, firstCenter, firstBrick);
-        Game.PlayerManager.AddOnePlayer2(2, firstCenter, firstBrick);
+        Game.PlayerManager.AddOnePlayer(1, firstCenter, firstBrick,null);
+        if(cc.ai){
+            Game.PlayerManager.AddOnePlayer2(2, firstCenter, firstBrick,3);
+        }else{
+            Game.PlayerManager.AddOnePlayer2(2, firstCenter, firstBrick,null);
+        }
     },
 //场景移动
     MoveRoot(brick, duration) {

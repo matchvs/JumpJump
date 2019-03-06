@@ -5,6 +5,8 @@ cc.Class({
 
     onLoad() {
         this._super();
+        cc.aimode = false;
+        cc.ai = false;
     },
 
     start() {
