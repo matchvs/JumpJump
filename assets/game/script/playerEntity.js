@@ -45,6 +45,7 @@ cc.Class({
         this.m_animationNode = null;
         this.m_diNode = null;
         this.m_nPlayerScore = 0;
+        this.m_nPlayerScore2 = 0;
         this.m_nAddPower = 0;
         this.m_fSpeed = 0;
         this.m_bIsPress = false;
@@ -83,7 +84,14 @@ cc.Class({
         this.AnimNameJumpFailed = "JumpFailedAnim";
         this.AnimNameJumpFailedSweat = "JumpFailedSweat";
         this.m_listPlayerActions = [];
+        this.bool = true;
+        // cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+        // cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
     },
+    // onDestroy () {
+    //     cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+    //     cc.systemEvent.off(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
+    // },
     AddScore(point) {
         if (Game.GameManager.gameState === GameState.Over) {
             return;
@@ -92,12 +100,19 @@ cc.Class({
             return;
         }
         this.m_nPlayerScore += point;
+        this.m_nPlayerScore2 += point;
+
         //    if (this.m_bIsAI==false)
         //    {
         //GameNetWorkManager.GetInstance().SendGameData({info:Game.GlobalsConfig.MessageId_PlayerScore,score:this.m_nPlayerScore});
         //GameMain.GetInstance().DlgGameBattle.getComponent<DlgGameBattle>(DlgGameBattle).UpdatePlayerScore(this.m_nPlayerScore);
-        this.UIAddScoreAction(point);
-        this.gameMain.updateScore(this.m_nPlayerScore);
+        if(this.m_bIsAI==false){
+            this.UIAddScoreAction(point);
+            this.gameMain.updateScore(this.m_nPlayerScore);
+        }
+        if(this.m_bIsAI==true){
+            this.gameMain.updateScore2(this.m_nPlayerScore2);
+        }
         var msg = {point: this.m_nPlayerScore};
         mvs.engine.sendFrameEvent(JSON.stringify(msg));
         //    }
@@ -144,8 +159,8 @@ cc.Class({
     },
     PlayerCurrentPosi() {
         var pos = this.gameMain.GameRoot.convertToNodeSpace(this.m_vec2PlayerCurrentPos);
-        var dis = this.m_vec2PlayerCurrentPos.y - pos.y;
-        pos.y += dis;
+        this.dis = this.m_vec2PlayerCurrentPos.y - pos.y;
+        pos.y += this.dis;
         return pos;
         //return this.gameMain.GameRoot.convertToNodeSpace(this.m_vec2PlayerCurrentPos);
     },
@@ -176,7 +191,7 @@ cc.Class({
         pos.x = pos.x + this.m_fXDistance;
         return pos;
     },
-    Init(id, pos, currentCube, playerId, AILevel = null) {
+    Init(id, pos, currentCube, AILevel ) {
         cc.log("初始化玩家");
         var uiGamePanel = uiFunc.findUI("uiGamePanel");
         if(uiGamePanel){
@@ -225,7 +240,7 @@ cc.Class({
             this.SetAIJoin(AILevel);
             setTimeout(() => {
                 this.AIJump();
-            }, 2000);
+        }, 2000);
         }
         else {
             if (id == 1) {
@@ -279,6 +294,29 @@ cc.Class({
             this.m_diNode.scaleX = -1;
         }
     },
+    // onKeyDown: function (event) {
+    //     if(this.bool){
+    //         switch (event.keyCode) {
+    //             case 13:
+    //             case 49:
+    //                 this.BePress();
+    //                 this.bool = false;
+    //                 break;
+    //         }
+    //     }
+    // },
+    //
+    // onKeyUp: function (event) {
+    //    // if(this.bool){
+    //         switch (event.keyCode) {
+    //             case 13:
+    //             case 49:
+    //                 this.PressEnd();
+    //                 this.bool = true;
+    //                 break;
+    //         }
+    //     //}
+    // },
     BePress() {
         if (Game.GameManager.gameState !== GameState.Over) {
             if (this.m_bCanPress && this.m_bIsAI == false) {
@@ -311,7 +349,7 @@ cc.Class({
                 this.m_animationGatherStrength.pause();
                 this.m_animationGatherStrength.node.active = false;
                 this.m_objCurrentCube.PressEnd();
-                this.PlayerJump();
+                this.PlayerJump(null,true);
                 this.m_nTimer = 0;
                 cc.audioEngine.stop(this.juli);
             }
@@ -337,7 +375,7 @@ cc.Class({
             }
         }
     },
-    PlayerJump(pos = null, needSynchronize = true) {
+    PlayerJump(pos , needSynchronize ) {
         if (null != this.m_timecountStand) {
             clearTimeout(this.m_timecountStand);
         }
@@ -367,8 +405,8 @@ cc.Class({
         posTarget.y += this.dis;
         this.m_vec2PlayerCurrentPos = posTarget;
         this.m_qwyzNode.active = false;
-        this.m_rotateNode.runAction(cc.rotateBy(0.3, 360 * dir));
-        let actionJump = cc.jumpTo(0.3, posTarget, 200, 1);
+        this.m_rotateNode.runAction(cc.rotateBy(0.36, 360 * dir));
+        let actionJump = cc.jumpTo(0.36, posTarget, 200, 1);
         //this.m_compentMotionStreak.fadeTime = 0;
         setTimeout(() => {
             //     // this.m_compentMotionStreak.reset();
@@ -400,6 +438,8 @@ cc.Class({
         }
     },
     JumpSuccess(brick, point) {
+        // var anim = brick.node.getChildByName("Shadow1").getComponent(cc.Animation);
+        // anim.play("waterWave");
         if (this.m_objCurrentCube == brick) {
             this.m_intLastScore = 0;
         }
@@ -414,7 +454,7 @@ cc.Class({
             if (this.m_nPlayerID==1) {
                 this.m_animationBrickTimeOut = setTimeout(() => {
                     this.m_objCurrentCube.PlayAnimation();
-                }, 1000);
+            }, 1000);
                 this.m_animationJumpSuccessNotCenter.node.active = true;
                 this.m_animationJumpSuccessNotCenter.play(this.AnimNameJumpSuccessNotCenter);
                 if (point == Game.GlobalsConfig.PointInfo().Mid) {
@@ -447,29 +487,33 @@ cc.Class({
                 }
                 this.m_timecountStand = setTimeout(() => {
                     if(this.m_objCurrentCube) {
-                        this.AddScore(Game.BattleManager.GetSpecialScore(this.m_objCurrentCube.GetBrickName()));
-                    }
-                }, 2000);
-            }else if(this.m_nPlayerID==2){
-                this.m_animationBrickTimeOut = setTimeout(() => {
-                    this.m_objCurrentCube.PlayAnimation();
+                    this.AddScore(Game.BattleManager.GetSpecialScore(this.m_objCurrentCube.GetBrickName()));
+                }
+            }, 2000);
+            }
+            if(cc.ai === false){
+                if(this.m_nPlayerID==2){
+                    this.m_animationBrickTimeOut = setTimeout(() => {
+                        this.m_objCurrentCube.PlayAnimation();
                 }, 1000);
-                this.m_animationJumpSuccessNotCenter.node.active = true;
-                this.m_animationJumpSuccessNotCenter.play(this.AnimNameJumpSuccessNotCenter);
-                if (point == Game.GlobalsConfig.PointInfo().Mid) {
-                    this.m_animationJumpSuccessCenter.node.active = true;
-                    this.m_animationJumpSuccessCenter.play(this.AnimNameJumpSuccessCenter);
-                }
-                else {
-                    // this.m_animationJumpSuccessNotCenter.node.active=true;
-                    // this.m_animationJumpSuccessNotCenter.play(this.AnimNameJumpSuccessNotCenter);
-                }
-                if (this.m_objCurrentCube.nextBrick == null&&GLB.isRoomOwner==true) {
-                    Game.BattleManager.InstanceBrick();
-                    var msg = {random_brick: Game.brick,random_direction: Game.dir, nextBrickPosition: Game.pos};
-                    mvs.engine.sendFrameEvent(JSON.stringify(msg));
+                    this.m_animationJumpSuccessNotCenter.node.active = true;
+                    this.m_animationJumpSuccessNotCenter.play(this.AnimNameJumpSuccessNotCenter);
+                    if (point == Game.GlobalsConfig.PointInfo().Mid) {
+                        this.m_animationJumpSuccessCenter.node.active = true;
+                        this.m_animationJumpSuccessCenter.play(this.AnimNameJumpSuccessCenter);
+                    }
+                    else {
+                        // this.m_animationJumpSuccessNotCenter.node.active=true;
+                        // this.m_animationJumpSuccessNotCenter.play(this.AnimNameJumpSuccessNotCenter);
+                    }
+                    if (this.m_objCurrentCube.nextBrick == null&&GLB.isRoomOwner==true) {
+                        Game.BattleManager.InstanceBrick();
+                        var msg = {random_brick: Game.brick,random_direction: Game.dir, nextBrickPosition: Game.pos};
+                        mvs.engine.sendFrameEvent(JSON.stringify(msg));
+                    }
                 }
             }
+
             else {
                 //Game.BattleManager.RecoveryBrick(Game.PlayerManager.GetMinYPlayerPos());
                 if (this.m_bIsAI) {
@@ -480,12 +524,12 @@ cc.Class({
                     }
                     if (point == Game.GlobalsConfig.PointInfo.Mid) {
                         let score = Game.BattleManager.GetNormalScroe(point) + this.m_intLastScore;
-                        //this.AddScore(score);
+                        this.AddScore(score);
                         this.m_intLastScore = score;
                     }
                     else {
                         let score = Game.BattleManager.GetNormalScroe(point);
-                        //this.AddScore(score);
+                        this.AddScore(score);
                         this.m_intLastScore = 0;
                     }
                     // let score= BattleManager.GetInstance().GetNormalScroe(point);
@@ -511,7 +555,7 @@ cc.Class({
             if (this.m_objCurrentCube.nextBrick == null && Game.PlayerManager.GetIsHost() == false) {
                 this.m_settimeoutWaittingUI = setTimeout(() => {
                     GameMain_1.default.GetInstance().DlgGameBattle.getComponent(DlgGameBattle_1.default).OpenWaitting();
-                }, 1000);
+            }, 1000);
                 // this.m_settimeoutChangeHost= setTimeout(() => {
                 //     if (this.m_objCurrentCube.nextBrick==null&&PlayerManager.GetInstance().GetIsHost()==false)
                 //     {
@@ -777,16 +821,16 @@ cc.Class({
         return GameRoot.convertToNodeSpace(pos);
     },
     AIMode() {
-        if (Game.BattleManager.IsGameOver == false) {
-            if (this.m_bIsAI) {
-                let time = 1500 + Math.random() * 1500;
-                setTimeout(() => {
-                    if (this.m_bIsAI) {
-                        this.AIJump();
-                    }
-                }, time);
+        //if (Game.BattleManager.IsGameOver == false) {
+        if (this.m_bIsAI) {
+            let time = 1500 + Math.random() * 1500;
+            setTimeout(() => {
+                if (this.m_bIsAI) {
+                this.AIJump();
             }
+        }, time);
         }
+        //}
     },
     onAnimEndListenerCenter() {
         this.m_animationJumpSuccessCenter.node.active = false;
