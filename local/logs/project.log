@@ -1,56 +1,467 @@
-2018-09-19T08:25:50.080Z - normal: Load ~/.CocosCreator/settings.json
-2018-09-19T08:25:50.083Z - normal: checking language setting...
-2018-09-19T08:25:50.083Z - normal: Language: zh
-2018-09-19T08:25:50.763Z - success: protocol editor-framework registered
-2018-09-19T08:25:50.764Z - success: protocol app registered
-2018-09-19T08:25:50.764Z - success: protocol theme registered
-2018-09-19T08:25:50.764Z - success: protocol packages registered
-2018-09-19T08:25:50.765Z - success: protocol unpack registerred
-2018-09-19T08:25:50.765Z - success: protocol disable-commonjs registerred
-2018-09-19T08:25:50.996Z - normal: connected!
-2018-09-19T08:25:50.999Z - normal: Check project /Users/mac/JumpJump
-2018-09-19T08:25:51.007Z - normal: Initializing Cocos2d
-2018-09-19T08:25:51.200Z - normal: Initializing Asset Database
-2018-09-19T08:25:51.229Z - success: protocol uuid registerred
-2018-09-19T08:25:51.229Z - success: protocol db registerred
-2018-09-19T08:25:51.229Z - success: protocol thumbnail registerred
-2018-09-19T08:25:51.229Z - normal: Loading editor/builtin packages
-2018-09-19T08:25:51.245Z - success: anysdk loaded
-2018-09-19T08:25:51.348Z - success: assets loaded
-2018-09-19T08:25:51.352Z - success: builder loaded
-2018-09-19T08:25:51.354Z - success: cocos-analytics loaded
-2018-09-19T08:25:51.358Z - success: console loaded
-2018-09-19T08:25:51.387Z - success: fb-instant-games loaded
-2018-09-19T08:25:51.392Z - success: hierarchy loaded
-2018-09-19T08:25:51.396Z - success: inspector loaded
-2018-09-19T08:25:51.398Z - success: keystore loaded
-2018-09-19T08:25:51.402Z - success: node-library loaded
-2018-09-19T08:25:51.403Z - success: package-asset loaded
-2018-09-19T08:25:51.405Z - success: preferences loaded
-2018-09-19T08:25:51.407Z - success: project-exporter loaded
-2018-09-19T08:25:51.422Z - success: project-importer loaded
-2018-09-19T08:25:51.424Z - success: project-settings loaded
-2018-09-19T08:25:51.429Z - success: ui-kit loaded
-2018-09-19T08:25:51.434Z - success: ui-grid loaded
-2018-09-19T08:25:51.438Z - success: scene loaded
-2018-09-19T08:25:51.439Z - success: sprite-editor loaded
-2018-09-19T08:25:51.442Z - success: store loaded
-2018-09-19T08:25:51.448Z - success: timeline loaded
-2018-09-19T08:25:51.449Z - normal: Loading builtin packages
-2018-09-19T08:25:51.452Z - success: asset-db-debugger loaded
-2018-09-19T08:25:51.453Z - success: color-picker loaded
-2018-09-19T08:25:51.457Z - success: package-manager loaded
-2018-09-19T08:25:51.458Z - success: qqplay-adapter loaded
-2018-09-19T08:25:51.464Z - success: sdkbox loaded
-2018-09-19T08:25:51.468Z - success: tester loaded
-2018-09-19T08:25:51.471Z - success: ui-kit-preview-extra loaded
-2018-09-19T08:25:51.475Z - success: ui-kit-preview loaded
-2018-09-19T08:25:51.478Z - success: ui-tree loaded
-2018-09-19T08:25:51.480Z - success: weapp-adapter loaded
-2018-09-19T08:25:52.338Z - normal: Initializing project /Users/mac/JumpJump
-2018-09-19T08:25:52.341Z - normal: Loading packages
-2018-09-19T08:25:52.352Z - success: plugin-matchvs loaded
-2018-09-19T08:25:52.352Z - normal: Watching packages
-2018-09-19T08:25:52.446Z - normal: Run Application
-2018-09-19T08:25:53.419Z - success: preview server running at http://localhost:7457
-2018-09-19T08:25:59.292Z - normal: 1.9.3
+2018-09-07T06:20:31.454Z - normal: Load ~/.CocosCreator/settings.json
+2018-09-07T06:20:31.458Z - normal: checking language setting...
+2018-09-07T06:20:31.458Z - normal: Language: zh
+2018-09-07T06:20:32.605Z - success: protocol editor-framework registered
+2018-09-07T06:20:32.605Z - success: protocol app registered
+2018-09-07T06:20:32.605Z - success: protocol theme registered
+2018-09-07T06:20:32.605Z - success: protocol packages registered
+2018-09-07T06:20:32.606Z - success: protocol unpack registerred
+2018-09-07T06:20:32.606Z - success: protocol disable-commonjs registerred
+2018-09-07T06:20:32.823Z - normal: connected!
+2018-09-07T06:20:32.825Z - normal: Check project /Users/mac/MatchVsGithub/JumpJump/JumpJump
+2018-09-07T06:20:32.826Z - normal: Initializing Cocos2d
+2018-09-07T06:20:33.079Z - normal: Initializing Asset Database
+2018-09-07T06:20:33.139Z - success: protocol uuid registerred
+2018-09-07T06:20:33.139Z - success: protocol db registerred
+2018-09-07T06:20:33.139Z - success: protocol thumbnail registerred
+2018-09-07T06:20:33.139Z - normal: Loading editor/builtin packages
+2018-09-07T06:20:33.158Z - success: anysdk loaded
+2018-09-07T06:20:33.272Z - success: assets loaded
+2018-09-07T06:20:33.279Z - success: builder loaded
+2018-09-07T06:20:33.281Z - success: cocos-analytics loaded
+2018-09-07T06:20:33.285Z - success: console loaded
+2018-09-07T06:20:33.321Z - success: fb-instant-games loaded
+2018-09-07T06:20:33.325Z - success: hierarchy loaded
+2018-09-07T06:20:33.329Z - success: inspector loaded
+2018-09-07T06:20:33.331Z - success: keystore loaded
+2018-09-07T06:20:33.336Z - success: node-library loaded
+2018-09-07T06:20:33.338Z - success: package-asset loaded
+2018-09-07T06:20:33.340Z - success: preferences loaded
+2018-09-07T06:20:33.344Z - success: project-exporter loaded
+2018-09-07T06:20:33.360Z - success: project-importer loaded
+2018-09-07T06:20:33.364Z - success: project-settings loaded
+2018-09-07T06:20:33.369Z - success: ui-kit loaded
+2018-09-07T06:20:33.375Z - success: ui-grid loaded
+2018-09-07T06:20:33.379Z - success: scene loaded
+2018-09-07T06:20:33.380Z - success: sprite-editor loaded
+2018-09-07T06:20:33.386Z - success: store loaded
+2018-09-07T06:20:33.393Z - success: timeline loaded
+2018-09-07T06:20:33.393Z - normal: Loading builtin packages
+2018-09-07T06:20:33.398Z - success: asset-db-debugger loaded
+2018-09-07T06:20:33.399Z - success: color-picker loaded
+2018-09-07T06:20:33.403Z - success: package-manager loaded
+2018-09-07T06:20:33.404Z - success: qqplay-adapter loaded
+2018-09-07T06:20:33.479Z - success: sdkbox loaded
+2018-09-07T06:20:33.485Z - normal: last time update is in one day
+2018-09-07T06:20:33.486Z - success: tester loaded
+2018-09-07T06:20:33.490Z - success: ui-kit-preview-extra loaded
+2018-09-07T06:20:33.495Z - success: ui-kit-preview loaded
+2018-09-07T06:20:33.498Z - success: ui-tree loaded
+2018-09-07T06:20:33.500Z - success: weapp-adapter loaded
+2018-09-07T06:20:34.573Z - normal: Initializing project /Users/mac/MatchVsGithub/JumpJump/JumpJump
+2018-09-07T06:20:34.577Z - normal: Loading packages
+2018-09-07T06:20:34.590Z - success: plugin-matchvs loaded
+2018-09-07T06:20:34.590Z - normal: Watching packages
+2018-09-07T06:20:34.709Z - normal: Run Application
+2018-09-07T06:20:56.461Z - success: preview server running at http://localhost:7460
+2018-09-07T06:21:04.998Z - normal: 1.9.3
+2018-09-07T07:36:10.845Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGithub/JumpJump/JumpJump/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGithub/JumpJump/JumpJump/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "WebView",
+    "RichText",
+    "MotionStreak",
+    "Camera",
+    "Native NetWork"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.JumpJump",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "JumpJump",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://imgs.matchvs.com/static/tianziyou/jumpjump",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "e42c7e97-9ffc-4e",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGithub/JumpJump/JumpJump",
+  "projectName": "JumpJump",
+  "debugBuildWorker": false
+}
+2018-09-07T07:36:10.855Z - normal: Building /Users/mac/MatchVsGithub/JumpJump/JumpJump
+2018-09-07T07:36:10.855Z - normal: Destination /Users/mac/MatchVsGithub/JumpJump/JumpJump/build/wechatgame
+2018-09-07T07:36:11.222Z - normal: Delete /Users/mac/MatchVsGithub/JumpJump/JumpJump/build/wechatgame/**/*
+2018-09-07T07:37:08.825Z - normal: Compiled project javascript file successfully
+2018-09-07T07:37:08.827Z - normal: Start building assets
+2018-09-07T07:37:08.827Z - normal: Start spawn build-worker
+2018-09-07T07:37:09.582Z - normal: Finish spawn build-worker
+2018-09-07T07:37:09.582Z - normal: Start init build-worker
+2018-09-07T07:37:11.734Z - normal: 1.9.3
+2018-09-07T07:37:12.146Z - normal: Finish init build-worker
+2018-09-07T07:37:12.146Z - normal: Start build-assets in worker
+2018-09-07T07:37:12.829Z - warn: Script attached to "uiMatching2v2" in prefab "uiMatching2v2.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching2v2"
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Script UUID: "a9812302-2fae-432d-94b4-6b86db93294d"
+Class ID: "a9812MCL65DLZS0a4bbkylN"
+
+2018-09-07T07:37:12.959Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4943f198-e9a3-45e7-ac49-075c14bc5acf"
+2018-09-07T07:37:12.961Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "ef9b8e15-35de-4ad6-9ff2-337c7baa52b8"
+2018-09-07T07:37:12.963Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "3744321b-bea9-42f8-9331-b74c39419668"
+2018-09-07T07:37:12.964Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "9a250fcc-2fce-418c-87bb-ab506f842d50"
+2018-09-07T07:37:12.965Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4eae31ff-5460-4e5e-bffb-4d73bd47003e"
+2018-09-07T07:37:12.968Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "7acf0ead-7ce0-440e-aa97-fb28d2578b61"
+2018-09-07T07:37:12.969Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "c8e2d098-f789-4003-b719-4b09c1db6d35"
+2018-09-07T07:37:12.970Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "104f6289-5a1c-4a70-a6db-3939f80e0bef"
+2018-09-07T07:37:12.972Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "9ed142e6-c4e6-48b3-80c6-408050388532"
+2018-09-07T07:37:12.973Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "38e24c01-14a5-40d7-8ec3-f19df38cf2d0"
+2018-09-07T07:37:12.974Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "a5205a03-b7eb-43d8-9fef-0560629266bd"
+2018-09-07T07:37:12.976Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "32290a25-e26d-4987-b87e-cdd83699daa9"
+2018-09-07T07:37:12.977Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "84ad1a1a-14dd-48b7-a317-e08f7df0fa73"
+2018-09-07T07:37:12.978Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "d31c31fa-0b34-459d-8eb6-21c62f9228a3"
+2018-09-07T07:37:12.979Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "1d21d624-cf28-44ff-b2ed-53d419a0462b"
+2018-09-07T07:37:12.980Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4fa64549-9f56-48b8-9f0e-3ec8813f2920"
+2018-09-07T07:37:12.981Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "f326bed3-d317-408f-90dd-443b176c2af6"
+2018-09-07T07:37:12.983Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "997ee1f9-067d-4b02-9108-a1a545a35d13"
+2018-09-07T07:37:12.986Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "5ccec017-2524-4c8c-8339-40fdda499ec2"
+2018-09-07T07:37:12.987Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "fda1fd1d-1911-488a-a1aa-6b761494a3b0"
+2018-09-07T07:37:12.988Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "16789ca2-1666-496e-82f6-07482bced02d"
+2018-09-07T07:37:12.990Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "fe9731b0-90c4-450c-9065-5d989cc94b4d"
+2018-09-07T07:37:12.991Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "3a327938-1741-461a-8256-3c68b887e964"
+2018-09-07T07:37:12.992Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "04c1305b-d4cb-4f41-8fcb-e2ad6b7debd8"
+2018-09-07T07:37:13.020Z - warn: The referenced asset used in "db://assets/resources/ui/uiCreateRoomVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+2018-09-07T07:37:13.032Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+2018-09-07T07:37:13.039Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-09-07T07:37:13.056Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
+2018-09-07T07:37:13.059Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+2018-09-07T07:37:13.061Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2Ver.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "7af4c07e-6da4-4e33-a111-2a7e3d7d2c10"
+2018-09-07T07:37:13.064Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatchingVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "9d9420b0-61ef-482e-a2bd-426b5b0e332f"
+2018-09-07T07:37:13.083Z - warn: The referenced asset used in "db://assets/resources/ui/uiRoomListVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+2018-09-07T07:37:13.091Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+2018-09-07T07:37:13.095Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "275a72f3-ffff-43cf-9c1c-b6495b147d60"
+2018-09-07T07:37:13.097Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "1ceb701f-3aa5-45a6-9daf-c261fabbecbf"
+2018-09-07T07:37:13.857Z - normal: Finish build-assets in worker
+2018-09-07T07:37:13.861Z - normal: Finish building assets
+2018-09-07T07:37:13.908Z - normal: Start building raw assets
+2018-09-07T07:37:13.909Z - normal: Start building plugin scripts
+2018-09-07T07:37:16.438Z - normal: Finish building plugin scripts
+2018-09-07T07:37:16.591Z - normal: Finish building raw assets
+2018-09-07T07:37:16.595Z - normal: Generating main.js from /Applications/CocosCreator1.9.3.app/Contents/Resources/static/build-templates/shares/main.js
+2018-09-07T07:37:17.709Z - normal: Built to "/Users/mac/MatchVsGithub/JumpJump/JumpJump/build/wechatgame" successfully
+2018-09-07T07:37:42.872Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-09-07T07:37:42.873Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-09-07T07:37:43.623Z - normal: Initializing...
+
+2018-09-07T07:37:43.630Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-09-07T07:37:43.651Z - normal: IDE server has started, listening on http://127.0.0.1:10611
+initialization finished
+
+2018-09-07T07:37:44.100Z - error: StatusCodeError: 400 - "{\"code\":40000,\"error\":\"错误 需要重新登录\"}"
+
+    at Socket.<anonymous> (/Applications/CocosCreator1.9.3.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:1302)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+2018-09-07T07:37:57.788Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-09-07T07:37:57.788Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-09-07T07:37:58.478Z - normal: Initializing...
+idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+IDE server has started, listening on http://127.0.0.1:10611
+initialization finished
+
+2018-09-07T07:38:00.241Z - normal: open IDE success
+
+2018-09-07T07:39:02.641Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGithub/JumpJump/JumpJump/assets/basic/script/uiLogin.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGithub/JumpJump/JumpJump/assets/basic/script/uiLogin.js: Unexpected token, expected , (46:28)
+  44 |                         Game.GameManager.getUserInfoBtn.hide();
+  45 |                     }.bind(this));
+> 46 |                 }.bind(this);
+     |                             ^
+  47 |             });
+  48 |         } else {
+  49 |             this.nodeDict["start"].on("click", this.startGame, this);
+    at Parser.pp$5.raise (/Applications/CocosCreator1.9.3.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator1.9.3.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp.expect (/Applications/CocosCreator1.9.3.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
+    at Parser.pp$3.parseObj (/Applications/CocosCreator1.9.3.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator1.9.3.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator1.9.3.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator1.9.3.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator1.9.3.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator1.9.3.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator1.9.3.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+2018-09-07T07:39:54.328Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGithub/JumpJump/JumpJump/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGithub/JumpJump/JumpJump/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "WebView",
+    "RichText",
+    "MotionStreak",
+    "Camera",
+    "Native NetWork"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.JumpJump",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "JumpJump",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://imgs.matchvs.com/static/tianziyou/jumpjump",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "e42c7e97-9ffc-4e",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGithub/JumpJump/JumpJump",
+  "projectName": "JumpJump",
+  "debugBuildWorker": false
+}
+2018-09-07T07:39:54.333Z - normal: Building /Users/mac/MatchVsGithub/JumpJump/JumpJump
+2018-09-07T07:39:54.333Z - normal: Destination /Users/mac/MatchVsGithub/JumpJump/JumpJump/build/wechatgame
+2018-09-07T07:39:54.334Z - normal: Delete /Users/mac/MatchVsGithub/JumpJump/JumpJump/build/wechatgame/**/*
+2018-09-07T07:40:08.010Z - normal: Compiled project javascript file successfully
+2018-09-07T07:40:08.012Z - normal: Start building assets
+2018-09-07T07:40:08.012Z - normal: Start spawn build-worker
+2018-09-07T07:40:08.852Z - normal: Finish spawn build-worker
+2018-09-07T07:40:08.852Z - normal: Start init build-worker
+2018-09-07T07:40:11.993Z - normal: 1.9.3
+2018-09-07T07:40:12.429Z - normal: Finish init build-worker
+2018-09-07T07:40:12.429Z - normal: Start build-assets in worker
+2018-09-07T07:40:13.144Z - warn: Script attached to "uiMatching2v2" in prefab "uiMatching2v2.prefab" is missing or invalid. Detailed information:
+Node path: "uiMatching2v2"
+Asset url: "db://assets/resources/ui/uiMatching2v2.prefab"
+Script UUID: "a9812302-2fae-432d-94b4-6b86db93294d"
+Class ID: "a9812MCL65DLZS0a4bbkylN"
+
+2018-09-07T07:40:13.320Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4943f198-e9a3-45e7-ac49-075c14bc5acf"
+2018-09-07T07:40:13.323Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "ef9b8e15-35de-4ad6-9ff2-337c7baa52b8"
+2018-09-07T07:40:13.325Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/AirConditioner.anim" is not found, it may have been deleted. Detailed information:
+uuid: "3744321b-bea9-42f8-9331-b74c39419668"
+2018-09-07T07:40:13.327Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "9a250fcc-2fce-418c-87bb-ab506f842d50"
+2018-09-07T07:40:13.329Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4eae31ff-5460-4e5e-bffb-4d73bd47003e"
+2018-09-07T07:40:13.332Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "7acf0ead-7ce0-440e-aa97-fb28d2578b61"
+2018-09-07T07:40:13.333Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "c8e2d098-f789-4003-b719-4b09c1db6d35"
+2018-09-07T07:40:13.334Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "104f6289-5a1c-4a70-a6db-3939f80e0bef"
+2018-09-07T07:40:13.337Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "9ed142e6-c4e6-48b3-80c6-408050388532"
+2018-09-07T07:40:13.338Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "38e24c01-14a5-40d7-8ec3-f19df38cf2d0"
+2018-09-07T07:40:13.341Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/GlassTable.anim" is not found, it may have been deleted. Detailed information:
+uuid: "a5205a03-b7eb-43d8-9fef-0560629266bd"
+2018-09-07T07:40:13.344Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "32290a25-e26d-4987-b87e-cdd83699daa9"
+2018-09-07T07:40:13.345Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "84ad1a1a-14dd-48b7-a317-e08f7df0fa73"
+2018-09-07T07:40:13.348Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "d31c31fa-0b34-459d-8eb6-21c62f9228a3"
+2018-09-07T07:40:13.350Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "1d21d624-cf28-44ff-b2ed-53d419a0462b"
+2018-09-07T07:40:13.351Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "4fa64549-9f56-48b8-9f0e-3ec8813f2920"
+2018-09-07T07:40:13.353Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "f326bed3-d317-408f-90dd-443b176c2af6"
+2018-09-07T07:40:13.356Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "997ee1f9-067d-4b02-9108-a1a545a35d13"
+2018-09-07T07:40:13.359Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "5ccec017-2524-4c8c-8339-40fdda499ec2"
+2018-09-07T07:40:13.369Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "fda1fd1d-1911-488a-a1aa-6b761494a3b0"
+2018-09-07T07:40:13.371Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/Phonograph.anim" is not found, it may have been deleted. Detailed information:
+uuid: "16789ca2-1666-496e-82f6-07482bced02d"
+2018-09-07T07:40:13.373Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "fe9731b0-90c4-450c-9065-5d989cc94b4d"
+2018-09-07T07:40:13.376Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "3a327938-1741-461a-8256-3c68b887e964"
+2018-09-07T07:40:13.377Z - warn: The referenced asset used in "db://assets/resources/_AllResources/_AnimationClip/TV.anim" is not found, it may have been deleted. Detailed information:
+uuid: "04c1305b-d4cb-4f41-8fcb-e2ad6b7debd8"
+2018-09-07T07:40:13.390Z - warn: The referenced asset used in "db://assets/resources/ui/uiCreateRoomVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "869357cf-0aad-48fd-b6d2-559540acb1a2"
+2018-09-07T07:40:13.503Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+2018-09-07T07:40:13.509Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-09-07T07:40:13.547Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "b400fa89-4222-4a1f-a45c-c0d7f6991bbd"
+2018-09-07T07:40:13.551Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "cbc68f84-2be9-4225-aaf3-19131155efeb"
+2018-09-07T07:40:13.553Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2Ver.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "7af4c07e-6da4-4e33-a111-2a7e3d7d2c10"
+2018-09-07T07:40:13.557Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatchingVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "9d9420b0-61ef-482e-a2bd-426b5b0e332f"
+2018-09-07T07:40:13.601Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "e649c1b8-6bdf-4209-9aee-e75231a2d824"
+2018-09-07T07:40:13.604Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "275a72f3-ffff-43cf-9c1c-b6495b147d60"
+2018-09-07T07:40:13.607Z - warn: The referenced asset used in "db://assets/resources/ui/uiResultVer.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiResultVer"
+Used in Component: "uiResult"
+uuid: "1ceb701f-3aa5-45a6-9daf-c261fabbecbf"
+2018-09-07T07:40:13.612Z - warn: The referenced asset used in "db://assets/resources/ui/uiRoomListVer.prefab" is not found, it may have been deleted. Detailed information:
+Used by "cc.PrefabInfo"
+uuid: "63d42f36-09b3-4c78-847c-ed201f58b3fd"
+2018-09-07T07:40:14.806Z - normal: Finish build-assets in worker
+2018-09-07T07:40:14.811Z - normal: Finish building assets
+2018-09-07T07:40:14.856Z - normal: Start building raw assets
+2018-09-07T07:40:14.857Z - normal: Start building plugin scripts
+2018-09-07T07:40:18.017Z - normal: Finish building plugin scripts
+2018-09-07T07:40:18.320Z - normal: Finish building raw assets
+2018-09-07T07:40:18.324Z - normal: Generating main.js from /Applications/CocosCreator1.9.3.app/Contents/Resources/static/build-templates/shares/main.js
+2018-09-07T07:40:19.875Z - normal: Built to "/Users/mac/MatchVsGithub/JumpJump/JumpJump/build/wechatgame" successfully
+2018-09-07T07:40:21.550Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-09-07T07:40:21.550Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-09-07T07:40:22.155Z - normal: Initializing...
+
+2018-09-07T07:40:22.163Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-09-07T07:40:22.202Z - normal: IDE server has started, listening on http://127.0.0.1:10611
+
+2018-09-07T07:40:22.203Z - normal: initialization finished
+
+2018-09-07T07:40:23.133Z - normal: open IDE success
+
