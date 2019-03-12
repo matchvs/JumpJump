@@ -18,7 +18,9 @@ cc.Class({
         this.player = this.node.getChildByName("Board").getChildByName("player1").getComponent("resultPlayerIcon");
         this.player.setData(GLB.playerUserIds[0]);
         this.rival = this.node.getChildByName("Board").getChildByName("player2").getComponent("resultPlayerIcon");
-        this.rival.setData(GLB.playerUserIds[1]);
+        if (!cc.ai){
+            this.rival.setData(GLB.playerUserIds[1]);
+        }
         clientEvent.on(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
     },
     init() {

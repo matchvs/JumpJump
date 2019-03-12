@@ -163,15 +163,24 @@ cc.Class({
             Game.GameManager.sendEventEx(msg);
         }
     },
-    vsMachineStart: function(){
+    vsMachineStart: function() {
         var userIds = [GLB.userInfo.id];
         var machine = 666666;
         userIds.push(machine);
         GLB.playerUserIds = userIds;
+        var data = {
+            avatar: "http://pic.vszone.cn/upload/avatar/1464079972.png",
+            id: 3407224,
+            name: "玩家fW9N58eB",
+            status: 0,
+            token: "SZIUGYHCSMKYJWWTHWSXVVQXQJULOOKN",
+            userID: 3407224
+        }
+
 
         setTimeout(function() {
-            this.playerIcons[0].getComponent('playerIcon').setData({id:GLB.playerUserIds[0]});
-            this.playerIcons[1].getComponent('playerIcon').setData({id:GLB.playerUserIds[1]});
+            //this.playerIcons[0].getComponent('playerIcon').setData({id:GLB.playerUserIds[0]});
+            this.playerIcons[1].getComponent('playerIcon').setData(data);
         }.bind(this), 500);
 
         setTimeout(function() {
